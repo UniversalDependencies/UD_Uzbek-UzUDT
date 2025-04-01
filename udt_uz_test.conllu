@@ -2659,3 +2659,13 @@
 10	ifodasini	ipada	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	11	obj	_	_
 11	topdi	_	VERB	V	_	0	root	_	_
 12	.	.	PUNCT	Y	_	11	punct	_	_
+
+# sent_id = s1522
+# text = sen bepoyon zaminida , cheksiz osmondir .
+1	sen	_	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	bepoyon	bipayan	ADJ	A	_	3	amod	_	_
+3	zaminida	zemin	NOUN	N	Case=Nom	0	root	_	_
+4	,	,	PUNCT	Y	_	6	punct	_	_
+5	cheksiz	_	ADJ	A	Case=Nom	6	amod	_	_
+6	osmondir	_	NOUN	N	Case=Nom	3	conj	_	_
+7	.	.	PUNCT	Y	_	3	punct	_	_
