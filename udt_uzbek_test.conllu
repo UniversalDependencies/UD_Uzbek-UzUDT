@@ -6,7 +6,7 @@
 4	afandi	afandi	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	7	nsubj	_	_
 5	xatning	xat	NOUN	N	Case=Gen	6	nmod:poss	_	_
 6	oxiriga	oxir	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
-7	yozibdi	yoz	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+7	yozibdi	yoz	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 8	:	:	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1322
@@ -26,14 +26,14 @@
 # text = biroq nomusni bilmaydigan bir odam yonimda turib xatimni ogʻrilikcha oʻqiyapti » .
 1	biroq	biroq	CCONJ	C	_	10	cc	_	_
 2	nomusni	nomus	NOUN	N	Case=Acc	3	obj	_	_
-3	bilmaydigan	bil	VERB	V	Tense=Pres|VerbForm=Part|Polarity=Neg	5	acl	_	_
+3	bilmaydigan	bil	VERB	V	Polarity=Neg|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	NUM	M	_	5	nummod	_	_
 5	odam	odam	NOUN	N	Case=Nom	10	nsubj	_	_
 6	yonimda	yon	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=1	7	obl	_	_
 7	turib	tur	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 8	xatimni	xat	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=1	10	obj	_	_
 9	ogʻrilikcha	ogʻrilikcha	ADV	D	_	10	advmod	_	_
-10	oʻqiyapti	oʻqi	VERB	V	Tense=Pres|Aspect=Prog	0	root	_	_
+10	oʻqiyapti	oʻqi	VERB	V	Aspect=Prog|Tense=Pres	0	root	_	_
 11	»	»	PUNCT	Y	_	10	punct	_	_
 12	.	.	PUNCT	Y	_	10	punct	_	_
 
@@ -52,10 +52,10 @@
 # text = xatingizni kim oʻqibdi ? - debdi haligi odam tikilib .
 1	xatingizni	xat	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=2	3	obj	_	_
 2	kim	kim	PRON	P	Case=Nom|PronType=Int	3	nsubj	_	_
-3	oʻqibdi	oʻqi	VERB	V	Tense=Past|Evident=Fh	6	ccomp	_	_
+3	oʻqibdi	oʻqi	VERB	V	Evident=Fh|Tense=Past	6	ccomp	_	_
 4	?	?	PUNCT	Y	_	3	punct	_	_
 5	-	-	PUNCT	Y	_	6	punct	_	_
-6	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+6	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 7	haligi	haligi	DET	P	PronType=Dem	8	det	_	_
 8	odam	odam	NOUN	N	Case=Nom	9	nsubj	_	_
 9	tikilib	tikil	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
@@ -65,16 +65,16 @@
 # text = - ogʻrilikcha oʻqimagan boʻlsangiz , haqorat qilganligimni qayerdan bildingiz ? - debdi afandi .
 1	-	-	PUNCT	Y	_	12	punct	_	_
 2	ogʻrilikcha	ogʻrilikcha	ADV	D	_	4	advmod	_	_
-3	oʻqimagan	oʻqi	VERB	V	Tense=Past|Polarity=Neg|VerbForm=Part	4	compound:lvc	_	_
+3	oʻqimagan	oʻqi	VERB	V	Polarity=Neg|Tense=Past|VerbForm=Part	4	compound:lvc	_	_
 4	boʻlsangiz	boʻl	VERB	V	Mood=Cnd|Number=Sing|Person=2	9	advcl	_	_
 5	,	,	PUNCT	Y	_	4	punct	_	_
 6	haqorat	haqorat	NOUN	N	Case=Nom	7	obj	_	_
-7	qilganligimni	qil	VERB	V	VerbForm=Vnoun|Number[psor]=Sing|Person[psor]=1	9	obj	_	_
+7	qilganligimni	qil	VERB	V	Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	9	obj	_	_
 8	qayerdan	qayer	PRON	P	Case=Abl|PronType=Int	9	obl	_	_
 9	bildingiz	bil	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past	12	ccomp	_	_
 10	?	?	PUNCT	Y	_	9	punct	_	_
 11	-	-	PUNCT	Y	_	12	punct	_	_
-12	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+12	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 13	afandi	afandi	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	12	nsubj	_	_
 14	.	.	PUNCT	Y	_	12	punct	_	_
 
@@ -89,27 +89,8 @@
 7	hiylagar	hiylagar	ADJ	A	Case=Nom	5	conj	_	_
 8	bir	bir	NUM	M	_	9	nummod	_	_
 9	boy	boy	NOUN	N	Case=Nom	10	nsubj	_	_
-10	oʻtgan ekan	oʻt	VERB	V	Tense=Past|Evident=Nfh	0	root	_	_
+10	oʻtgan ekan	oʻt	VERB	V	Evident=Nfh|Tense=Past	0	root	_	_
 11	.	.	PUNCT	Y	_	10	punct	_	_
-
-#sent_id = s1327-1
-# text = u yerini dehqonlarga ijariga berib , turli_xil hiyla makrlar bilan hosilning hammasini degudak oʻziniki qilib olar ekan .
-1	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-2	yerini	yer	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
-3	dehqonlarga	dehqon	NOUN	N	Case=Dat|Number=Plur	6	obl	_	_
-4	ijariga	ijara	NOUN	N	Case=Dat	6	obl	_	_
-5	berib	ber	VERB	V	Aspect=Perf|VerbForm=Conv	6	compound	_	_
-6	,	,	PUNCT	Y	_	5	punct	_	_
-7	turli_xil	turli_xil	ADJ	A	_	9	amod	_	_
-8	hiyla	hiyla	NOUN	N	Case=Nom	9	compound:redup	_	_
-9	makrlar	makr	NOUN	N	Case=Nom|Number=Plur	6	obl	_	_
-10	bilan	bilan	ADP	C	_	9	case	_	_
-11	hosilning	hosil	NOUN	N	Case=Gen	12	nmod:poss	_	_
-12	hammasini	hamma	PRON	P	Case=Acc|Number=Sing|Person=3	6	obj	_	_
-13	degudak	degudek	ADP	C	_	12	case	_	_
-14	oʻziniki	oʻzi	PRON	P	Case=Nom|Number[psor]=Sing|Person[psor]=3|Reflex=Yes	6	xcomp	_	_
-15	qilib olar ekan	qil	VERB	V	Tense=Imp|Evident=Nfh	6	conj	_	_
-16	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1328
 # text = bir yili , bir kambagʻal dehqon bu boy bilan ijara shartnomasi tuzgani bormoqchi boʻlibdi .
@@ -126,7 +107,7 @@
 11	shartnomasi	shartnoma	NOUN	N	Number[psor]=Sing|Person[psor]=3	12	obj	_	_
 12	tuzgani	tuz	VERB	V	VerbForm=Vnoun	13	advcl	_	_
 13	bormoqchi	bor	VERB	V	Mood=Des	14	xcomp	_	_
-14	boʻlibdi	boʻl	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+14	boʻlibdi	boʻl	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 15	.	.	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s1329
@@ -143,18 +124,18 @@
 10	bu	bu	DET	P	PronType=Dem	11	det	_	_
 11	ishga	ish	NOUN	N	Case=Dat	13	obl	_	_
 12	men	men	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-13	boray	bor	VERB	V	Mood=Des|Person=1|Number=Sing	16	ccomp	_	_
+13	boray	bor	VERB	V	Mood=Des|Number=Sing|Person=1	16	ccomp	_	_
 14	!	!	PUNCT	Y	_	13	punct	_	_
 15	»	»	PUNCT	Y	_	13	punct	_	_
 16	deb	de	VERB	V	VerbForm=Conv	17	advcl	_	_
-17	turib olibdi	tur	VERB	V	Tense=Past|Evident=Fh|Aspect=Prog	0	root	_	_
+17	turib olibdi	tur	VERB	V	Aspect=Prog|Evident=Fh|Tense=Past	0	root	_	_
 18	.	.	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s1330
 # text = dehqonga ma'qul boʻlibdi .
 1	dehqonga	dehqon	NOUN	N	Case=Dat	3	obl	_	_
 2	ma'qul	ma'qul	ADJ	A	_	3	xcomp	_	_
-3	boʻlibdi	boʻl	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+3	boʻlibdi	boʻl	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 4	.	.	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s1331
@@ -166,9 +147,9 @@
 5	,	,	PUNCT	Y	_	4	punct	_	_
 6	kelish	kel	VERB	V	VerbForm=Vnoun	7	compound	_	_
 7	maqsadini	maqsad	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
-8	aytganidan	ayt	VERB	V	Case=Abl|VerbForm=Vnoun|Number[psor]=Sing|Person[psor]=3	10	advcl	_	_
+8	aytganidan	ayt	VERB	V	Case=Abl|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	10	advcl	_	_
 9	keyin	keyin	ADP	D	_	8	case	_	_
-10	soʻrabdi	soʻra	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+10	soʻrabdi	soʻra	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 11	.	.	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1332
@@ -181,7 +162,7 @@
 6	hosilning	hosil	NOUN	N	Case=Gen	8	nmod:poss	_	_
 7	qaysi	qaysi	DET	P	PronType=Int	8	det	_	_
 8	qismini	qism	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
-9	oldingiz	ol	VERB	V	Tense=Past|Number=Sing|Person=2|Polite=Form	0	root	_	_
+9	oldingiz	ol	VERB	V	Number=Sing|Person=2|Polite=Form|Tense=Past	0	root	_	_
 10	?	?	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1333
@@ -196,7 +177,7 @@
 8	,	,	PUNCT	Y	_	7	punct	_	_
 9	-	-	PUNCT	Y	_	7	punct	_	_
 10	deb	de	VERB	V	VerbForm=Conv	11	advcl	_	_
-11	kulibdi	kul	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+11	kulibdi	kul	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 12	boy	boy	NOUN	N	Case=Nom	11	nsubj	_	_
 13	ichida	ichi	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
 14	,	,	PUNCT	Y	_	11	punct	_	_
@@ -206,7 +187,7 @@
 1	-	-	PUNCT	Y	_	4	punct	_	_
 2	rosa	rosa	ADV	D	_	3	advmod	_	_
 3	shilib oladigan	shil	VERB	V	Tense=Fut|VerbForm=Part	4	acl	_	_
-4	boʻldim	boʻl	VERB	V	Tense=Past|Mood=Ind|Number=Sing|Person=1	0	root	_	_
+4	boʻldim	boʻl	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
 5	-	-	PUNCT	Y	_	4	punct	_	_
 6	da	da	PART	T	_	4	discourse	_	_
 7	!	!	PUNCT	Y	_	6	punct	_	_
@@ -218,7 +199,7 @@
 3	qismini	qism	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 4	,	,	PUNCT	Y	_	3	punct	_	_
 5	-	-	PUNCT	Y	_	6	punct	_	_
-6	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+6	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 7	boy	boy	NOUN	N	Case=Nom	6	nsubj	_	_
 8	shartnomaga	shartnoma	NOUN	N	Case=Dat	10	obl	_	_
 9	qoʻl	qoʻl	NOUN	N	Case=Nom	10	compound	_	_
@@ -233,9 +214,9 @@
 4	,	,	PUNCT	Y	_	3	punct	_	_
 5	oilasidagilarga	oila	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 6	bugʻdoy	bugʻdoy	NOUN	N	Case=Nom	7	obj	_	_
-7	ekishni	ek	VERB	V	VerbForm=Vnoun|Case=Acc	9	obj	_	_
+7	ekishni	ek	VERB	V	Case=Acc|VerbForm=Vnoun	9	obj	_	_
 8	maslahat	maslahat	NOUN	N	Case=Nom	9	compound	_	_
-9	beribdi	ber	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+9	beribdi	ber	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1337
@@ -246,7 +227,7 @@
 4	boy	boy	NOUN	N	Case=Nom	7	nsubj	_	_
 5	ijara	ijara	NOUN	N	Case=Nom	6	compound	_	_
 6	yigʻishga	yigʻ	VERB	V	Case=Dat|VerbForm=Ger	7	obl	_	_
-7	kelibdi	kel	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+7	kelibdi	kel	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1338
@@ -258,7 +239,7 @@
 5	,	,	PUNCT	Y	_	4	punct	_	_
 6	gʻoʻlasini	gʻoʻla	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 7	boyga	boy	NOUN	N	Case=Dat	8	obl	_	_
-8	qoldiribdi	qoldir	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+8	qoldiribdi	qoldir	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1339
@@ -267,21 +248,21 @@
 2	gʻazablangan	gʻazablan	VERB	V	Tense=Past|VerbForm=Part	3	amod	_	_
 3	holda	hol	NOUN	N	Case=Loc	5	obl	_	_
 4	hayva	hayva	NOUN	N	Case=Nom	5	obj	_	_
-5	qilgan ekan	qil	VERB	V	Tense=Past|Evident=Nfh	11	advcl	_	_
+5	qilgan ekan	qil	VERB	V	Evident=Nfh|Tense=Past	11	advcl	_	_
 6	,	,	PUNCT	Y	_	5	punct	_	_
 7	aqlli	aqlli	ADJ	A	_	8	amod	_	_
 8	bola	bola	NOUN	N	Case=Nom	11	nsubj	_	_
 9	shartnomani	shartnoma	NOUN	N	Case=Acc	11	obj	_	_
 10	chiqarib	chiqar	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-11	koʻrsatibdi	koʻrsat	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+11	koʻrsatibdi	koʻrsat	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 12	.	.	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1340
-# text = boy gʻing qila olmay qolibdi .
+# text = boy gʻing qila-olmay qolibdi .
 1	boy	boy	NOUN	N	Case=Nom	4	nsubj	_	_
 2	gʻing	gʻing	ADV	D	_	3	compound	_	_
-3	qila olmay	qil	VERB	V	VerbForm=Conv|Polarity=Neg	4	advcl	_	_
-4	qolibdi	qol	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+3	qila-olmay	qil	VERB	V	Polarity=Neg|VerbForm=Conv	4	advcl	_	_
+4	qolibdi	qol	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 5	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1341
@@ -292,7 +273,7 @@
 4	yana	yana	ADV	D	_	7	advmod	_	_
 5	shartnoma	shartnoma	NOUN	N	Case=Nom	6	obj	_	_
 6	tuzgani	tuz	VERB	V	VerbForm=Vnoun	7	advcl	_	_
-7	boribdi	bor	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+7	boribdi	bor	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1342
@@ -302,11 +283,11 @@
 3	safar	safar	NOUN	N	Case=Loc	7	obl	_	_
 4	adabingni	adab	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=2	6	obj	_	_
 5	rosa	rosa	ADV	D	_	6	advmod	_	_
-6	bermaydigan	ber	VERB	V	Tense=Pres|VerbForm=Part|Polarity=Neg	7	acl	_	_
+6	bermaydigan	ber	VERB	V	Polarity=Neg|Tense=Pres|VerbForm=Part	7	acl	_	_
 7	boʻlsam	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=1	10	ccomp	_	_
 8	»	»	PUNCT	Y	_	7	punct	_	_
 9	deb	de	VERB	V	VerbForm=Conv	10	advcl	_	_
-10	oʻylabdi	oʻyla	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+10	oʻylabdi	oʻyla	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 11	boy	boy	NOUN	N	Case=Nom	10	nsubj	_	_
 12	va	va	CCONJ	C	_	10	cc	_	_
 13	:	:	PUNCT	Y	_	10	punct	_	_
@@ -325,7 +306,7 @@
 10	olaman	ol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	13	ccomp	_	_
 11	,	,	PUNCT	Y	_	10	punct	_	_
 12	-	-	PUNCT	Y	_	10	punct	_	_
-13	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+13	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s1344
@@ -335,27 +316,11 @@
 3	bo'lsin	bo'l	VERB	V	Mood=Imp	6	ccomp	_	_
 4	,	,	PUNCT	Y	_	3	punct	_	_
 5	-	-	PUNCT	Y	_	6	punct	_	_
-6	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+6	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 7	bola	bola	NOUN	N	Case=Nom	6	nsubj	_	_
 8	miyig'ida	miyiq	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 9	kulib	kul	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 10	.	.	PUNCT	Y	_	6	punct	_	_
-
-# sent_id = s1345
-# text = u qaytib kelib , uyidagilarga : « buyil qonaq teraylik » debdi .
-1	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	qaytib	qayt	VERB	V	Aspect=Perf|VerbForm=Conv	3	compound	_	_
-3	kelib	kel	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-4	,	,	PUNCT	Y	_	3	punct	_	_
-5	uyidagilarga	uy	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
-6	:	:	PUNCT	Y	_	5	punct	_	_
-7	«	«	PUNCT	Y	_	9	punct	_	_
-8	buyil	buyil	ADV	D	_	9	advmod	_	_
-9	qonaq	qonaq	NOUN	N	Case=Nom	10	obj	_	_
-10	teraylik	ter	VERB	V	Mood=Des|Number=Plur|Person=1	11	ccomp	_	_
-11	»	»	PUNCT	Y	_	10	punct	_	_
-12	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
-13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1346
 # text = dehqon qonaqning boshini uzib olib , shoxini qoldiribdi .
@@ -365,7 +330,7 @@
 4	uzib olib	uz	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 5	,	,	PUNCT	Y	_	4	punct	_	_
 6	shoxini	shox	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
-7	qoldiribdi	qoldir	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+7	qoldiribdi	qoldir	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1347
@@ -376,7 +341,7 @@
 4	arvohi	arvoh	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nmod:poss	_	_
 5	uchgan	uch	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
 6	boy	boy	NOUN	N	Case=Nom	7	nsubj	_	_
-7	vaqirabdi	vaqira	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+7	vaqirabdi	vaqira	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1348
@@ -393,17 +358,17 @@
 10	qisminimi	qism	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	7	conj	_	_
 11	olaman	ol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	ccomp	_	_
 12	degan	de	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
-13	edimku	edi	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Evident=Fh	12	aux	_	_
+13	edimku	edi	AUX	V	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past 12	aux	_	_
 14	!	!	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1349
 # text = - aytganingizdek boʻldi , - debdi bola kulib turib ,
 1	-	-	PUNCT	Y	_	6	punct	_	_
-2	aytganingizdek	ayt	VERB	V	VerbForm=Conv|Number[psor]=Sing|Person[psor]=2	3	advmod	_	_
+2	aytganingizdek	ayt	VERB	V	Number[psor]=Sing|Person[psor]=2|VerbForm=Conv 3	advmod	_	_
 3	boʻldi	boʻl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	ccomp	_	_
 4	,	,	PUNCT	Y	_	3	punct	_	_
 5	-	-	PUNCT	Y	_	6	punct	_	_
-6	debdi	de	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+6	debdi	de	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 7	bola	bola	NOUN	N	Case=Nom	6	nsubj	_	_
 8	kulib	kul	VERB	V	VerbForm=Conv	9	compound	_	_
 9	turib	tur	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
@@ -437,7 +402,7 @@
 10	ichiga	ichi	NOUN	N	Case=Dat|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
 11	yutishga	yut	VERB	V	Case=Dat|VerbForm=Ger	12	obl	_	_
 12	majbur	majbur	ADJ	A	_	13	compound	_	_
-13	boʻlibdi	boʻl	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+13	boʻlibdi	boʻl	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s1352
@@ -458,7 +423,7 @@
 14	olarman	ol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	16	ccomp	_	_
 15	»	»	PUNCT	Y	_	14	punct	_	_
 16	deb	de	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
-17	oʻylabdi	oʻyla	VERB	V	Tense=Past|Evident=Fh	0	root	_	_
+17	oʻylabdi	oʻyla	VERB	V	Evident=Fh|Tense=Past	0	root	_	_
 18	va	va	CCONJ	C	_	17	cc	_	_
 19	:	:	PUNCT	Y	_	17	punct	_	_
 
@@ -2688,11 +2653,9 @@
 4	sukunatlargacha	sukunat	NOUN	N	Number=Plur	2	conj	_	_
 5	senda	_	PRON	P	Case=Loc|Number=Sing|Person=2|PronType=Prs	11	obl	_	_
 6	eng	_	PRON	D	Case=Nom	7	obl	_	_
-7	mukammal 	_	ADJ	A	Case=Nom	11	obl	_	_
+7	mukammal	_	ADJ	A	Case=Nom	11	obl	_	_
 8	holda	_	NOUN	N	Case=Loc	7	case	_	_
 9	oʻz	oʻz	PRON	P	Case=Nom|Reflex=Yes	10	det	_	_
 10	ifodasini	ipada	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	11	obj	_	_
 11	topdi	_	VERB	V	_	0	root	_	_
 12	.	.	PUNCT	Y	_	11	punct	_	_
-
-# sent_id = s1522
