@@ -4,8 +4,7 @@ UD Treebank for uzbek language
 
 # Introduction
 
-This is the Uzbek UDT treebank. Our new treebank contains 686 sentences with a total of 7,950 tokens (approximately 11.6 tokens per sentence. That’s a considerable improvement from Uzbek-UT’s 500 sentences and 5,850 tokens. 
-
+This is the Uzbek UDT treebank. Our new treebank contains 686 sentences with a total of 7,950 tokens (approximately 11.6 tokens per sentence.
 
 # Acknowledgments
 The soon will be acknowledged
