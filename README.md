@@ -8,9 +8,7 @@ This is the Uzbek UDT treebank. Our new treebank contains 686 sentences with a t
 
 
 # Acknowledgments
-
-This publication has been produced within the framework of the grant 'REP-25112021/113 - UzUDT: Universal Dependencies Treebank and Parser for Natural Language Processing in the
-Uzbek Language”, funded under the MUNIS Project, supported the Government of the Republic of Uzbekistan. The statements do not necessarily reflect the official position of the Government of the Republic of Uzbekistan.
+The soon will be acknowledged
 
 ## References
 
