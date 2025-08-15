@@ -1538,9 +1538,9 @@
 # text = hamma odam jimib qoldi .
 1	hamma	hamma	DET	P	_	2	det	_	_
 2	odam	oda	NOUN	N	Case=Nom	3	nsubj	_	_
-3	jimib	jim	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-4	qoldi	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
-5	.	qol	PUNCT	Y	_	4	punct	_	_
+3	jimib	jim	ADV	Converb	_	4	advmod	_	_
+4	qoldi	qol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1629
 # text = uning irodisiga qarshi chiqadigan birorta odam chiqmadi .
@@ -1549,7 +1549,7 @@
 3	qarshi	qar	NOUN	N	Case=Nom	4	compound	_	_
 4	chiqadigan	chiq	VERB	V	_	6	acl	_	_
 5	birorta	birort	NUM	M	_	6	nummod	_	_
-6	odam	oda	NOUN	N	Case=Nom	7	nsubj	_	_
+6	odam	odam	NOUN	N	Case=Nom	7	nsubj	_	_
 7	chiqmadi	chiqma	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	chiqma	PUNCT	Y	_	7	punct	_	_
 
@@ -1569,25 +1569,26 @@
 
 # sent_id = s1631
 # text = ‹ ‹ mari › › namli kemadagilar ham qutqarish qayiqlarini tushurib , bola – qazoga yuluqqan kishilarni tashiy boshladi .
-1	‹	qol	PUNCT	N	_	3	punct	_	_
-2	‹	qol	PUNCT	N	_	3	punct	_	_
-3	mari	mar	VERB	N	Mood=Imp|VerbForm=Fin	17	nsubj	_	_
-4	›	mar	PUNCT	N	_	3	punct	_	_
-5	›	mar	PUNCT	N	_	3	punct	_	_
-6	namli	namlik	ADJ	A	_	3	amod	_	_
-7	kemadagilar ham	kemadagilar h	NOUN	N	_	3	appos	_	_
-8	qutqarish	qutqarish	NOUN	N	Case=Nom	9	nmod	_	_
-9	qayiqlarini	qayiq	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
-10	tushurib	tushurmoq	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
-11	,	.	PUNCT	Y	_	10	punct	_	_
-12	bola	bola	NOUN	N	Case=Nom	14	compound:redup	_	_
-13	–	-	PUNCT	V	_	12	punct	_	_
-14	qazoga	qazo	NOUN	N	_	15	obl	_	_
-15	yuluqqan	yuluq	VERB	V	_	16	acl	_	_
-16	kishilarni	kishi	NOUN	N	_	17	obj	_	_
-17	tashiy	tashimoq	VERB	V	VerbForm=Conv	18	xcomp	_	_
-18	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-19	.	.	PUNCT	_	_	18	punct	_	_
+1	‹	‹	PUNCT	N	_	3	punct	_	_
+2	‹	‹	PUNCT	N	_	3	punct	_	_
+3	mari	mar	VERB	N	Mood=Imp|VerbForm=Fin	18	nsubj	_	_
+4	›	›	PUNCT	N	_	3	punct	_	_
+5	›	›	PUNCT	N	_	3	punct	_	_
+6	namli	nam	ADJ	A	_	3	amod	_	_
+7	kemadagilar	kemadagilar	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	_
+8	ham	ham	PART	Part	_	7	discourse	_	_
+9	qutqarish	qutqarish	NOUN	N	Case=Nom	10	nmod	_	_
+10	qayiqlarini	qayiq	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	11	obj	_	_
+11	tushurib	tushurmoq	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	_
+12	,	.	PUNCT	Y	_	11	punct	_	_
+13	bola	bola	NOUN	N	Case=Nom	15	compound:redup	_	_
+14	–	-	PUNCT	V	_	13	punct	_	_
+15	qazoga	qazo	NOUN	N	_	16	obl	_	_
+16	yuluqqan	yuluq	VERB	V	_	17	acl	_	_
+17	kishilarni	kishi	NOUN	N	_	18	obj	_	_
+18	tashiy	tashimoq	VERB	V	VerbForm=Conv	19	xcomp	_	_
+19	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = s1632
 # text = qutqarish xizmati tartibli davom etdi .
