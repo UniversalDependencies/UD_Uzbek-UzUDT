@@ -16,23 +16,24 @@
 
 # sent_id = s1524
 # text = sen oʻz sahnangda har xil odamlarni rol o'ynatib , ularga yurakni larzaga soladigan komediya va tragediyilarni o'ynatasan .
-1	sen	ber	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
-2	oʻz	ber	PRON	P	Case=Nom|Reflex=Yes	3	det	_	_
-3	sahnangda	sahna	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=2	16	obl	_	_
-4	har xil	har xil	PRON	P	_	5	det	_	_
-5	odamlarni	odam	NOUN	N	Case=Acc|Number=Plur	7	obj	_	_
-6	rol	odam	NOUN	N	Case=Nom	7	compound	_	_
-7	o'ynatib	o'ynat	VERB	V	_	16	advcl	_	_
-8	,	o'ynat	PUNCT	Y	_	7	punct	_	_
-9	ularga	ular	PRON	P	Case=Dat|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
-10	yurakni	yurak	NOUN	N	Case=Acc	12	obj	_	_
-11	larzaga	larza	NOUN	N	_	12	compound	_	_
-12	soladigan	sol	VERB	V	_	13	acl	_	_
-13	komediya	komediy	NOUN	V	Case=Nom	16	obj	_	_
-14	va	komediy	CCONJ	C	_	15	cc	_	_
-15	tragediyilarni	tragediyi	NOUN	N	Case=Acc|Number=Plur	13	conj	_	_
-16	o'ynatasan	o'ynat	VERB	V	_	0	root	_	_
-17	.	o'ynat	PUNCT	Y	_	16	punct	_	_
+1	sen	sen	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
+2	oʻz	oʻz	PRON	P	Case=Nom|Reflex=Yes	3	det	_	_
+3	sahnangda	sahna	NOUN	N	Case=Loc|Number[psor]=Sing|Person[psor]=2	17	obl	_	_
+4	har	har	DET	D	PronType=Ind	5	det	_	_
+5	xil	xil	NOUN	N	Case=Nom	6	nmod	_	_
+6	odamlarni	odam	NOUN	N	Case=Acc|Number=Plur	8	obj	_	_
+7	rol	odam	NOUN	N	Case=Nom	8	compound	_	_
+8	o'ynatib	o'ynat	VERB	V	_	17	advcl	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
+10	ularga	ular	PRON	P	Case=Dat|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+11	yurakni	yurak	NOUN	N	Case=Acc	13	obj	_	_
+12	larzaga	larza	NOUN	N	_	13	compound	_	_
+13	soladigan	solmoq	VERB	V	_	14	acl	_	_
+14	komediya	komediya	NOUN	V	Case=Nom	17	obj	_	_
+15	va	va	CCONJ	C	_	16	cc	_	_
+16	tragediyilarni	tragediyi	NOUN	N	Case=Acc|Number=Plur	14	conj	_	_
+17	o'ynatasan	o'ynatmoq	VERB	V	_	0	root	_	_
+18	.	.	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s1525
 # text = necha ming yil burun yashagan kishilarni tilga kirgizib , ularning hissiyotli holda suratlarini chizasan .
@@ -54,8 +55,8 @@
 
 # sent_id = s1526
 # text = eng tanish zamondoshlaringni tasvirlash orqali ularga odam boshidan oʻtkazib kelishi mumkin boʻlgan qiyinchiliklarni soʻzlatasan .
-1	eng	chiz	PRON	D	Case=Nom	2	obl	_	_
-2	tanish	tani	VERB	A	Case=Nom|VerbForm=Ger	3	amod	_	_
+1	eng	eng	PRON	D	Case=Nom	2	obl	_	_
+2	tanish	taniz	VERB	A	Case=Nom	3	amod	_	_
 3	zamondoshlaringni	zamondosh	NOUN	N	_	4	obj	_	_
 4	tasvirlash	tasvirla	NOUN	N	_	14	obl	_	_
 5	orqali	orqal	ADP	R	_	4	case	_	_
@@ -63,12 +64,12 @@
 7	odam	oda	NOUN	N	Case=Nom	9	nsubj	_	_
 8	boshidan	bosh	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 9	oʻtkazib	oʻtkaz	VERB	V	Aspect=Perf|VerbForm=Conv	11	nmod	_	_
-10	kelishi	keli	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	9	aux	_	_
+10	kelishi	kelmoq	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	aux	_	_
 11	mumkin	mumkin	NOUN	A	Case=Nom	13	nmod	_	_
-12	boʻlgan	boʻl	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	11	case	_	_
+12	boʻlgan	boʻlmoq	VERB	V	Case=Nom|Tense=Past	11	case	_	_
 13	qiyinchiliklarni	qiyinchi	NOUN	N	_	14	obj	_	_
-14	soʻzlatasan	soʻzlat	VERB	V	_	0	root	_	_
-15	.	soʻzlat	PUNCT	Y	_	14	punct	_	_
+14	soʻzlatasan	soʻzlatmoq	VERB	V	_	0	root	_	_
+15	.	.	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s1527
 # text = odamlar senda aks etgan quvonch va qaygʻu , baxt va qayg'ularning tasirida ba'zan shodlanib kulsa , baʻzan azoblanib achchiq yosh toʻkadi .
@@ -105,13 +106,14 @@
 6	shuningdek	shuningde	ADV	C	_	9	cc	_	_
 7	odmillab	odmilla	ADJ	D	_	8	advmod	_	_
 8	oʻtayotgan	oʻt	VERB	V	Aspect=Perf|VerbForm=Inf	9	acl	_	_
-9	tunu kun	tunu kun	ADV	N	_	4	conj	_	_
-10	.	tunu kun	PUNCT	Y	_	4	punct	_	_
+9	tunu	tun	NOUN	N	Case=Gen	10	compound	_	_
+10	kun	kun	NOUN	N	Case=Nom	4	obl	_	_
+11	.	tunu kun	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1529
 # text = sуn — cheki yoʻq kelajak .
-1	sуn	tunu kun	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-2	—	tunu kun	PUNCT	Y	_	1	punct	_	_
+1	sуn	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	—	PUNCT	Y	_	1	punct	_	_
 3	cheki	che	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
 4	yoʻq	yoʻq	ADJ	A	_	5	amod	_	_
 5	kelajak	kelaj	NOUN	V	Case=Nom	0	root	_	_
@@ -170,14 +172,14 @@
 3	-	orzu	PUNCT	Y	_	2	punct	_	_
 4	armonning	armon	NOUN	N	Case=Gen	6	nmod:poss	_	_
 5	pallada	palla	NOUN	N	_	6	obl	_	_
-6	chaqnashi	chaqna	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	0	root	_	_
+6	chaqnashi	chaqna	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
 7	.	chaqna	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1534
 # text = biz koʻrib turgan odatdagi turmush bilan yuksak gʻoyaviy dunyo sening quchog'ingda birlashadi .
 1	biz	chaqna	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	koʻrib	koʻ	VERB	V	Aspect=Perf|VerbForm=Conv	9	nmod	_	_
-3	turgan	tur	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_
+3	turgan	turmoq	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
 4	odatdagi	odatdag	NOUN	N	_	5	amod	_	_
 5	turmush	turmu	NOUN	N	Case=Nom	12	nsubj	_	_
 6	bilan	bilan	ADP	R	_	9	cc	_	_
@@ -215,7 +217,7 @@
 3	rostgo'y	rostgo'y	ADJ	A	_	5	compound:redup	_	_
 4	,	rostgo'y	PUNCT	Y	_	3	punct	_	_
 5	samimiy	samimiy	ADJ	A	_	12	obl	_	_
-6	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	5	cop	_	_
+6	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 7	,	boʻl	PUNCT	Y	_	5	punct	_	_
 8	turmushni	turmu	NOUN	N	Case=Acc	12	dep	_	_
 9	haqiqiyligi	haqiqiylig	NOUN	N	Case=Nom	12	obl	_	_
@@ -283,22 +285,25 @@
 1	bu	dengiz	PRON	P	Case=Nom|PronType=Dem	2	det	_	_
 2	dengizning	dengiz	NOUN	N	Case=Gen	3	nmod:poss	_	_
 3	ovozi	ovoz	NOUN	N	_	7	nsubj	_	_
-4	shu qadar	shu qad	NOUN	N	_	5	obl	_	_
-5	kuchli	kuchl	ADJ	A	_	10	parataxis	_	_
-6	va	kuchl	CCONJ	C	_	7	cc	_	_
-7	ulugʻvorki	ulugʻvo	NOUN	N	_	5	conj	_	_
-8	,	ulugʻvo	PUNCT	Y	_	5	punct	_	_
-9	hech kim	hech k	PRON	P	Case=Nom	10	nsubj	_	_
-10	to'solmaydi	to'sol	VERB	V	_	0	root	_	_
-11	,	to'sol	PUNCT	Y	_	10	punct	_	_
+4	shu	shu	DET	Dem	PronType=Dem	5	det	_	_
+5	qadar	qadar	NOUN	N	_	6	advmod	_	_
+6	kuchli	kuchl	ADJ	A	_	11	parataxis	_	_
+7	va	kuchl	CCONJ	C	_	8	cc	_	_
+8	ulugʻvorki	ulugʻvo	NOUN	N	_	6	conj	_	_
+9	,	ulugʻvo	PUNCT	Y	_	6	punct	_	_
+10	hech	hech	DET	DET	PronType=Neg	11	det	_	_
+11	kim	kim	PRON	PRON	Case=Nom|PronType=Ind	12	nsubj	_	_
+12	to'solmaydi	to'sol	VERB	V	_	0	root	_	_
+13	,	to'sol	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1542
 # text = hech qanday ovoz unga  teng kelolmaydi
-1	hech qanday	hech qand	DET	P	_	2	det	_	_
-2	ovoz	ovoz	NOUN	N	Case=Nom	4	nsubj	_	_
-3	unga	ung	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-4	teng	teng	VERB	V	_	0	root	_	_
-5	kelolmaydi	kelol	PUNCT	Y	_	4	punct	_	_
+1	hech	hech	DET	DET	PronType=Neg	2	det	_	_
+2	qanday	qanday	DET	DET	PronType=Ind	3	det	_	_
+3	ovoz	ovoz	NOUN	N	Case=Nom	5	nsubj	_	_
+4	unga	ung	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	teng	teng	VERB	V	_	0	root	_	_
+6	kelolmaydi	kelol	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s1543
 # text = sen bir samimiy va vafodor doʻst .
@@ -353,7 +358,7 @@
 2	sen	kim	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
 3	bilan	bilan	NOUN	N	_	2	case	_	_
 4	do'st	do'st	NOUN	N	Case=Nom	5	compound	_	_
-5	boʻlishni	boʻli	VERB	V	Case=Acc|VerbForm=Ger	7	obj	_	_
+5	boʻlishni	boʻlmoq	VERB	V	Case=Acc	7	obj	_	_
 6	orzu	orzu	NOUN	N	Case=Nom	7	compound	_	_
 7	qilsa	qil	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	14	advcl	_	_
 8	,	qil	PUNCT	Y	_	7	punct	_	_
@@ -395,20 +400,21 @@
 # sent_id = s1551
 # text = seni ochishni niyat qilganlarning hech qaysisini noumid qoldirmaysan .
 1	seni	sen	NOUN	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	obj	_	_
-2	ochishni	ochi	VERB	V	Case=Acc|VerbForm=Ger	4	obj	_	_
+2	ochishni	ochi	VERB	V	Case=Acc	4	obj	_	_
 3	niyat	niyat	NOUN	N	Case=Nom	4	compound	_	_
 4	qilganlarning	qil	VERB	V	_	5	nmod:poss	_	_
-5	hech qaysisini	hech qaysi	NOUN	N	_	7	obj	_	_
-6	noumid	noumid	ADJ	A	_	7	advmod	_	_
-7	qoldirmaysan	qoldir	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	.	qoldir	PUNCT	Y	_	7	punct	_	_
+5	hech	hech	PART	P	_	6	advmod	_	_
+6	qaysisini	qaysi	PRON	P	Case=Acc|Number=Sing|Person=3	8	obj	_	_
+7	noumid	noumid	ADJ	A	_	8	advmod	_	_
+8	qoldirmaysan	qoldir	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1552
 # text = seni shuhratparaslikning qalami  qilishni xayol qiganlarga hargiz ochilmaysan .
 1	seni	sen	NOUN	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
 2	shuhratparaslikning	shuhratparas	NOUN	V	Case=Gen	3	nmod:poss	_	_
 3	qalami	qal	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
-4	qilishni	qili	VERB	V	Case=Acc|VerbForm=Ger	6	obj	_	_
+4	qilishni	qili	VERB	V	Case=Acc	6	obj	_	_
 5	xayol	xayol	NOUN	N	Case=Nom	6	compound	_	_
 6	qiganlarga	qigan	NOUN	N	_	8	obl	_	_
 7	hargiz	hargiz	ADV	D	_	8	advmod	_	_
@@ -421,12 +427,12 @@
 2	-	ochil	PUNCT	Y	_	1	punct	_	_
 3	biriga	bir	NUM	M	_	4	obl	_	_
 4	mingashib	minga	VERB	V	_	9	advcl	_	_
-5	,	minga	PUNCT	Y	_	4	punct	_	_
+5	,	,	PUNCT	Y	_	4	punct	_	_
 6	irmash	irma	NUM	M	_	8	compound:redup	_	_
-7	-	irma	PUNCT	Y	_	6	punct	_	_
+7	-	-	PUNCT	Y	_	6	punct	_	_
 8	chirmash	chirma	ADJ	M	_	9	compound	_	_
 9	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	11	nmod	_	_
-10	ketgan	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+10	ketgan	ket	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
 11	togʻlar	togʻ	NOUN	N	Case=Nom|Number=Plur	12	nmod:poss	_	_
 12	orasida	ora	VERB	V	_	13	obl	_	_
 13	ketyapmiz	ket	VERB	V	_	0	root	_	_
@@ -463,8 +469,8 @@
 1	boshingiz	bosh	NOUN	N	Case=Nom	2	nmod	_	_
 2	ustida	ust	NOUN	N	_	4	obl	_	_
 3	haybatlanib	haybatlan	VERB	V	_	4	advcl	_	_
-4	turgan	tur	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	6	amod	_	_
-5	bu	tur	PRON	P	Case=Nom|PronType=Dem	6	det	_	_
+4	turgan	turmoq	VERB	V	Case=Nom|Tense=Past	6	amod	_	_
+5	bu	bu	PRON	P	Case=Nom|PronType=Dem	6	det	_	_
 6	togʻlar	togʻ	NOUN	N	Case=Nom|Number=Plur	21	nsubj	_	_
 7	go'ya	go'y	PART	T	_	21	mark	_	_
 8	jahonning	jahon	NOUN	N	Case=Gen	12	nmod:poss	_	_
@@ -487,57 +493,60 @@
 # text = razm solib qaraydigan boʻlsangiz , har bir cho'qqida bir tanish obrazni koʻrasiz .
 1	razm	raz	NOUN	N	Case=Nom	2	compound	_	_
 2	solib	sol	VERB	V	_	3	advcl	_	_
-3	qaraydigan	qara	VERB	V	_	11	obl	_	_
-4	boʻlsangiz	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Conv	3	aux	_	_
-5	,	boʻl	PUNCT	Y	_	4	punct	_	_
-6	har bir	har b	DET	P	_	7	det	_	_
-7	cho'qqida	cho'qq	NOUN	N	Case=Loc	11	obl	_	_
-8	bir	cho'qq	NUM	M	_	10	nummod	_	_
-9	tanish	tani	VERB	A	Case=Nom|VerbForm=Ger	10	amod	_	_
-10	obrazni	obraz	NOUN	N	Case=Acc	11	obj	_	_
-11	koʻrasiz	koʻr	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	.	koʻr	PUNCT	Y	_	11	punct	_	_
+3	qaraydigan	qara	VERB	V	_	12	obl	_	_
+4	boʻlsangiz	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=2	3	aux	_	_
+5	,	,	PUNCT	Y	_	4	punct	_	_
+6	har	har	DET	D	_	7	det	_	_
+7	bir	bir	NUM	M	NumType=Card	8	nummod	_	_
+8	cho'qqida	cho'qq	NOUN	N	Case=Loc	12	obl	_	_
+9	bir	cho'qq	NUM	M	_	11	nummod	_	_
+10	tanish	tanimoq	VERB	A	Case=Nom	11	amod	_	_
+11	obrazni	obraz	NOUN	N	Case=Acc	12	obj	_	_
+12	koʻrasiz	koʻrmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1557
-# text = birlari boshini quyi solib , koʻzlarini yumib , hasrat ichida mungli turgan qari boboga o'xshasa , gohi birlari boshiga toj taqqan , ustigaa oltin jilvali uzun koʻylak kiygan qizga , yana birlari yo'g'on chopon kiyib olgan zabardas palvonlarga o'xshaydi .
-1	birlari	bir	NOUN	M	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nsubj	_	_
-2	boshini	bosh	NOUN	N	_	3	obj	_	_
-3	quyi solib	quyi sol	VERB	V	Aspect=Perf|VerbForm=Inf	13	acl	_	_
-4	,	quyi sol	PUNCT	Y	_	6	punct	_	_
-5	koʻzlarini	koʻz	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
-6	yumib	yum	VERB	V	_	3	conj	_	_
-7	,	yum	PUNCT	Y	_	6	punct	_	_
-8	hasrat	hasrat	NOUN	N	_	11	obl	_	_
-9	ichida	ich	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	8	case	_	_
-10	mungli	mungl	ADJ	A	_	11	advmod	_	_
-11	turgan	tur	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	3	conj	_	_
-12	qari	qar	ADJ	A	Number[psor]=Plur,Sing|Person[psor]=3	13	amod	_	_
-13	boboga	bobo	NOUN	N	Case=Dat	14	obl	_	_
-14	o'xshasa	o'xsh	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	37	parataxis	_	_
-15	,	o'xsh	PUNCT	Y	_	14	punct	_	_
-16	gohi	goh	NOUN	N	_	17	nmod	_	_
-17	birlari	bir	NOUN	M	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-18	boshiga	bosh	NOUN	N	_	20	obl	_	_
-19	toj	bosh	NOUN	N	_	20	obj	_	_
-20	taqqan	taq	VERB	V	_	28	acl	_	_
-21	,	taq	PUNCT	Y	_	27	punct	_	_
-22	ustigaa	ustiga	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	_
-23	oltin	oltin	NOUN	N	Case=Nom	24	nmod	_	_
-24	jilvali	jilval	ADJ	N	_	26	amod	_	_
-25	uzun	uzun	ADJ	A	_	26	amod	_	_
-26	koʻylak	koʻyl	NOUN	N	Case=Nom	27	obj	_	_
-27	kiygan	kiy	VERB	V	_	20	conj	_	_
-28	qizga	qiz	NOUN	N	_	17	conj	_	_
-29	,	qiz	PUNCT	Y	_	37	punct	_	_
-30	yana	yan	ADV	D	_	31	advmod	_	_
-31	birlari	bir	NOUN	M	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	37	nsubj	_	_
-32	yo'g'on	yo'g'on	ADJ	A	_	33	amod	_	_
-33	chopon	chopon	NOUN	N	_	34	obj	_	_
-34	kiyib olgan	kiyib ol	VERB	V	_	36	acl	_	_
-35	zabardas	zabardas	ADJ	N	_	36	obl	_	_
-36	palvonlarga	palvon	ADJ	V	Case=Dat|Number=Plur	37	obj	_	_
-37	o'xshaydi	o'xshay	VERB	V	_	17	conj	_	_
-38	.	o'xshay	PUNCT	Y	_	37	punct	_	_
+# text = birlari boshini quyi solib , koʻzlarini yumib , hasrat ichida mungli turgan qari boboga o'xshasa , gohi birlari boshiga toj taqqan , ustiga oltin jilvali uzun koʻylak kiygan qizga , yana birlari yo'g'on chopon kiyib olgan zabardas palvonlarga o'xshaydi .
+1	birlari	bir	NOUN	M	Case=Nom|Number=Plur	14	nsubj	_	_
+2	boshini	bosh	NOUN	N	Case=Acc|Number=Sing|Person[psor]=3	4	obj	_	_
+3	quyi	quyi	NOUN	N	Case=Nom	4	obl	_	_
+4	solib	sol	VERB	V	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
+5	,	,	PUNCT	Y	_	6	punct	_	_
+6	koʻzlarini	koʻz	NOUN	N	Case=Acc|Number=Plur|Person[psor]=3	7	obj	_	_
+7	yumib	yum	VERB	V	Aspect=Perf|VerbForm=Conv	4	conj	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
+9	hasrat	hasrat	NOUN	N	Case=Nom	11	nmod	_	_
+10	ichida	ich	NOUN	N	Case=Loc|Number=Sing	9	case	_	_
+11	mungli	mungli	ADJ	A	_	13	advmod	_	_
+12	turgan	turmoq	VERB	V	Tense=Past|VerbForm=Part	14	acl	_	_
+13	qari	qari	ADJ	A	_	14	amod	_	_
+14	boboga	bobo	NOUN	N	Case=Dat	15	obl	_	_
+15	o'xshasa	o'xsha	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	38	parataxis	_	_
+16	,	,	PUNCT	Y	_	15	punct	_	_
+17	gohi	goh	ADV	D	_	18	advmod	_	_
+18	birlari	bir	NOUN	M	Case=Nom|Number=Plur	38	conj	_	_
+19	boshiga	bosh	NOUN	N	Case=Dat|Number=Sing	21	obl	_	_
+20	toj	toj	NOUN	N	Case=Nom	21	obj	_	_
+21	taqqan	taq	VERB	V	Tense=Past|VerbForm=Part	29	acl	_	_
+22	,	,	PUNCT	Y	_	28	punct	_	_
+23	ustiga	usti	NOUN	N	Case=Dat	28	obl	_	_
+24	oltin	oltin	NOUN	N	Case=Nom	25	nmod	_	_
+25	jilvali	jilvali	ADJ	A	_	27	amod	_	_
+26	uzun	uzun	ADJ	A	_	27	amod	_	_
+27	koʻylak	koʻylak	NOUN	N	Case=Nom	28	obj	_	_
+28	kiygan	kiy	VERB	V	Tense=Past|VerbForm=Part	21	conj	_	_
+29	qizga	qiz	NOUN	N	Case=Dat	18	obl	_	_
+30	,	,	PUNCT	Y	_	38	punct	_	_
+31	yana	yana	ADV	D	_	32	advmod	_	_
+32	birlari	bir	NOUN	M	Case=Nom|Number=Plur	38	nsubj	_	_
+33	yo'g'on	yo'g'on	ADJ	A	_	34	amod	_	_
+34	chopon	chopon	NOUN	N	Case=Acc	35	obj	_	_
+35	kiyib	kiy	VERB	V	VerbForm=Conv	36	compound:lvc	_	_
+36	olgan	ol	VERB	V	Tense=Past|VerbForm=Part	37	acl	_	_
+37	zabardas	zabardas	ADJ	A	_	38	amod	_	_
+38	palvonlarga	palvon	NOUN	N	Case=Dat|Number=Plur	0	root	_	_
+39	o'xshaydi	o'xsha	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+40	.	.	PUNCT	Y	_	39	punct	_	_
 
 # sent_id = s1558
 # text = yaxshilab uzoqqa nazar soladigan boʻlsangiz , koʻkka talpinuvchi burgut , bolasini bagʻrigʻa bosib yotgan ona , qatorlashib bir - biriga o'ralashib yotgan ilon - ilon ajdaho , sher , yoʻlbarslar koʻz oldingizga keladi . …
@@ -591,7 +600,7 @@
 10	ichida	ich	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	_
 11	turgan	tur	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	12	acl	_	_
 12	yerida	yer	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	_
-13	toshga	tosh	VERB	N	Case=Dat|VerbForm=Ger	15	obl	_	_
+13	toshga	tosh	VERB	N	Case=Dat	15	obl	_	_
 14	aylanib	aylan	VERB	V	Aspect=Perf|VerbForm=Inf	15	xcomp	_	_
 15	katgandek	katgande	VERB	V	_	29	parataxis	_	_
 16	,	katgande	PUNCT	Y	_	15	punct	_	_
@@ -602,7 +611,7 @@
 21	yechilib	yechil	VERB	V	_	24	advcl	_	_
 22	,	yechil	PUNCT	Y	_	21	punct	_	_
 23	asliga	asl	NOUN	N	_	24	compound	_	_
-24	kelganda	kel	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	29	advcl	_	_
+24	kelganda	kel	VERB	V	Case=Loc|Tense=Past	29	advcl	_	_
 25	o'rinlaridan	o'rin	NOUN	N	_	26	obl	_	_
 26	turib	tur	VERB	V	Aspect=Perf|VerbForm=Conv	29	advcl	_	_
 27	yoʻllariga	yoʻl	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	29	obl	_	_
@@ -636,9 +645,9 @@
 9	oralig'iga	oralig'	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 10	qarab	qara	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 11	yoʻlga	yoʻl	NOUN	N	Case=Dat	12	compound	_	_
-12	chiqqan	chiq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	edi	chiq	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
-14	.	chiq	PUNCT	Y	_	12	punct	_	_
+12	chiqqan	chiqmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+14	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1562
 # text = zulmat qo'yniga choʻkkan dengizni nafis bir qavat tuman qoplagandi .
@@ -675,18 +684,18 @@
 1	yoʻlovchilar	yoʻlovch	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
 2	shirin	shirin	ADJ	A	_	3	amod	_	_
 3	uyquda	uyqu	NOUN	V	Case=Loc	0	root	_	_
-4	edi	uyqu	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-5	.	uyqu	PUNCT	Y	_	3	punct	_	_
+4	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+5	.	.	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s1565
 # text = ‹ ‹ normandi › › namliq bu kema eg'iz dengizi bogʻozidagi eng katta hamda eng chiroyli pochta paraxotlarining biri boʻlib , olti yuz tonna yuk koʻtaroladi .
-1	‹	uyqu	PUNCT	N	_	3	punct	_	_
-2	‹	uyqu	PUNCT	N	_	3	punct	_	_
+1	‹	‹	PUNCT	N	_	3	punct	_	_
+2	‹	‹	PUNCT	N	_	3	punct	_	_
 3	normandi	norman	NOUN	N	_	19	nsubj	_	_
-4	›	norman	PUNCT	N	_	3	punct	_	_
-5	›	norman	PUNCT	N	_	3	punct	_	_
+4	›	›	PUNCT	N	_	3	punct	_	_
+5	›	›	PUNCT	N	_	3	punct	_	_
 6	namliq	namliq	ADJ	A	_	3	amod	_	_
-7	bu	namliq	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
+7	bu	bu	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
 8	kema	kema	NOUN	N	_	3	appos	_	_
 9	eg'iz	eg'iz	NOUN	N	_	10	compound	_	_
 10	dengizi	dengiz	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	compound	_	_
@@ -699,13 +708,14 @@
 17	pochta	pocht	NOUN	N	Case=Nom	18	compound	_	_
 18	paraxotlarining	paraxot	NOUN	N	_	19	nmod:poss	_	_
 19	biri	bir	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	25	parataxis	_	_
-20	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	19	cop	_	_
-21	,	boʻl	PUNCT	Y	_	19	punct	_	_
-22	olti	olt	NUM	M	_	23	nummod	_	_
-23	yuz	olt	NUM	M	Case=Nom|NumType=Ord	24	nmod	_	_
-24	tonna yuk	tonna yu	DET	Q	_	25	obj	_	_
-25	koʻtaroladi	koʻtarol	VERB	V	_	0	root	_	_
-26	.	koʻtarol	PUNCT	Y	_	25	punct	_	_
+20	boʻlib	boʻl	AUX	V	_	19	cop	_	_
+21	,	,	PUNCT	Y	_	19	punct	_	_
+22	olti	olti	NUM	M	_	23	nummod	_	_
+23	yuz	yuz	NUM	M	Case=Nom|NumType=Ord	24	nmod	_	_
+24	tonna	tonna	NOUN	N	Number=Sing	26	nmod	_	_
+25	yuk	yuk	NOUN	N	Number=Sing	26	obj	_	_
+26	koʻtaroladi	koʻtarolmoq	VERB	V	_	0	root	_	_
+27	.	.	PUNCT	Y	_	26	punct	_	_
 
 # sent_id = s1566
 # text = uning uzunligi ikki yuz yigirma metr , kengligi yigirma besh metr keladi .
@@ -728,15 +738,15 @@
 1	dengizchilar	dengizch	NOUN	N	_	11	nsubj	_	_
 2	uni	dengizch	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 3	eng	dengizch	PRON	D	Case=Nom	6	obl	_	_
-4	‹	dengizch	PUNCT	A	_	6	punct	_	_
-5	‹	dengizch	PUNCT	Y	_	6	punct	_	_
-6	yosh	yosh	VERB	A	Case=Nom|VerbForm=Ger	9	amod	_	_
-7	›	yosh	PUNCT	N	_	6	punct	_	_
-8	›	yosh	PUNCT	A	_	6	punct	_	_
-9	kema	kema	ADJ	A	_	10	ccomp	_	_
-10	deb	kema	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-11	atshardi	atsh	VERB	V	_	0	root	_	_
-12	.	atsh	PUNCT	Y	_	11	punct	_	_
+4	‹	‹	PUNCT	A	_	6	punct	_	_
+5	‹	‹	PUNCT	Y	_	6	punct	_	_
+6	yosh	yosh	ADJ	A	_	9	amod	_	_
+7	›	›	PUNCT	N	_	6	punct	_	_
+8	›	›	PUNCT	A	_	6	punct	_	_
+9	kema	kema	NOUN	N	Case=Acc	10	obj	_	_
+10	deb	deb	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+11	atshardi	atamoq	VERB	V	_	0	root	_	_
+12	.	.	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1568
 # text = chunki u 1863 – yili qilingan boʻlib , endigina yetti yoshga kirgandi .
@@ -746,21 +756,22 @@
 4	–	1863	PUNCT	A	_	3	punct	_	_
 5	yili	yil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
 6	qilingan	qilin	VERB	V	_	12	parataxis	_	_
-7	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	6	aux	_	_
-8	,	boʻl	PUNCT	Y	_	7	punct	_	_
+7	boʻlib	boʻl	AUX	V	_	6	aux	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
 9	endigina	endigin	ADJ	D	_	12	advmod	_	_
 10	yetti	yet	NUM	M	_	11	nummod	_	_
-11	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	12	obl	_	_
-12	kirgandi	kir	VERB	V	_	0	root	_	_
-13	.	kir	PUNCT	Y	_	12	punct	_	_
+11	yoshga	yosh	NOUN	N	Case=Dat	12	obl	_	_
+12	kirgandi	kirmoq	VERB	V	_	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1569
 # text = tuman borgan sari quyuqlasha  boshladi .
 1	tuman	tuman	NOUN	N	Case=Nom	4	nsubj	_	_
-2	borgan sari	borgan s	VERB	V	_	4	advcl	_	_
-3	quyuqlasha	quyuqlash	VERB	V	_	4	xcomp	_	_
-4	boshladi	boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	.	boshl	PUNCT	Y	_	4	punct	_	_
+2	borgan	bor	VERB	V	VerbForm=Part	3	advcl	_	_
+3	sari	sari	ADP	ADP	_	4	mark	_	_
+4	quyuqlasha	quyuqlashmoq	VERB	V	_	5	xcomp	_	_
+5	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s1571
 # text = ikoyi togʻ tizmasiga taxminan oʻn besh dengiz mili qalgandi .
@@ -789,26 +800,27 @@
 2	sahar	sah	NOUN	N	Case=Nom	4	obl	_	_
 3	soat	soat	NOUN	N	Case=Nom	4	obl	_	_
 4	toʻrtlar	toʻrt	VERB	V	_	0	root	_	_
-5	edi	toʻrt	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
-6	.	toʻrt	PUNCT	Y	_	4	punct	_	_
+5	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+6	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1574
 # text = shu payt tun zulmati hali tarqamagan boʻlib , kema machtasining uchini tarang tortib bog'lab qo'yishdi .
-1	shu payt	shu payt	PRON	P	_	5	obl	_	_
-2	tun	shu payt	NOUN	N	Case=Nom	3	nmod:poss	_	_
-3	zulmati	zulma	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
-4	hali	hal	ADV	D	_	5	advmod	_	_
-5	tarqamagan	tarqa	NOUN	N	_	14	parataxis	_	_
-6	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	5	aux	_	_
-7	,	boʻl	PUNCT	Y	_	6	punct	_	_
-8	kema	kema	NOUN	N	_	9	compound	_	_
-9	machtasining	machta	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	10	nmod:poss	_	_
-10	uchini	uch	NOUN	N	Case=Acc	13	obj	_	_
-11	tarang	tar	ADJ	D	_	14	advmod	_	_
-12	tortib	tort	NOUN	N	_	13	compound	_	_
-13	bog'lab	bog'la	VERB	V	_	14	xcomp	_	_
-14	qo'yishdi	qo'yi	VERB	V	_	0	root	_	_
-15	.	qo'yi	PUNCT	Y	_	14	punct	_	_
+1	shu	shu	DET	D	PronType=Dem	2	det	_	_
+2	payt	payt	NOUN	N	Case=Nom	6	obl	_	_
+3	tun	tun	NOUN	N	Case=Nom	4	nmod:poss	_	_
+4	zulmati	zulma	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
+5	hali	hali	ADV	D	_	6	advmod	_	_
+6	tarqamagan	tarqamoq	NOUN	N	_	15	parataxis	_	_
+7	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
+9	kema	kema	NOUN	N	_	10	compound	_	_
+10	machtasining	machta	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	11	nmod:poss	_	_
+11	uchini	uch	NOUN	N	Case=Acc	14	obj	_	_
+12	tarang	taramoq	ADJ	D	_	15	advmod	_	_
+13	tortib	tortmoq	NOUN	N	_	14	compound	_	_
+14	bog'lab	bog'lamoq	VERB	V	_	15	xcomp	_	_
+15	qo'yishdi	qo'ymoq	VERB	V	_	0	root	_	_
+16	.	.	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s1575
 # text = ‹ ‹ normandi › › ga oʻxshash bu xildaki angliya paraxotlirining tunda yurushidan xavotirlanishning hojati yoʻq edi .
@@ -824,7 +836,7 @@
 10	angliya	angliy	NOUN	N	_	11	compound	_	_
 11	paraxotlirining	paraxotli	NOUN	N	_	13	nmod:poss	_	_
 12	tunda	tun	NOUN	N	Case=Loc	13	nmod	_	_
-13	yurushidan	yuru	VERB	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	14	obl	_	_
+13	yurushidan	yurmoq	VERB	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	_
 14	xavotirlanishning	xavotirlani	VERB	V	_	16	nmod:poss	_	_
 15	hojati	hoj	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	compound	_	_
 16	yoʻq	yoʻq	ADJ	A	_	0	root	_	_
@@ -850,12 +862,12 @@
 15	.	boʻl	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s1577
-# text = kapitan sinchiklab qaradi , qopq ora kema boshini tun sokinligini buzib , oʻzi tomonga toʻlqin urib kelayotganini koʻridi .
+# text = kapitan sinchiklab qaradi , qop-qora kema boshini tun sokinligini buzib , oʻzi tomonga toʻlqin urib kelayotganini koʻridi .
 1	kapitan	kapitan	NOUN	N	_	3	nsubj	_	_
-2	sinchiklab	sinchikla	VERB	V	_	3	advcl	_	_
+2	sinchiklab	sinchiklamoq	VERB	V	_	3	advcl	_	_
 3	qaradi	qar	VERB	V	_	17	advcl	_	_
-4	,	qar	PUNCT	Y	_	3	punct	_	_
-5	qopq ora	qopq or	ADJ	A	_	7	amod	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
+5	qop-qora	qop-qora	ADJ	A	_	7	amod	_	_
 6	kema	kema	NOUN	N	_	7	compound	_	_
 7	boshini	bosh	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	16	nsubj	_	_
 8	tun	bosh	NOUN	N	Case=Nom	9	nmod	_	_
@@ -884,8 +896,8 @@
 10	namli	naml	ADJ	A	_	7	amod	_	_
 11	katta	katt	ADJ	A	_	7	amod	_	_
 12	kema	kema	NOUN	N	_	7	appos	_	_
-13	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	7	cop	_	_
-14	,	boʻl	PUNCT	Y	_	7	punct	_	_
+13	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
+14	,	,	PUNCT	Y	_	7	punct	_	_
 15	odessadan	odessa	NOUN	N	_	22	obl	_	_
 16	besh	besh	NUM	M	Case=Nom|NumType=Ord	17	compound	_	_
 17	yuz	besh	NOUN	M	Case=Nom	18	nummod	_	_
@@ -932,16 +944,16 @@
 10	kirpikning	kirpik	NOUN	N	Case=Gen	8	conj	_	_
 11	orasidagi	orasidag	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	nmod	_	_
 12	ish	orasidag	VERB	N	Mood=Imp|VerbForm=Fin	14	xcomp	_	_
-13	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	12	cop	_	_
+13	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 14	qolgandi	qol	VERB	V	_	0	root	_	_
-15	.	qol	PUNCT	Y	_	14	punct	_	_
+15	.	.	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s1581
 # text = bu voqeadan  qochib qutulish mumkin emas edi .
 1	bu	qol	PRON	P	Case=Nom|PronType=Dem	2	det	_	_
 2	voqeadan	voqea	NOUN	N	Case=Abl	4	obl	_	_
 3	qochib	qoch	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
-4	qutulish	qutuli	VERB	V	Case=Nom|VerbForm=Ger	5	nsubj	_	_
+4	qutulish	qutulmoq	VERB	V	Case=Nom	5	nsubj	_	_
 5	mumkin	mumkin	NOUN	A	Case=Nom	0	root	_	_
 6	emas	emas	ADV	V	_	5	advmod	_	_
 7	edi	emas	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -1008,8 +1020,9 @@
 24	katta	katt	ADJ	A	_	26	amod	_	_
 25	bir	katt	NUM	M	_	26	nummod	_	_
 26	teshik	tesh	NOUN	N	Case=Nom	27	obj	_	_
-27	hosil qildi	hosil qil	VERB	V	_	0	root	_	_
-28	.	hosil qil	PUNCT	Y	_	27	punct	_	_
+27	hosil	hosil	NOUN	N	Case=Nom	28	obj	_	_
+28	qildi	qilmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+29	.	.	PUNCT	PUNCT	_	28	punct	_	_
 
 # sent_id = s1585
 # text = qattiq to'xnashuvdan zaxmat yegan ‹ ‹ mari › › namli paraxot to'xtab qoldi .
@@ -1025,8 +1038,8 @@
 10	namli	naml	ADJ	A	_	7	amod	_	_
 11	paraxot	paraxot	NOUN	N	_	7	appos	_	_
 12	to'xtab	to'xta	VERB	V	_	0	root	_	_
-13	qoldi	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
-14	.	qol	PUNCT	Y	_	13	punct	_	_
+13	qoldi	qol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	xcomp	_	_
+14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s1586
 # text = ‹ ‹ normandi › › namli kemada yigirma besh nafar dengizchi , bir shifokor ayol , oʻttiz bir nafar yoʻlovchi bor edi .
@@ -1050,20 +1063,20 @@
 18	bir	oʻttiz	NUM	M	_	19	nummod	_	_
 19	nafar	naf	DET	Q	_	20	nmod	_	_
 20	yoʻlovchi	yoʻlov	NOUN	N	Case=Nom	11	conj	_	_
-21	bor	yoʻlov	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
-22	edi	yoʻlov	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
-23	.	yoʻlov	PUNCT	Y	_	21	punct	_	_
+21	bor	bor	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
+22	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+23	.	.	PUNCT	Y	_	21	punct	_	_
 
 # sent_id = s1587
 # text = ularning orasida oʻn ikki ayol bor edi .
 1	ularning	ular	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
 2	orasida	ora	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 3	oʻn	ora	NUM	M	Case=Nom|NumType=Ord	4	compound	_	_
-4	ikki	ikk	NUM	M	_	5	nummod	_	_
+4	ikki	ikki	NUM	M	_	5	nummod	_	_
 5	ayol	ayol	NOUN	N	Case=Nom	6	nsubj	_	_
-6	bor	ayol	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
-7	edi	ayol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
-8	.	ayol	PUNCT	Y	_	6	punct	_	_
+6	bor	bor	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+8	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1588
 # text = kema dahshatli zilziladan qattiq chayqalishni boshladi .
@@ -1071,7 +1084,7 @@
 2	dahshatli	dahshatl	ADJ	A	_	3	advmod	_	_
 3	zilziladan	zilzila	NOUN	N	Case=Abl	6	obl	_	_
 4	qattiq	qattiq	ADJ	A	_	6	advmod	_	_
-5	chayqalishni	chayqali	VERB	V	Case=Dat|VerbForm=Ger|Voice=Pass	6	xcomp	_	_
+5	chayqalishni	chayqali	VERB	V	Case=Dat|Voice=Pass	6	xcomp	_	_
 6	boshladi	boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	.	boshl	PUNCT	Y	_	6	punct	_	_
 
@@ -1161,10 +1174,10 @@
 
 # sent_id = s1596
 # text = qutqarish chambirlari yetishmaydi .
-1	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	2	acl	_	_
-2	chambirlari	chambi	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	_
-3	yetishmaydi	yetish	VERB	V	_	0	root	_	_
-4	.	yetish	PUNCT	Y	_	3	punct	_	_
+1	qutqarish	qutqarish	NOUN	N	Case=Nom	2	nmod	_	_
+2	chambirlari	chambir	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+3	yetishmaydi	yetishmoq	VERB	V	_	0	root	_	_
+4	.	.	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s1597
 # text = kapitan xarver qomandanlik supasida turib qattiq baqirdi :
@@ -1193,7 +1206,7 @@
 
 # sent_id = s1600
 # text = qutqarish qayiqlarini pastga tushuringlar .
-1	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	2	acl	_	_
+1	qutqarish	qutqarmoq	VERB	V	_	2	acl	_	_
 2	qayiqlarini	qayiq	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obj	_	_
 3	pastga	past	NOUN	A	Case=Dat	4	obl	_	_
 4	tushuringlar	tushu	VERB	V	_	0	root	_	_
@@ -1222,21 +1235,21 @@
 1	oltmish	olt	NUM	M	_	2	nummod	_	_
 2	odamni	oda	NOUN	N	Case=Acc	4	obj	_	_
 3	tezda	tez	ADV	D	_	4	advmod	_	_
-4	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	5	csubj	_	_
-5	kerak	ker	ADJ	A	_	0	root	_	_
-6	!	ker	PUNCT	Y	_	5	punct	_	_
+4	qutqarish	qutqarmoq	VERB	V	_	5	csubj	_	_
+5	kerak	kerak	ADJ	A	_	0	root	_	_
+6	!	.	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s1604
 # text = haqiqatdan bu kemada oltmish bir odam bor edi .
 1	haqiqatdan	haqiqat	NOUN	N	Case=Loc	7	obl	_	_
-2	bu	haqiqat	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
+2	bu	bu	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
 3	kemada	kema	NOUN	N	_	7	nmod	_	_
-4	oltmish	olt	NUM	M	Case=Nom|NumType=Ord	5	compound	_	_
-5	bir	olt	NUM	M	_	6	nummod	_	_
-6	odam	oda	NOUN	N	Case=Nom	7	nsubj	_	_
-7	bor	oda	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
-8	edi	oda	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
-9	.	oda	PUNCT	Y	_	7	punct	_	_
+4	oltmish	oltmish	NUM	M	Case=Nom|NumType=Ord	5	compound	_	_
+5	bir	bir	NUM	M	_	6	nummod	_	_
+6	odam	odam	NOUN	N	Case=Nom	7	nsubj	_	_
+7	bor	bor	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+9	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1605
 # text = shu daqiqada u oʻzini unutugandi .
@@ -1251,7 +1264,7 @@
 # text = dengizchilar darhol qutqaruv qayiqlarini yechib pastga tushurdi ,
 1	dengizchilar	dengizch	NOUN	N	_	7	nsubj	_	_
 2	darhol	darhol	ADV	D	_	7	advmod	_	_
-3	qutqaruv	qutqaruv	VERB	V	Case=Nom|VerbForm=Ger	4	compound	_	_
+3	qutqaruv	qutqaruv	NOUN	N	Case=Nom	4	nmod	_	_
 4	qayiqlarini	qayiq	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 5	yechib	yech	VERB	V	_	7	advcl	_	_
 6	pastga	past	NOUN	A	Case=Dat	7	obl	_	_
@@ -1291,14 +1304,14 @@
 5	uch	bilan	NUM	M	NumType=Ord	6	dep	_	_
 6	xizmatchi	xizmat	NOUN	N	Case=Nom	17	dep	_	_
 7	choʻchib	choʻch	VERB	V	Aspect=Perf|VerbForm=Conv	8	dep	_	_
-8	ketgan	ket	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	9	dep	_	_
+8	ketgan	ketmoq	VERB	V	Case=Nom|Tense=Past	9	dep	_	_
 9	kishilarni	kishi	NOUN	N	_	10	dep	_	_
 10	tinchlantirib	tinchlanti	VERB	V	_	17	dep	_	_
 11	,	tinchlanti	PUNCT	Y	_	10	punct	_	_
 12	ularni	ular	PRON	P	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	dep	_	_
 13	tartib	tart	NOUN	N	Case=Nom	17	dep	_	_
 14	bilan	bilan	ADP	R	_	13	dep	_	_
-15	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	16	dep	_	_
+15	qutqarish	qutqarish	NOUN	N	Case=Nom	16	nmod	_	_
 16	kemasiga	kema	NOUN	N	_	17	dep	_	_
 17	chiqarmoqchi	chiqar	VERB	V	_	18	csubj	_	_
 18	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
@@ -1327,9 +1340,9 @@
 18	.	yoʻq	PUNCT	Y	_	16	punct	_	_
 
 # sent_id = s1611
-# text = e voh , hali necha daqiqa oldin kishilar shirin uyqu qo'ynida edi ,
-1	e voh	e voh	PART	T	_	10	mark	_	_
-2	,	e voh	PUNCT	Y	_	1	punct	_	_
+# text = evoh , hali necha daqiqa oldin kishilar shirin uyqu qo'ynida edi ,
+1	evoh	evoh	PART	T	_	10	mark	_	_
+2	,	,	PUNCT	Y	_	1	punct	_	_
 3	hali	hal	ADV	D	_	10	advmod	_	_
 4	necha	nech	DET	P	_	5	det	_	_
 5	daqiqa	daq	NOUN	N	Case=Gen	6	nmod:poss	_	_
@@ -1338,8 +1351,8 @@
 8	shirin	shirin	ADJ	A	_	9	amod	_	_
 9	uyqu	uyqu	NOUN	V	Case=Nom	10	nmod:poss	_	_
 10	qo'ynida	qo'yn	NOUN	N	_	0	root	_	_
-11	edi	qo'yn	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
-12	,	qo'yn	PUNCT	Y	_	10	punct	_	_
+11	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+12	,	,	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1612
 # text = mana endi hayot – shami qilning ustida tursa , ular aql - hushini yo'qatmay mumkinmi !
@@ -1350,15 +1363,15 @@
 5	shami	sha	NOUN	N	_	7	amod	_	_
 6	qilning	qil	NOUN	N	_	7	nmod:poss	_	_
 7	ustida	ust	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	14	parataxis	_	_
-8	tursa	tur	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	7	aux	_	_
-9	,	tur	PUNCT	Y	_	8	punct	_	_
+8	tursa	turmoq	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	7	advcl	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
 10	ular	ular	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
-11	aql	ular	NOUN	N	_	13	nmod:poss	_	_
-12	-	ular	PUNCT	Y	_	11	punct	_	_
+11	aql	aql	NOUN	N	_	13	nmod:poss	_	_
+12	-	-	PUNCT	Y	_	11	punct	_	_
 13	hushini	hush	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	14	obj	_	_
 14	yo'qatmay	yo'qat	VERB	V	_	0	root	_	_
 15	mumkinmi	mumkin	NOUN	A	Case=Nom	14	compound	_	_
-16	!	mumkin	PUNCT	Y	_	15	punct	_	_
+16	!	!	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s1613
 # text = ayni shu paytda , kapitanning kuchli ovozi dod – paryod ovozlarini bosib tushdi .
@@ -1404,7 +1417,7 @@
 2	kapitan	kapitan	NOUN	N	_	5	vocative	_	_
 3	,	kapitan	PUNCT	Y	_	2	punct	_	_
 4	meni	men	PRON	P	_	5	obj	_	_
-5	chaqirdingizmi	chaqird	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	0	root	_	_
+5	chaqirdingizmi	chaqirmoq	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 6	?	chaqird	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s1617
@@ -1412,23 +1425,23 @@
 1	-	chaqird	PUNCT	Y	_	3	punct	_	_
 2	oʻchoq	oʻch	NOUN	N	Case=Nom	3	nsubj	_	_
 3	qanday	qand	ADV	P	PronType=Int	0	root	_	_
-4	ahvolda	ahvol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-5	?	ahvol	PUNCT	Y	_	3	punct	_	_
+4	ahvolda	ahvol	NOUN	N	Case=Loc	3	obl	_	_
+5	?	?	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s1618
 # text = - suv kirib ketdi .
-1	-	ahvol	PUNCT	Y	_	3	punct	_	_
-2	suv	ahvol	NOUN	N	Case=Nom	3	nsubj	_	_
-3	kirib	kir	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-4	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
-5	.	ket	PUNCT	Y	_	4	punct	_	_
+1	-	-	PUNCT	Y	_	3	punct	_	_
+2	suv	suv	NOUN	N	Case=Nom	3	nsubj	_	_
+3	kirib	kirmoq	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+4	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1619
 # text = - to'xtab qoldi .
 1	-	ket	PUNCT	Y	_	2	punct	_	_
-2	to'xtab	to'xta	VERB	V	_	0	root	_	_
-3	qoldi	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_
-4	.	qol	PUNCT	Y	_	3	punct	_	_
+2	to'xtab	to'xta	VERB	V	VerbForm=Conv	3	advcl	_	_
+3	qoldi	qol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s1620
 # text = kapitan yana chaqirdi :
@@ -1460,16 +1473,16 @@
 11	.	yor	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1623
-# text = - kema choʻkib ketishka yana qancha daqiqa bor ?
-1	-	yor	PUNCT	Y	_	8	punct	_	_
+# text = - kema choʻkib ketishga yana qancha daqiqa bor ?
+1	-	-	PUNCT	Y	_	8	punct	_	_
 2	kema	kema	NOUN	N	_	4	nsubj	_	_
-3	choʻkib	choʻk	VERB	V	_	4	compound:lvc	_	_
-4	ketishka	keti	VERB	V	Case=Dat|VerbForm=Ger	8	nmod	_	_
-5	yana	yan	ADV	T	_	8	advmod	_	_
+3	choʻkib	choʻkmoq	VERB	V	_	4	compound:lvc	_	_
+4	ketishga	ketmoq	VERB	V	Case=Dat	8	nmod	_	_
+5	yana	yana	ADV	T	_	8	advmod	_	_
 6	qancha	qancha	DET	P	_	7	det	_	_
-7	daqiqa	daq	NOUN	N	Case=Nom	8	nsubj	_	_
-8	bor	daq	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
-9	?	daq	PUNCT	Y	_	8	punct	_	_
+7	daqiqa	daqiqa	NOUN	N	Case=Nom	8	nsubj	_	_
+8	bor	bor	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	?	?	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1624
 # text = - vaqt yetgan , - dedi kapitan ,
@@ -1484,15 +1497,16 @@
 
 # sent_id = s1625
 # text = - bitta ham odam qolmay hamma qutqarish qayig'iga chiqsin .
-1	-	kapitan	PUNCT	Y	_	8	punct	_	_
-2	bitta ham	bitta h	NUM	M	_	3	nummod	_	_
-3	odam	oda	NOUN	N	Case=Nom	4	nsubj	_	_
-4	qolmay	qol	VERB	V	_	8	advcl	_	_
-5	hamma	hamma	PRON	P	_	8	obl	_	_
-6	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	7	compound	_	_
-7	qayig'iga	qayig'	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
-8	chiqsin	chiq	VERB	V	_	0	root	_	_
-9	.	chiq	PUNCT	Y	_	8	punct	_	_
+1	-	kapitan	PUNCT	Y	_	9	punct	_	_
+2	bitta	bitta	NUM	M	NumType=Card	3	nummod	_	_
+3	ham	ham	PART	P	_	4	discourse	_	_
+4	odam	odam	NOUN	N	Case=Nom	5	nsubj	_	_
+5	qolmay	qolmoq	VERB	V	_	9	advcl	_	_
+6	hamma	hamma	PRON	P	_	9	obl	_	_
+7	qutqarish	qutqarish	NOUN	N	Case=Nom	8	nmod	_	_
+8	qayig'iga	qayig'	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+9	chiqsin	chiq	VERB	V	_	0	root	_	_
+10	.	chiq	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1626
 # text = besh yordamchi kelsin , taponchingiz bormi ?
@@ -1505,18 +1519,20 @@
 7	?	bor	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1627
-# text = - qaysi erkak numus qilmay ayollardan oldinga oʻtib olsa , o'q oting !
-1	-	bor	PUNCT	Y	_	10	punct	_	_
+# text = - qaysi erkak nomus qilmay ayollardan oldinga oʻtib olsa , o‘q oting !
+1	-	bor	PUNCT	Y	_	11	punct	_	_
 2	qaysi	qay	DET	P	PronType=Int	3	det	_	_
-3	erkak	erk	NOUN	N	Case=Nom	8	nsubj	_	_
-4	numus	numus	NOUN	N	_	5	compound	_	_
+3	erkak	erkak	NOUN	N	Case=Nom	8	nsubj	_	_
+4	nomus	numus	NOUN	N	_	5	compound	_	_
 5	qilmay	qil	VERB	V	_	8	advcl	_	_
 6	ayollardan	ayol	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	_
 7	oldinga	oldin	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
-8	oʻtib olsa	oʻtib ol	VERB	V	_	10	advcl	_	_
-9	,	oʻtib ol	PUNCT	Y	_	8	punct	_	_
-10	o'q oting	o'q ot	VERB	V	_	0	root	_	_
-11	!	o'q ot	PUNCT	Y	_	10	punct	_	_
+8	oʻtib	oʻt	VERB	V	VerbForm=Conv	9	advcl	_	_
+9	olsa	ol	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	advcl	_	_
+10	,	,	PUNCT	Y	_	9	punct	_	_
+11	o‘q	o‘q	NOUN	N	_	12	obj	_	_
+12	oting	otmoq	VERB	V	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+13	!	!	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1628
 # text = hamma odam jimib qoldi .
@@ -1558,41 +1574,44 @@
 3	mari	mar	VERB	N	Mood=Imp|VerbForm=Fin	17	nsubj	_	_
 4	›	mar	PUNCT	N	_	3	punct	_	_
 5	›	mar	PUNCT	N	_	3	punct	_	_
-6	namli	naml	ADJ	A	_	3	amod	_	_
+6	namli	namlik	ADJ	A	_	3	amod	_	_
 7	kemadagilar ham	kemadagilar h	NOUN	N	_	3	appos	_	_
-8	qutqarish	qutqari	VERB	V	Case=Nom|VerbForm=Ger	9	compound	_	_
+8	qutqarish	qutqarish	NOUN	N	Case=Nom	9	nmod	_	_
 9	qayiqlarini	qayiq	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
-10	tushurib	tushu	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
-11	,	tushu	PUNCT	Y	_	10	punct	_	_
-12	bola	bol	NOUN	N	Case=Nom	14	compound:redup	_	_
-13	–	bol	PUNCT	V	_	12	punct	_	_
+10	tushurib	tushurmoq	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
+11	,	.	PUNCT	Y	_	10	punct	_	_
+12	bola	bola	NOUN	N	Case=Nom	14	compound:redup	_	_
+13	–	-	PUNCT	V	_	12	punct	_	_
 14	qazoga	qazo	NOUN	N	_	15	obl	_	_
 15	yuluqqan	yuluq	VERB	V	_	16	acl	_	_
 16	kishilarni	kishi	NOUN	N	_	17	obj	_	_
-17	tashiy boshladi	tashiy boshl	VERB	V	_	0	root	_	_
-18	.	tashiy boshl	PUNCT	Y	_	17	punct	_	_
+17	tashiy	tashimoq	VERB	V	VerbForm=Conv	18	xcomp	_	_
+18	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = s1632
-# text = qutqarish xizmati tartibli davom etti .
+# text = qutqarish xizmati tartibli davom etdi .
 1	qutqarish	qutqari	NOUN	N	Case=Nom	2	compound	_	_
 2	xizmati	xizma	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
-3	tartibli	tartibl	ADJ	A	_	4	advmod	_	_
-4	davom etti	davom et	VERB	V	_	0	root	_	_
-5	.	davom et	PUNCT	Y	_	4	punct	_	_
+3	tartibli	tartibl	ADJ	A	_	5	advmod	_	_
+4	davom	davom	NOUN	N	Case=Nom	5	obj	_	_
+5	etdi	etmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1633
 # text = hech qanday talash – tortish yoki janjal – mojoro yuz bermadi .
-1	hech qanday	hech qand	DET	P	_	8	amod	_	_
-2	talash	tala	NOUN	N	Case=Nom	4	compound:redup	_	_
-3	–	tala	PUNCT	V	_	2	punct	_	_
-4	tortish	torti	VERB	V	Mood=Imp|VerbForm=Fin	10	nsubj	_	_
-5	yoki	yok	CCONJ	C	_	8	cc	_	_
-6	janjal	janjal	NOUN	N	Case=Nom	8	compound:redup	_	_
-7	–	janjal	PUNCT	V	_	6	punct	_	_
-8	mojoro	mojoro	NUM	M	_	4	conj	_	_
-9	yuz	mojoro	NOUN	N	Case=Nom	10	compound	_	_
-10	bermadi	berma	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
-11	.	berma	PUNCT	Y	_	10	punct	_	_
+1	hech	hech	PART	P	_	2	advmod	_	_
+2	qanday	qanday	DET	D	_	9	amod	_	_
+3	talash	tala	NOUN	N	Case=Nom	5	compound:redup	_	_
+4	–	tala	PUNCT	V	_	3	punct	_	_
+5	tortish	torti	VERB	V	Mood=Imp|VerbForm=Fin	11	nsubj	_	_
+6	yoki	yok	CCONJ	C	_	9	cc	_	_
+7	janjal	janjal	NOUN	N	Case=Nom	9	compound:redup	_	_
+8	–	janjal	PUNCT	V	_	7	punct	_	_
+9	mojoro	mojoro	NUM	M	_	5	conj	_	_
+10	yuz	mojoro	NOUN	N	Case=Nom	11	compound	_	_
+11	bermadi	berma	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	berma	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1634
 # text = dunyoning ishlari shunday ,
@@ -1607,8 +1626,8 @@
 2	razil	razil	ADJ	A	_	3	amod	_	_
 3	insonlar	inson	NOUN	N	_	4	nsubj	_	_
 4	bor	inson	VERB	A	Mood=Imp|VerbForm=Fin	18	parataxis	_	_
-5	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	aux	_	_
-6	,	boʻl	PUNCT	Y	_	5	punct	_	_
+5	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3	4	aux	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
 7	oʻzini	oʻz	PRON	P	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	9	obj	_	_
 8	qurban	qurban	NOUN	N	Case=Nom	9	compound	_	_
 9	qilib	qil	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
@@ -1661,7 +1680,7 @@
 5	.	qilmayt	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1639
-# text = as – hushini yo'qutib nima qilarini bilmayotgan odamlar oldida u oʻzini shunchilik savlatli tutardiki , xuddi balo – qazoga uchragan odamlariga  emas , balki balo – qazoga buyruq berayotgandek , hatto halokatga uchrgan kema uning ko'rsatmalariga boysunayotgandek bo'lardi .
+# text = as – hushini yo'qutib nima qilarini bilmayotgan odamlar oldida u oʻzini shunchilik savlatli tutardiki , xuddi balo – qazoga uchragan odamlariga  emas , balki balo – qazoga buyruq berayotgandek , hatto halokatga uchrgan kema uning ko'rsatmalariga boʻysunayotgandek bo'lardi .
 1	as	qilmayt	NOUN	N	Case=Nom	3	compound:redup	_	_
 2	–	qilmayt	PUNCT	V	_	1	punct	_	_
 3	hushini	hush	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	obj	_	_
@@ -1697,19 +1716,20 @@
 33	uchrgan	uchr	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	34	acl	_	_
 34	kema	kema	NOUN	N	_	38	nsubj	_	_
 35	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	36	nmod:poss	_	_
-36	ko'rsatmalariga	ko'rsatma	VERB	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	37	nmod	_	_
-37	boysunayotgandek	boysunayotgande	NOUN	N	_	38	xcomp	_	_
-38	bo'lardi	bo'l	VERB	V	_	21	conj	_	_
-39	.	bo'l	PUNCT	Y	_	21	punct	_	_
+36	ko'rsatmalariga	ko'rsatma	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=3	37	obl	_	_
+37	boʻysunayotgandek	bo'ysunmoq	VERB	V	Aspect=Prog|VerbForm=Conv	38	xcomp	_	_
+38	bo'lardi	bo'lmoq	VERB	V	_	21	conj	_	_
+39	.	.	PUNCT	Y	_	21	punct	_	_
 
 # sent_id = s1640
 # text = bir damdan keyin u yana baqirdi :
-1	bir damdan	bir da	ADV	D	_	2	compound	_	_
-2	keyin	keyin	NOUN	D	Case=Nom	5	obl	_	_
-3	u	keyin	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	yana	yan	ADV	D	_	5	advmod	_	_
-5	baqirdi	baq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	:	baq	PUNCT	Y	_	5	punct	_	_
+1	bir	bir	NUM	M	NumType=Card	2	nummod	_	_
+2	damdan	dam	NOUN	N	Case=Abl	3	compound	_	_
+3	keyin	keyin	ADV	D	_	5	obl	_	_
+4	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	yana	yana	ADV	D	_	6	advmod	_	_
+6	baqirdi	baqir	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	:	:	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1641
 # text = - kleyminni qutqarib kelinglar !
@@ -1724,12 +1744,12 @@
 1	kleymin	kleymin	NOUN	N	_	3	nsubj	_	_
 2	amaliyotchi	amaliyot	NOUN	N	_	3	amod	_	_
 3	dengizchi	dengiz	NOUN	N	Case=Nom	8	parataxis	_	_
-4	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	3	cop	_	_
-5	,	boʻl	PUNCT	Y	_	3	punct	_	_
+4	boʻlib	boʻl	AUX	V	_	3	cop	_	_
+5	,	,	PUNCT	Y	_	3	punct	_	_
 6	hali	hal	ADV	D	_	8	advmod	_	_
 7	bir	hal	NUM	M	_	8	nummod	_	_
 8	bola	bol	NOUN	N	Case=Nom	0	root	_	_
-9	edi	bol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+9	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 
 # sent_id = s1643
 # text = . kema chuqur dengiz tagiga sekin – sekin choʻkmoqda .
@@ -1870,30 +1890,31 @@
 15	qo'yniga	qo'yn	NOUN	N	_	17	obl	_	_
 16	kirib	kir	VERB	V	Aspect=Perf|VerbForm=Conv	17	compound:lvc	_	_
 17	katganiga	kat	VERB	V	_	18	obl	_	_
-18	qarab	qara	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-19	turdi	tur	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
-20	.	tur	PUNCT	Y	_	19	punct	_	_
+18	qarab	qara	VERB	V	VerbForm=Conv	19	advcl	_	_
+19	turdi	turmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	.	.	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s1654
-# text = kapitan xarverning hayoti mana mana shunday nihoyladi .
-1	kapitan	kapitan	NOUN	N	_	3	nmod:poss	_	_
-2	xarverning	xarve	NOUN	N	_	1	appos	_	_
-3	hayoti	hayo	NOUN	N	_	6	nsubj	_	_
-4	mana	man	NOUN	T	Case=Nom	5	nmod	_	_
-5	mana shunday	mana shund	PRON	P	_	6	obl	_	_
-6	nihoyladi	nihoyl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	.	nihoyl	PUNCT	Y	_	6	punct	_	_
+# text = kapitan Xarverning hayoti mana shunday nihoyladi .
+1	kapitan	kapitan	NOUN	N	Case=Nom	3	appos	_	_
+2	Xarverning	Xarver	PROPN	N	Case=Gen	3	nmod:poss	_	_
+3	hayoti	hayot	NOUN	N	Case=Nom	6	nsubj	_	_
+4	mana	mana	PART	PRT	_	6	discourse	_	_
+5	shunday	shunday	ADV	ADV	PronType=Dem	6	advmod	_	_
+6	nihoyladi	nihoyalamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1655
 # text = engiz dengizi bogʻozidagi hech qanday dengizchi uningdek ulugʻlanmagandi .
 1	engiz	engiz	NOUN	N	_	2	compound	_	_
 2	dengizi	dengiz	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	compound	_	_
-3	bogʻozidagi	bogʻozidag	NOUN	N	_	5	amod	_	_
-4	hech qanday	hech qand	DET	P	_	5	det	_	_
-5	dengizchi	dengiz	NOUN	N	Case=Nom	7	nsubj	_	_
-6	uningdek	uningde	PRON	P	_	7	obl	_	_
-7	ulugʻlanmagandi	ulugʻlan	VERB	V	_	0	root	_	_
-8	.	ulugʻlan	PUNCT	Y	_	7	punct	_	_
+3	bogʻozidagi	bogʻozidag	NOUN	N	_	6	amod	_	_
+4	hech	hech	PART	P	_	5	advmod	_	_
+5	qanday	qanday	DET	D	_	6	det	_	_
+6	dengizchi	dengiz	NOUN	N	Case=Nom	8	nsubj	_	_
+7	uningdek	uningde	PRON	P	_	8	obl	_	_
+8	ulugʻlanmagandi	ulugʻlan	VERB	V	_	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1656
 # text = u umr bo'yi oʻz vazifasiga sodiq boʻlib , odamiylik burchini ado qilib qolgandi .
@@ -1918,7 +1939,7 @@
 2	oldida	old	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
 3	u	old	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 4	qahramonlardan	qahramon	NOUN	N	Case=Abl|Number=Plur	5	nsubj	_	_
-5	boʻlish	boʻli	VERB	V	Case=Nom|VerbForm=Ger	6	acl	_	_
+5	boʻlish	boʻlmoq	VERB	V	_	6	acl	_	_
 6	huquqini	huquq	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 7	ishlatdi	ishlat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	ishlat	PUNCT	Y	_	7	punct	_	_
@@ -1994,8 +2015,8 @@
 # sent_id = s1662
 # text = bir kuni tunda dengiz bo'yiga otliq sayohatga qolgan bir odam yoʻl bo'yidagi bir mehmonxonaga tushdi .
 1	bir	qonat	NUM	M	_	2	nummod	_	_
-2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nmod:tmod	_	_
-3	tunda	tun	NOUN	N	_	8	nmod:tmod	_	_
+2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nmod	_	_
+3	tunda	tun	NOUN	N	_	8	nmod	_	_
 4	dengiz	dengiz	NOUN	N	Case=Nom	5	nmod:poss	_	_
 5	bo'yiga	bo'y	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
 6	otliq	otliq	ADJ	A	_	8	amod	_	_
@@ -2004,10 +2025,11 @@
 9	bir	qol	NUM	M	_	10	nummod	_	_
 10	odam	oda	NOUN	N	Case=Nom	14	nsubj	_	_
 11	yoʻl	yoʻl	NOUN	N	Case=Nom	12	nmod:poss	_	_
-12	bo'yidagi	bo'yidag	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	13	nmod	_	_
-13	bir mehmonxonaga	bir mehmonxona	NOUN	N	_	14	obl	_	_
-14	tushdi	tush	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-15	.	tush	PUNCT	Y	_	14	punct	_	_
+12	bo'yidagi	bo'yidag	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	_
+13	bir	bir	DET	D	_	14	det	_	_
+14	mehmonxonaga	mehmonxona	NOUN	N	Case=Dat	15	obl	_	_
+15	tushdi	tush	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	.	tush	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s1663
 # text = u kishilarning samimiyligiga va jamiyatning xavfsizligiga ishonib , itini darvoza oldidagi daraxtga bogʻlab qoʻyib mehmonxanaga kirib yotib qoldi .
@@ -2027,9 +2049,9 @@
 14	qoʻyib	qoʻy	VERB	V	_	16	advcl	_	_
 15	mehmonxanaga	mehmonxana	NOUN	N	Case=Dat	16	obl	_	_
 16	kirib	kir	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
-17	yotib	yot	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-18	qoldi	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
-19	.	qol	PUNCT	Y	_	18	punct	_	_
+17	yotib	yot	VERB	V	VerbForm=Conv	18	advcl	_	_
+18	qoldi	qol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s1664
 # text = tun yarmida bir oʻgʻri uning otini ogʻirlab ketdi .
@@ -2039,22 +2061,22 @@
 4	oʻgʻri	oʻgʻ	NOUN	N	Case=Nom	7	nsubj	_	_
 5	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 6	otini	oti	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
-7	ogʻirlab	ogʻirla	VERB	V	_	0	root	_	_
-8	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-9	.	ket	PUNCT	Y	_	8	punct	_	_
+7	ogʻirlab	ogʻirlamoq	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+8	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1665
 # text = ertasi ertalab otining yo'qalganligini bilgan sayohatchi hasrat chekib qaqshap ketdi .
 1	ertasi	erta	NOUN	N	_	2	amod	_	_
-2	ertalab	ertala	NOUN	N	Case=Loc	5	nmod:tmod	_	_
+2	ertalab	ertala	NOUN	N	Case=Loc	5	nmod	_	_
 3	otining	oti	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod:poss	_	_
 4	yo'qalganligini	yo'qalganlig	NOUN	N	_	5	obj	_	_
 5	bilgan	bil	VERB	V	_	6	acl	_	_
 6	sayohatchi	sayohat	NOUN	N	Case=Nom	9	nsubj	_	_
 7	hasrat	hasrat	NOUN	N	Case=Nom	8	compound	_	_
 8	chekib	chek	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-9	qaqshap	qaqshap	VERB	V	_	0	root	_	_
-10	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	qaqshap	qaqshap	VERB	V	VerbForm=Conv	10	advcl	_	_
+10	ketdi	ket	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	.	ket	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1666
@@ -2075,10 +2097,11 @@
 4	toʻp	toʻp	NOUN	Q	Case=Nom	5	nmod	_	_
 5	sayohatchilar	sayohatch	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	_
 6	uni	sayohatch	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-7	o'rab olib	o'rab ol	VERB	V	_	9	advcl	_	_
-8	gapirib	gapi	NOUN	V	Case=Nom|Number[psor]=Sing|Person[psor]=2	9	obj	_	_
-9	boshladi	boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-10	:	boshl	PUNCT	Y	_	9	punct	_	_
+7	o'rab	o'ramoq	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+8	olib	olmoq	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
+9	gapirib	gapirmoq	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+10	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	:	:	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1668
 # text = _ _ namuncha ahmoq odam bu ,
@@ -2129,7 +2152,7 @@
 4	bo'yiga	bo'y	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
 5	otli	otl	ADJ	A	_	6	amod	_	_
 6	sayohatga	sayohat	NOUN	N	Case=Dat	7	obl	_	_
-7	kelishdan	keli	VERB	V	Case=Abl|VerbForm=Ger	8	nmod:comp	_	_
+7	kelishdan	keli	VERB	V	Case=Abl	8	nmod	_	_
 8	ortiq	ortiq	ADJ	A	_	9	amod	_	_
 9	bema'nilik	bema'ni	NOUN	N	_	10	nsubj	_	_
 10	yoʻq	yoʻq	ADJ	A	_	13	ccomp	_	_
@@ -2161,12 +2184,12 @@
 # sent_id = s1673
 # text = sayohatchi choʻchib ketdi va baqirib ketdi :
 1	sayohatchi	sayohat	NOUN	N	Case=Nom	2	nsubj	_	_
-2	choʻchib	choʻch	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-3	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux	_	_
-4	va	ket	CCONJ	C	_	5	cc	_	_
-5	baqirib	baqi	VERB	V	_	2	conj	_	_
-6	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-7	:	ket	PUNCT	Y	_	6	punct	_	_
+2	choʻchib	choʻch	VERB	V	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
+3	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	va	va	CCONJ	C	_	5	cc	_	_
+5	baqirib	baqirmoq	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+6	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	:	:	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1675
 # text = ajobo , nomussizz oʻgʻrini ayblaydiganlar yoʻqmi ? !
@@ -2180,7 +2203,7 @@
 8	!	yoʻq	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1676
-# text = kunlarning birda dalada ishlayotgan dehqon nihoyatda asl bir marmar haykalni qazib oldi – da , uni oborib xilma xil noyob sanʼat buyumlarini yigʻib saqlaguvchiga sotdi .
+# text = kunlarning birda dalada ishlayotgan dehqon nihoyatda asl bir marmar haykalni qazib oldi – da , uni oborib xilma-xil noyob sanʼat buyumlarini yigʻib saqlaguvchiga sotdi .
 1	kunlarning	kun	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	_
 2	birda	bir	ADV	M	_	11	obl	_	_
 3	dalada	dala	NOUN	N	_	4	obl	_	_
@@ -2191,32 +2214,34 @@
 8	bir	nihoyat	NUM	M	_	10	nummod	_	_
 9	marmar	mar	NOUN	N	Case=Nom	10	nmod	_	_
 10	haykalni	haykal	NOUN	N	Case=Acc	11	obj	_	_
-11	qazib oldi	qazib ol	VERB	V	_	23	parataxis	_	_
-12	–	qazib ol	PUNCT	N	_	13	punct	_	_
-13	da	qazib ol	PART	T	_	11	mark	_	_
-14	,	qazib ol	PUNCT	Y	_	13	punct	_	_
-15	uni	qazib ol	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-16	oborib	obo	VERB	V	_	23	advcl	_	_
-17	xilma xil	xilma xil	NOUN	N	_	20	amod	_	_
-18	noyob	noyo	ADJ	A	_	20	amod	_	_
-19	sanʼat	sanʼat	NOUN	N	Case=Nom	20	nmod	_	_
-20	buyumlarini	buyum	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	22	obj	_	_
-21	yigʻib	yigʻ	VERB	V	Aspect=Perf|VerbForm=Conv	22	advcl	_	_
-22	saqlaguvchiga	saqlaguvch	NOUN	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	23	obl	_	_
-23	sotdi	sot	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-24	.	sot	PUNCT	Y	_	23	punct	_	_
+11	qazib	qazimoq	VERB	V	VerbForm=Conv	12	advcl	_	_
+12	oldi	olmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	parataxis	_	_
+13	–	-	PUNCT	N	_	14	punct	_	_
+14	da	da	PART	T	_	11	mark	_	_
+15	,	,	PUNCT	Y	_	14	punct	_	_
+16	uni	uni	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	oborib	obo	VERB	V	_	24	advcl	_	_
+18	xilma-xil	xilma-xil	ADJ	N	_	21	amod	_	_
+19	noyob	noyo	ADJ	A	_	21	amod	_	_
+20	sanʼat	sanʼat	NOUN	N	Case=Nom	21	nmod	_	_
+21	buyumlarini	buyum	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	23	obj	_	_
+22	yigʻib	yigʻ	VERB	V	Aspect=Perf|VerbForm=Conv	23	advcl	_	_
+23	saqlaguvchiga	saqlaguvch	NOUN	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	24	obl	_	_
+24	sotdi	sotmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	.	.	PUNCT	Y	_	24	punct	_	_
 
 # sent_id = s1677
-# text = yigʻib saqlaguchi bu asl haykalni yuqori bahoda sotibl oldi .
+# text = yigʻib saqlaguchi bu asl haykalni yuqori bahoda sotib oldi .
 1	yigʻib	yigʻ	VERB	V	Aspect=Perf|VerbForm=Conv	2	advcl	_	_
 2	saqlaguchi	saqlagu	NOUN	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 3	bu	saqlagu	PRON	P	Case=Nom|PronType=Dem	5	det	_	_
 4	asl	saqlagu	ADJ	A	_	5	amod	_	_
 5	haykalni	haykal	NOUN	N	Case=Acc	8	obj	_	_
 6	yuqori	yuqo	ADJ	A	_	7	amod	_	_
-7	bahoda	baho	NOUN	N	_	8	obl	_	_
-8	sotibl oldi	sotibl ol	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	.	sotibl ol	PUNCT	Y	_	8	punct	_	_
+7	bahoda	baho	NOUN	N	_	9	obl	_	_
+8	sotib	sotib	NOUN	N	Case=Nom	9	compound	_	_
+9	oldi	olmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1678
 # text = dehqon qaytib ketayotib pulga qarab o'langancha oʻziga - oʻzi pichirladi :
@@ -2227,10 +2252,10 @@
 5	qarab	qara	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
 6	o'langancha	o'lan	VERB	V	_	10	advcl	_	_
 7	oʻziga	oʻz	PRON	P	Case=Nom|Reflex=Yes	9	compound:redup	_	_
-8	-	oʻz	PUNCT	Y	_	7	punct	_	_
+8	-	-	PUNCT	Y	_	7	punct	_	_
 9	oʻzi	oʻz	PRON	P	_	10	obl	_	_
 10	pichirladi	pichirl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	:	pichirl	PUNCT	Y	_	10	punct	_	_
+11	:	:	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1679
 # text = ‹ ‹ bu pul inson hayotini ajoyib huzur – halovatga sazovar qiladi !
@@ -2253,21 +2278,22 @@
 1	marmar	mar	NOUN	N	Case=Nom	2	amod	_	_
 2	haykal	haykal	NOUN	N	Case=Nom	4	nsubj	_	_
 3	oʻlik	oʻl	NOUN	N	Case=Nom	4	amod	_	_
-4	narsa	nar	NOUN	N	Case=Nom	11	parataxis	_	_
-5	,	nar	PUNCT	Y	_	4	punct	_	_
-6	u	nar	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-7	yer	nar	NOUN	N	Case=Nom	8	nmod:poss	_	_
+4	narsa	narsa	NOUN	N	Case=Nom	11	parataxis	_	_
+5	,	,	PUNCT	Y	_	4	punct	_	_
+6	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	yer	yer	NOUN	N	Case=Nom	8	nmod:poss	_	_
 8	ostida	ost	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	_
 9	ming	ming	NUM	M	_	10	nummod	_	_
-10	yillab	yilla	NOUN	N	_	11	nmod:tmod	_	_
+10	yillab	yil	NOUN	N	_	11	nmod	_	_
 11	yotgan	yotgan	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	parataxis	_	_
-12	,	yotgan	PUNCT	Y	_	11	punct	_	_
-13	uni	yotgan	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-14	hech kim	hech k	PRON	P	Case=Nom	17	nsubj	_	_
-15	xayoliga	xayol	NOUN	N	_	17	obl	_	_
-16	keltirib	kelti	VERB	V	Aspect=Perf|VerbForm=Inf	17	xcomp	_	_
-17	qaramanagan	qaramana	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
-18	.	qaramana	PUNCT	Y	_	17	punct	_	_
+12	,	,	PUNCT	Y	_	11	punct	_	_
+13	uni	uni	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+14	hech	hech	DET	D	PronType=Neg	15	det	_	_
+15	kim	kim	PRON	P	Case=Nom	18	nsubj	_	_
+16	xayoliga	xayol	NOUN	N	_	18	obl	_	_
+17	keltirib	kelti	VERB	V	Aspect=Perf|VerbForm=Inf	18	xcomp	_	_
+18	qaramanagan	qaramana	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s1681
 # text = nima uchun birov uni shuncha ko'p pulga sotib oldi ? › ›
@@ -2278,10 +2304,11 @@
 5	shuncha	shunch	DET	P	_	6	det	_	_
 6	ko'p	ko'p	DET	A	_	7	amod	_	_
 7	pulga	pul	NOUN	N	Case=Dat	8	obl	_	_
-8	sotib oldi	sotib ol	VERB	V	_	0	root	_	_
-9	?	sotib ol	PUNCT	Y	_	8	punct	_	_
-10	›	sotib ol	PUNCT	Y	_	8	punct	_	_
-11	›	sotib ol	PUNCT	Y	_	8	punct	_	_
+8	sotib	sotib	ADV	R	_	9	compound	_	_
+9	oldi	olmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	?	?	PUNCT	Y	_	9	punct	_	_
+11	›	›	PUNCT	Y	_	9	punct	_	_
+12	›	›	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1682
 # text = ammo yigʻip=b saqlovchi haykalga qarab zavqlandi .
@@ -2389,7 +2416,7 @@
 4	bir	shundoy	DET	P	_	5	det	_	_
 5	xil	shundoy	NOUN	N	_	6	compound	_	_
 6	sevgi	sevg	NOUN	N	Case=Nom	7	nsubj	_	_
-7	borki	bor	AUX	V	Clitic=Ki|VerbForm=Fin	18	parataxis	_	_
+7	borki	bor	AUX	V	VerbForm=Fin	18	parataxis	_	_
 8	,	bor	PUNCT	Y	_	7	punct	_	_
 9	u	bor	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 10	xuddi	xud	ADV	D	_	14	advmod	_	_
@@ -2409,8 +2436,8 @@
 2	oq	qil	ADJ	A	_	3	amod	_	_
 3	paxtadek	paxtade	NOUN	N	_	4	nmod	_	_
 4	yumshoq	yum	ADJ	A	_	0	root	_	_
-5	edi	yum	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
-6	.	yum	PUNCT	Y	_	4	punct	_	_
+5	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+6	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1694
 # text = hatto yovvoyi quyon uni koʻkragi bilan turtib , uning ostida bemalol harakatlanayapti .
@@ -2435,10 +2462,10 @@
 3	uchib	uch	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4	kelgan	kel	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	_
 5	qushlar	qush	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	_
-6	qoraygan	qoray	VERB	N	Case=Nom|Tense=Past|VerbForm=Ger	8	amod	_	_
-7	qoraqaragʻay	qoraqaragʻ	NOUN	N	_	8	amod	_	_
+6	qoraygan	qoraymoq	VERB	V	Aspect=Perf|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+7	qoraqaragʻay	qoraqaragʻay	NOUN	N	_	8	amod	_	_
 8	yerlardan	yer	NOUN	N	Case=Abl|Number=Plur	11	obl	_	_
-9	ozuqa	ozu	NOUN	N	_	10	obj	_	_
+9	ozuqa	ozuqa	NOUN	N	_	10	obj	_	_
 10	izlashni	izla	VERB	V	_	11	xcomp	_	_
 11	boshladi	boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	.	boshl	PUNCT	Y	_	11	punct	_	_
@@ -2480,7 +2507,7 @@
 5	-	por	PUNCT	Y	_	4	punct	_	_
 6	pora	por	NOUN	I	Case=Nom	8	obl	_	_
 7	bo'lib	bo'l	VERB	V	Aspect=Perf|VerbForm=Conv	8	compound:lvc	_	_
-8	ketgan	ket	AUX	V	Case=Nom|Tense=Past|VerbForm=Part	9	acl	_	_
+8	ketgan	ket	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
 9	shisha	shish	NOUN	N	Case=Nom	10	nmod	_	_
 10	parchalaridek	parchalaride	NOUN	N	_	12	obl	_	_
 11	sochilib	sochil	VERB	V	_	12	advcl	_	_
@@ -2494,16 +2521,16 @@
 3	daryo	daryo	NOUN	N	Case=Nom	4	compound	_	_
 4	qirgʻoqlari	qirgʻoq	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 5	boshida	bosh	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-6	,	bosh	PUNCT	Y	_	5	punct	_	_
-7	o'tirishni	o'tiri	VERB	V	Case=Dat|VerbForm=Ger	8	xcomp	_	_
-8	boshladi	boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	.	boshl	PUNCT	Y	_	8	punct	_	_
-10	.	boshl	PUNCT	Y	_	8	punct	_	_
-11	.	boshl	PUNCT	Y	_	8	punct	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
+7	o'tirishni	o'tirmoq	VERB	V	Case=Acc|VerbForm=Vnoun	8	xcomp	_	_
+8	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
+10	.	.	PUNCT	Y	_	8	punct	_	_
+11	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1700
 # text = tunda bir yovvoyi quyon bu yerdan oʻtdi - da , uzoqlarga yugurib ketdi .
-1	tunda	tun	NOUN	N	Case=Loc	7	nmod:tmod	_	_
+1	tunda	tun	NOUN	N	Case=Loc	7	nmod	_	_
 2	bir	tun	NUM	M	_	4	nummod	_	_
 3	yovvoyi	yovvoy	ADJ	A	_	4	amod	_	_
 4	quyon	quyon	ADJ	N	_	7	nsubj	_	_
@@ -2527,79 +2554,81 @@
 5	sohil	sohil	NOUN	N	Case=Nom	6	nmod	_	_
 6	ustiga	ust	NOUN	N	_	9	obl	_	_
 7	gul	ust	NOUN	N	Case=Nom	9	obl	_	_
-8	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	7	cop	_	_
-9	chekilardi	chekil	VERB	V	_	0	root	_	_
-10	.	chekil	PUNCT	Y	_	9	punct	_	_
+8	boʻlib	boʻl	AUX	V	_	7	cop	_	_
+9	chekilardi	chekmoq	VERB	V	_	0	root	_	_
+10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1702
 # text = goʻdak chogʻlarimda yiqilib ketishdan juda xavfsirardim .
 1	goʻdak	goʻ	NOUN	N	Case=Nom	2	amod	_	_
 2	chogʻlarimda	chogʻlari	NOUN	N	_	6	obl	_	_
-3	yiqilib	yiqil	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
-4	ketishdan	keti	AUX	V	Case=Abl|VerbForm=Ger	3	aux	_	_
-5	juda	jud	ADV	D	_	6	advmod	_	_
-6	xavfsirardim	xavfsir	VERB	V	_	0	root	_	_
-7	.	xavfsir	PUNCT	Y	_	6	punct	_	_
+3	yiqilib	yiqilmoq	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+4	ketishdan	ketmoq	VERB	V	Case=Abl|VerbForm=Vnoun	6	obl	_	_
+5	juda	juda	ADV	D	_	6	advmod	_	_
+6	xavfsirardim	xavfsiramoq	VERB	V	_	0	root	_	_
+7	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1703
 # text = ancha yoshlarga kirib qolgan bo'lsamda hech qancha ishni vujudga chiqarolmadim , deb o'yladim .
 1	ancha	ancha	NOUN	D	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	2	amod	_	_
 2	yoshlarga	yosh	NOUN	N	Case=Dat|Number=Plur	3	obl	_	_
 3	kirib	kir	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
-4	qolgan	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+4	qolgan	qolmoq	VERB	V	Tense=Past|VerbForm=Part	5	xcomp	_	_
 5	bo'lsamda	bo'l	VERB	N	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	9	parataxis	_	_
-6	hech qancha	_	PRON	P	_	7	det	_	_
-7	ishni	ish	NOUN	N	Case=Acc	9	obj	_	_
-8	vujudga	vujud	NOUN	N	_	9	compound	_	_
-9	chiqarolmadim	_	VERB	V	_	11	ccomp	_	_
-10	,	,	PUNCT	Y	_	9	punct	_	_
-11	deb	_	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
-12	o'yladim	o'yl	VERB	V	_	0	root	_	_
-13	.	o'yl	PUNCT	Y	_	12	punct	_	_
+6	hech	hech	PART	P	_	7	advmod	_	_
+7	qancha	qancha	DET	D	_	8	nsubj	_	_
+8	ishni	ish	NOUN	N	Case=Acc	10	obj	_	_
+9	vujudga	vujud	NOUN	N	_	10	compound	_	_
+10	chiqarolmadim	_	VERB	V	_	12	ccomp	_	_
+11	,	,	PUNCT	Y	_	10	punct	_	_
+12	deb	deb	VERB	V	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
+13	o'yladim	o'ylamoq	VERB	V	_	0	root	_	_
+14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s1704
 # text = shuning uchun , oʻn yetti yoshga kirguncha oʻz - oʻzimni ayblab yurdim .
-1	shuning uchun	shuning uchun	ADV	C	_	11	cc	_	_
-2	,	shuning uchun	PUNCT	Y	_	1	punct	_	_
-3	oʻn	shuning uchun	NUM	M	Case=Nom|NumType=Ord	4	compound	_	_
-4	yetti	yet	NUM	M	_	5	nummod	_	_
-5	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	6	obl	_	_
-6	kirguncha	kir	VERB	V	_	11	advcl	_	_
-7	oʻz	kir	PRON	P	Case=Nom|Reflex=Yes	9	compound:redup	_	_
-8	-	kir	PUNCT	Y	_	7	punct	_	_
-9	oʻzimni	oʻzi	NOUN	N	_	10	obj	_	_
-10	ayblab	aybla	NOUN	N	_	11	advcl	_	_
-11	yurdim	yur	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-12	.	yur	PUNCT	Y	_	11	punct	_	_
+1	shuning	shu	PRON	P	Case=Gen|Number=Sing|Person=3	2	fixed	_	_
+2	uchun	uchun	ADP	P	_	12	discourse	_	_
+3	,	,	PUNCT	Y	_	2	punct	_	_
+4	oʻn	oʻn	NUM	M	Case=Nom|NumType=Ord	5	compound	_	_
+5	yetti	yetti	NUM	M	_	6	nummod	_	_
+6	yoshga	yosh	NOUN	N	Case=Dat	7	obl	_	_
+7	kirguncha	kir	VERB	V	_	12	advcl	_	_
+8	oʻz	oʻz	PRON	P	Case=Nom|Reflex=Yes	10	compound:redup	_	_
+9	-	-	PUNCT	Y	_	8	punct	_	_
+10	oʻzimni	oʻz	NOUN	N	_	11	obj	_	_
+11	ayblab	ayblamoq	NOUN	N	_	12	advcl	_	_
+12	yurdim	yur	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s1705
 # text = lekin, oʻn yetti yoshda yetganda kishilar meni barakalla; ofarin; pahlavon, botir yurakli san! olg'a; pahlavon; deb maqtashadigan boʻldi.
 1	lekin	lekin	CCONJ	C	_	6	cc	_	SpaceAfter=No
 2	,	lekin	PUNCT	Y	_	1	punct	_	_
 3	oʻn	lekin	NUM	M	NumType=Card	4	compound	_	_
-4	yetti	yet	NUM	M	NumType=Card	5	compound	_	_
+4	yetti	yetmoq	NUM	M	NumType=Card	5	compound	_	_
 5	yoshda	yosh	NOUN	N	Case=Loc	6	obl	_	_
-6	yetganda	yet	VERB	V	VerbForm=Conv	24	advcl	_	_
-7	kishilar	kish	NOUN	N	Case=Nom|Number=Plur	24	nsubj	_	_
+6	yetganda	yetmoq	VERB	V	VerbForm=Conv	24	advcl	_	_
+7	kishilar	kishi	NOUN	N	Case=Nom|Number=Plur	24	nsubj	_	_
 8	meni	men	PRON	P	Case=Acc|Person=1|PronType=Prs	24	obj	_	_
 9	barakalla	barakall	INTJ	E	_	17	discourse	_	SpaceAfter=No
-10	;	barakall	PUNCT	Y	_	9	punct	_	_
+10	;	;	PUNCT	Y	_	9	punct	_	_
 11	ofarin	ofarin	INTJ	E	_	17	discourse	_	SpaceAfter=No
-12	;	ofarin	PUNCT	Y	_	11	punct	_	_
+12	;	;	PUNCT	Y	_	11	punct	_	_
 13	pahlavon	pahlavon	NOUN	N	_	17	conj	_	SpaceAfter=No
-14	,	pahlavon	PUNCT	Y	_	13	punct	_	_
+14	,	,	PUNCT	Y	_	13	punct	_	_
 15	botir	bot	ADJ	A	_	16	amod	_	_
 16	yurakli	yurakl	ADJ	A	_	17	amod	_	_
-17	san	yurakl	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	ccomp	_	SpaceAfter=No
-18	!	yurakl	PUNCT	Y	_	17	punct	_	_
-19	olg'a	olg'	INTJ	E	_	17	discourse	_	SpaceAfter=No
-20	;	olg'	PUNCT	Y	_	19	punct	_	_
+17	san	san	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	ccomp	_	SpaceAfter=No
+18	!	!	PUNCT	Y	_	17	punct	_	_
+19	olg'a	olg'a	INTJ	E	_	17	discourse	_	SpaceAfter=No
+20	;	;	PUNCT	Y	_	19	punct	_	_
 21	pahlavon	pahlavon	NOUN	N	_	17	conj	_	SpaceAfter=No
-22	;	pahlavon	PUNCT	Y	_	21	punct	_	_
-23	deb	pahlavon	SCONJ	C	_	24	mark	_	_
-24	maqtashadigan	maqtash	VERB	V	Tense=Fut|VerbForm=Part	0	root	_	_
+22	;	;	PUNCT	Y	_	21	punct	_	_
+23	deb	deb	ADV	C	_	24	advmod	_	_
+24	maqtashadigan	maqtamoq	VERB	V	Tense=Fut|VerbForm=Part	0	root	_	_
 25	boʻldi	boʻl	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
-26	.	boʻl	PUNCT	Y	_	24	punct	_	_
+26	.	.	PUNCT	Y	_	24	punct	_	_
 
 # sent_id = s1706
 # text = oqar suvdek oʻtayotgan umrimga pushaymon qilmaydigan , hatto qancha yugursam kishilar meni suncha maqtaydiganga o'xshaydi , deb o'ylab qoldim .
@@ -2609,7 +2638,7 @@
 4	umrimga	umri	NOUN	N	_	6	obl	_	_
 5	pushaymon	pushaymon	NOUN	N	Case=Nom	6	compound	_	_
 6	qilmaydigan	qil	VERB	V	_	18	parataxis	_	_
-7	,	qil	PUNCT	Y	_	6	punct	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
 8	hatto	hatto	CCONJ	C	_	18	cc	_	_
 9	qancha	qancha	DET	P	_	10	obl	_	_
 10	yugursam	yugu	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	15	advcl	_	_
@@ -2618,16 +2647,16 @@
 13	suncha	sunch	NOUN	N	_	14	amod	_	_
 14	maqtaydiganga	maqta	VERB	V	_	15	xcomp	_	_
 15	o'xshaydi	o'xshay	VERB	V	_	17	ccomp	_	_
-16	,	o'xshay	PUNCT	Y	_	15	punct	_	_
-17	deb	o'xshay	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	_
-18	o'ylab	o'yla	VERB	V	_	0	root	_	_
-19	qoldim	qol	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	_
-20	.	qol	PUNCT	Y	_	19	punct	_	_
+16	,	,	PUNCT	Y	_	15	punct	_	_
+17	deb	demoq	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	_
+18	o'ylab	o'ylamoq	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
+19	qoldim	qol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+20	.	.	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s1707
 # text = bir kuni tongda mehribon ayol mashinimizni yuvishga yordamlashti .
-1	bir	qol	DET	M	Case=Nom|NumType=Ord	2	det	_	_
-2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod:tmod	_	_
+1	bir	qol	DET	M	_	2	det	_	_
+2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod	_	_
 3	tongda	tong	NOUN	N	_	8	nsubj	_	_
 4	mehribon	mehribon	ADJ	A	_	3	compound	_	_
 5	ayol	ayol	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	appos	_	_
@@ -2658,17 +2687,17 @@
 1	men	surt	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	bor	surt	ADJ	A	_	3	amod	_	_
 3	kuchim	kuch	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	_
-4	bilan	bilan	ADP	R	_	5	advmod	_	_
+4	bilan	bilan	ADP	ADP	_	3	case	_	_
 5	ishladim	ishl	VERB	V	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	.	ishl	PUNCT	Y	_	5	punct	_	_
+6	.	.	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s1711
 # text = u peshonamdagi terni koʻrgan boʻlsa kerak , mendan : _ _ qancha yoshga kirdingiz ? _ _ deb soʻradi .
 1	u	ishl	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	peshonamdagi	peshonamdag	NOUN	N	_	3	amod	_	_
 3	terni	ter	NOUN	N	_	4	obj	_	_
-4	koʻrgan	koʻr	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	parataxis	_	_
-5	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	aux	_	_
+4	koʻrgan	koʻrmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	parataxis	_	_
+5	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3	4	aux	_	_
 6	kerak	ker	ADJ	A	_	4	advmod	_	_
 7	,	ker	PUNCT	Y	_	6	punct	_	_
 8	mendan	men	PRON	P	Case=Abl|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
@@ -2676,28 +2705,27 @@
 10	_	men	PUNCT	Y	_	8	punct	_	_
 11	_	men	PUNCT	Y	_	8	punct	_	_
 12	qancha	qancha	DET	P	_	13	det	_	_
-13	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	14	obl	_	_
-14	kirdingiz	kird	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	18	ccomp	_	_
-15	?	kird	PUNCT	Y	_	14	punct	_	_
-16	_	kird	PUNCT	Y	_	14	punct	_	_
-17	_	kird	PUNCT	Y	_	14	punct	_	_
-18	deb	kird	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
-19	soʻradi	soʻr	VERB	V	_	0	root	_	_
-20	.	soʻr	PUNCT	Y	_	19	punct	_	_
+13	yoshga	yosh	NOUN	N	Case=Dat	14	obl	_	_
+14	kirdingiz	kirmoq	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+15	?	?	PUNCT	Y	_	14	punct	_	_
+16	_	-	PUNCT	Y	_	14	punct	_	_
+17	_	-	PUNCT	Y	_	14	punct	_	_
+18	deb	demoq	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
+19	soʻradi	soʻramoq	VERB	V	_	0	root	_	_
+20	.	.	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s1712
-# text = men unga bir pas tikilib qarab qoldim hamda tashvishlanishni boshladim .
-1	men	soʻr	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-2	unga	ung	PRON	P	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
-3	bir	ung	NUM	M	Case=Nom|NumType=Ord	6	obl	_	_
-4	pas	ung	ADJ	A	_	3	fixed	_	_
-5	tikilib	tikil	VERB	V	Aspect=Perf|VerbForm=Conv|Voice=Pass	6	advcl	_	_
-6	qarab	qara	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-7	qoldim	qol	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
-8	hamda	ham	CCONJ	C	_	10	cc	_	_
-9	tashvishlanishni	tashvishlani	VERB	N	Case=Dat|VerbForm=Ger	10	obl	_	_
-10	boshladim	boshl	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	_
-11	.	boshl	PUNCT	Y	_	6	punct	_	_
+# text = men unga birpas tikilib qarab qoldim hamda tashvishlanishni boshladim .
+1	men	men	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	unga	unga	PRON	P	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+3	birpas	birpas	ADV	R	_	6	obl	_	_
+4	tikilib	tikilmoq	VERB	V	Aspect=Perf|VerbForm=Conv|Voice=Pass	6	advcl	_	_
+5	qarab	qaramoq	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+6	qoldim	qolmoq	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+7	hamda	ham	CCONJ	C	_	9	cc	_	_
+8	tashvishlanishni	tashvishlanmoq	VERB	N	Case=Dat	9	obl	_	_
+9	boshladim	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	6	conj	_	_
+10	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1713
 # text = chunki , men oddiy odamning koʻzlaridan tabiatning shafqatsiz qanuniyitini koʻrgandim .
@@ -2737,21 +2765,21 @@
 2	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 3	koʻzlariga	koʻz	NOUN	N	_	4	obl	_	_
 4	tikilib	tikil	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
-5	turib	tur	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-6	qoldim	qol	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
-7	.	qol	PUNCT	Y	_	6	punct	_	_
+5	turib	turmoq	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+6	qoldim	qolmoq	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1716
 # text = koʻnglim parokanda edi .
-1	koʻnglim	koʻngl	NOUN	N	_	2	nsubj	_	_
-2	parokanda	paro	ADJ	A	_	0	root	_	_
-3	edi	paro	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
-4	.	paro	PUNCT	Y	_	2	punct	_	_
+1	koʻnglim	koʻngil	NOUN	N	_	2	nsubj	_	_
+2	parokanda	parokanda	ADJ	A	_	0	root	_	_
+3	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	.	.	PUNCT	Y	_	2	punct	_	_
 
 # sent_id = s1717
 # text = men noqulay holda uning savolini takrorladim :
 1	men	paro	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-2	noqulay	noqul	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	6	obl	_	_
+2	noqulay	noqul	VERB	V	Case=Nom|Tense=Past	6	obl	_	_
 3	holda	hol	NOUN	N	Case=Loc	2	case	_	_
 4	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 5	savolini	savol	NOUN	N	_	6	obj	_	_
@@ -2763,9 +2791,9 @@
 1	_	takrorl	PUNCT	Y	_	6	punct	_	_
 2	_	takrorl	PUNCT	Y	_	6	punct	_	_
 3	necha	nech	DET	P	_	4	det	_	_
-4	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	5	obl	_	_
-5	kirdingiz	kird	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	6	ccomp	_	_
-6	deysizmi	dey	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	yoshga	yosh	VERB	N	Case=Dat	5	obl	_	_
+5	kirdingiz	kird	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+6	deysizmi	dey	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	?	dey	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1719
@@ -2784,37 +2812,39 @@
 12	_	ayol	PUNCT	Y	_	16	punct	_	_
 13	_	ayol	PUNCT	Y	_	16	punct	_	_
 14	nechiga	nech	NOUN	N	_	15	nmod	_	_
-15	kirdingiz	kird	VERB	N	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+15	kirdingiz	kird	VERB	N	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	16	ccomp	_	_
 16	deyapman	deyap	VERB	V	_	8	advcl	_	_
 17	.	deyap	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1720
 # text = men koʻnglimdagi tahlikani oxiri bosib oldim ;
-1	men	deyap	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-2	koʻnglimdagi	koʻnglimdag	NOUN	N	_	3	amod	_	_
-3	tahlikani	tahli	NOUN	N	Case=Acc	5	obj	_	_
-4	oxiri	oxi	NOUN	D	Case=Nom	5	obl	_	_
-5	bosib oldim	bosib ol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-6	;	bosib ol	PUNCT	Y	_	5	punct	_	_
+1	men	men	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	koʻnglimdagi	koʻngil	NOUN	N	_	3	amod	_	_
+3	tahlikani	tahl	NOUN	N	Case=Acc	5	obj	_	_
+4	oxiri	oxir	NOUN	D	Case=Nom	5	obl	_	_
+5	bosib	bos	VERB	V	VerbForm=Conv	6	compound	_	_
+6	oldim	ol	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+7	;	;	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1721
 # text = _ _ nechi yoshga kirdingiz deysiz ? oʻzingizga ham boqing , mana men bu vaqtda ishlayotibmanku .
-1	_	bosib ol	PUNCT	Y	_	15	punct	_	_
-2	_	bosib ol	PUNCT	Y	_	15	punct	_	_
-3	nechi	nech	DET	P	_	4	det	_	_
-4	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	5	obl	_	_
-5	kirdingiz	kird	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	6	ccomp	_	_
-6	deysiz	dey	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
-7	?	dey	PUNCT	Y	_	6	punct	_	_
+1	_	-	PUNCT	Y	_	15	punct	_	_
+2	_	-	PUNCT	Y	_	15	punct	_	_
+3	nechi	nechi	DET	P	_	4	det	_	_
+4	yoshga	yosh	VERB	N	Case=Dat	5	obl	_	_
+5	kirdingiz	kirmoq	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+6	deysiz	demoq	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+7	?	?	PUNCT	Y	_	6	punct	_	_
 8	oʻzingizga	oʻz	PRON	P	Case=Nom	10	nsubj	_	_
-9	ham	oʻz	VERB	V	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_
+9	ham	ham	VERB	V	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_
 10	boqing	boq	VERB	V	_	15	parataxis	_	_
-11	,	boq	PUNCT	Y	_	10	punct	_	_
-12	mana	man	PRON	P	_	15	obl	_	_
-13	men	man	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-14	bu vaqtda	bu vaqt	NOUN	N	_	15	obl	_	_
-15	ishlayotibmanku	ishlayotibmanku	VERB	V	_	0	root	_	_
-16	.	ishlayotibmanku	PUNCT	Y	_	15	punct	_	_
+11	,	,	PUNCT	Y	_	10	punct	_	_
+12	mana	mana	PRON	P	_	15	obl	_	_
+13	men	men	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	bu	bu	DET	DET	PronType=Dem	15	det	_	_
+15	vaqtda	vaqt	NOUN	N	Case=Loc	16	obl	_	_
+16	ishlayotibmanku	ishlamoq	VERB	V	_	0	root	_	_
+17	.	.	PUNCT	Y	_	16	punct	_	_
 
 # sent_id = s1722
 # text = menku koʻrib turibman, dedi u, yomon emas ishlayotganingiz.
@@ -2822,13 +2852,13 @@
 2	koʻrib	koʻ	VERB	V	VerbForm=Conv	3	advcl	_	_
 3	turibman	tur	VERB	V	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 4	,	tur	PUNCT	Y	_	3	punct	_	_
-5	dedi	ded	VERB	V	Tense=Past|VerbForm=Fin	0	root	_	_
-6	u	ded	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
-7	,	ded	PUNCT	Y	_	5	punct	_	_
-8	yomon	yomon	ADJ	A	_	9	amod	_	_
-9	emas	emas	ADJ	A	Polarity=Neg	10	cop	_	_
-10	ishlayotganingiz	ishl	VERB	V	Number=Sing|Person=2|PronType=Prs|Tense=Pres|VerbForm=Part	5	ccomp	_	SpaceAfter=No
-11	.	ishl	PUNCT	Y	_	10	punct	_	_
+5	dedi	demoq	VERB	V	Tense=Past|VerbForm=Fin	0	root	_	_
+6	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	Y	_	5	punct	_	_
+8	yomon	yomon	ADJ	A	_	10	amod	_	_
+9	emas	emas	AUX	V	Polarity=Neg|VerbForm=Fin	10	cop	_	_
+10	ishlayotganingiz	ishlamoq	VERB	V	Number=Sing|Person=2|Tense=Pres|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1723
 # text = lekin , aslida nechi yoshga kirgansiz ?
@@ -2836,7 +2866,7 @@
 2	,	lekin	PUNCT	Y	_	1	punct	_	_
 3	aslida	asl	ADV	T	_	6	advmod	_	_
 4	nechi	nech	DET	P	_	5	det	_	_
-5	yoshga	yosh	VERB	N	Case=Dat|VerbForm=Ger	6	obl	_	_
+5	yoshga	yosh	NOUN	N	Case=Dat	6	obl	_	_
 6	kirgansiz	kir	VERB	V	_	0	root	_	_
 7	?	kir	PUNCT	Y	_	6	punct	_	_
 
@@ -2857,7 +2887,7 @@
 13	olganda	olgan	VERB	V	Tense=Past|VerbForm=Conv	5	advcl	_	SpaceAfter=No
 14	,	olgan	PUNCT	Y	_	13	punct	_	_
 15	otning	otn	NOUN	N	Case=Gen	16	nmod:poss	_	_
-16	yurishi	yuri	NOUN	N	VerbForm=Vnoun	17	nsubj	_	_
+16	yurishi	yurish	NOUN	N	_	17	nsubj	_	_
 17	qarimaydida	qarimayd	VERB	V	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 18	.	qarimayd	PUNCT	Y	_	17	punct	_	_
 
@@ -2867,7 +2897,7 @@
 2	_	qarimayd	PUNCT	Y	_	11	punct	_	_
 3	joyida	joy	NOUN	N	Case=Nom	5	obl	_	_
 4	gap	joy	NOUN	N	Case=Nom	5	compound	_	_
-5	qildingiz	qild	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+5	qildingiz	qild	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	11	ccomp	_	_
 6	!	qild	PUNCT	V	_	5	punct	_	_
 7	_	qild	PUNCT	Y	_	5	punct	_	_
 8	_	qild	PUNCT	Y	_	5	punct	_	_
@@ -2893,7 +2923,7 @@
 3	holda	hol	NOUN	N	Case=Loc	2	case	_	_
 4	oʻziga	oʻz	PRON	P	Case=Nom|Reflex=Yes	6	compound:redup	_	_
 5	-	oʻz	PUNCT	Y	_	4	punct	_	_
-6	oʻzi	oʻz	PRON	P	_	19	nmod:cau	_	_
+6	oʻzi	oʻz	PRON	P	_	19	nmod	_	_
 7	:	oʻz	PUNCT	Y	_	6	punct	_	_
 8	qayta	qayt	X	Y	_	14	dep	_	_
 9	qayta;	qayta;	X	Y	_	14	dep	_	_
@@ -2922,7 +2952,7 @@
 # sent_id = s1729
 # text = daraxt uchlariga qizgʻish jilo tutulishi bilan chinor daraxtining bahaybat surati zulmatga mahkum boʻldi .
 1	daraxt	daraxt	NOUN	N	Case=Nom	2	nmod	_	_
-2	uchlariga	uch	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:cau	_	_
+2	uchlariga	uch	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
 3	qizgʻish	qizgʻi	ADJ	A	_	4	amod	_	_
 4	jilo	jilo	NOUN	N	Case=Nom	5	nsubj	_	_
 5	tutulishi	tutuli	NOUN	N	_	13	parataxis	_	_
@@ -2988,14 +3018,14 @@
 2	_	ded	PUNCT	Y	_	10	punct	_	_
 3	endi	end	NOUN	D	Case=Nom	5	obl	_	_
 4	nima	nima	NOUN	P	Case=Nom	5	obj	_	_
-5	qilasiz	qil	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-6	?	qil	PUNCT	Y	_	5	punct	_	_
-7	_	qil	PUNCT	Y	_	5	punct	_	_
-8	_	qil	PUNCT	Y	_	5	punct	_	_
-9	deb	qil	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
-10	so'radik	so'	VERB	V	_	0	root	_	_
-11	biz	so'	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-12	.	so'	PUNCT	Y	_	10	punct	_	_
+5	qilasiz	qilmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+6	?	?	PUNCT	Y	_	5	punct	_	_
+7	_	-	PUNCT	Y	_	5	punct	_	_
+8	_	-	PUNCT	Y	_	5	punct	_	_
+9	deb	deb	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+10	so'radik	so'ramoq	VERB	V	_	0	root	_	_
+11	biz	bir	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+12	.	.	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1735
 # text = _ _ hech ish yoʻq , yana bir kachki quyoshni kutmasdan iloj yoʻq .
@@ -3035,9 +3065,9 @@
 9	bilan	bilan	ADP	R	_	8	case	_	_
 10	abadiy	abadiy	ADJ	A	_	11	advmod	_	_
 11	xo'shlashgan	xo'shlash	NOUN	N	_	17	parataxis	_	_
-12	edi	xo'shlash	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	aux	_	_
-13	,	xo'shlash	PUNCT	Y	_	12	punct	_	_
-14	u	xo'shlash	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+12	edi	edi	AUX	V	Mood=Cnd|Number=Sing|Person=3	11	aux	_	_
+13	,	,	PUNCT	Y	_	12	punct	_	_
+14	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 15	yana	yan	ADV	D	_	17	advmod	_	_
 16	qaytib	qayt	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
 17	kelolmaydi	kelol	VERB	V	_	0	root	_	_
@@ -3145,17 +3175,18 @@
 
 # sent_id = s1746
 # text = _ _ men ham shunday ! _ _ dedi yana biri .
-1	_	bir	PUNCT	Y	_	8	punct	_	_
-2	_	bir	PUNCT	Y	_	8	punct	_	_
-3	men ham	men h	PRON	P	_	4	nsubj	_	_
-4	shunday	shund	ADV	P	_	8	ccomp	_	_
-5	!	shund	PUNCT	V	_	4	punct	_	_
-6	_	shund	PUNCT	Y	_	4	punct	_	_
-7	_	shund	PUNCT	Y	_	4	punct	_	_
-8	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	yana	yan	ADV	D	_	10	advmod	_	_
-10	biri	bir	NUM	M	Case=Nom|Number[psor]=Plur,Sing|NumType=Ord|Person[psor]=3	8	nsubj	_	_
-11	.	bir	PUNCT	Y	_	8	punct	_	_
+1	_	_	PUNCT	Y	_	5	punct	_	_
+2	_	_	PUNCT	Y	_	5	punct	_	_
+3	men	men	PRON	P	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+4	ham	ham	PART	PTL	_	3	discourse	_	_
+5	shunday	shunday	ADV	P	_	9	ccomp	_	_
+6	!	!	PUNCT	Y	_	5	punct	_	_
+7	_	_	PUNCT	Y	_	5	punct	_	_
+8	_	_	PUNCT	Y	_	5	punct	_	_
+9	dedi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	yana	yana	ADV	D	_	11	advmod	_	_
+11	biri	bir	PRON	P	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	_
+12	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1747
 # text = ular shu turli orzulari boʻyicha ayrilib ketishti .
@@ -3194,15 +3225,15 @@
 # sent_id = s1750
 # text = boʻronlar qum va tozanlarni uchurib kelib ularning orasiga tindirdi .
 1	boʻronlar	boʻron	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	_
-2	qum	boʻron	NOUN	N	Case=Nom	5	obj	_	_
-3	va	boʻron	CCONJ	C	_	4	cc	_	_
+2	qum	qum	NOUN	N	Case=Nom	5	obj	_	_
+3	va	va	CCONJ	C	_	4	cc	_	_
 4	tozanlarni	tozan	NOUN	N	Case=Acc|Number=Plur	2	conj	_	_
-5	uchurib	uchu	VERB	V	_	9	advcl	_	_
-6	kelib	kel	AUX	V	Aspect=Perf|VerbForm=Conv	5	aux	_	_
+5	uchurib	uchurmoq	VERB	V	_	9	advcl	_	_
+6	kelib	kelmoq	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 7	ularning	ular	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
 8	orasiga	ora	NOUN	N	_	9	obj	_	_
-9	tindirdi	tind	VERB	V	_	0	root	_	_
-10	.	tind	PUNCT	Y	_	9	punct	_	_
+9	tindirdi	tindirmoq	VERB	V	_	0	root	_	_
+10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s1751
 # text = ularning orasidagi bu samarasiz yerdan yana bir tup yosh novdalar yetishib chiqdi .
@@ -3214,7 +3245,7 @@
 6	yana	yan	ADV	D	_	7	nmod	_	_
 7	bir	yan	NUM	M	_	8	nummod	_	_
 8	tup	yan	NOUN	Q	Case=Nom	10	nmod	_	_
-9	yosh	yosh	VERB	A	Case=Nom|VerbForm=Ger	10	amod	_	_
+9	yosh	yosh	VERB	A	Case=Nom	10	amod	_	_
 10	novdalar	nov	NOUN	N	_	12	nsubj	_	_
 11	yetishib	yeti	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 12	chiqdi	chiq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3236,27 +3267,28 @@
 # sent_id = s1753
 # text = qayinzor har kuni tongdan uchib ufq shafaq qiziliga choʻmgangacha , shoxdan – shoxga qo'nib yurgan qushlarning sho'x sayrashlari bilan jonlanib ketadigan bo'ldi .
 1	qayinzor	qayinzo	NOUN	N	_	20	nsubj	_	_
-2	har kuni	har ku	PRON	P	_	20	obl	_	_
-3	tongdan	tong	NOUN	N	Case=Nom	4	nsubj	_	_
-4	uchib	uch	VERB	V	_	8	advcl	_	_
-5	ufq	uch	NOUN	V	Case=Nom	8	obl	_	_
-6	shafaq	shafaq	NOUN	N	Case=Nom	7	amod	_	_
-7	qiziliga	qizil	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
-8	choʻmgangacha	choʻmgangach	VERB	V	_	20	advcl	_	_
-9	,	choʻmgangach	PUNCT	Y	_	8	punct	_	_
-10	shoxdan	shox	NOUN	N	_	12	compound	_	_
-11	–	shox	PUNCT	N	_	10	punct	_	_
-12	shoxga	shox	NOUN	N	_	14	nmod:cau	_	_
-13	qo'nib	qo'n	VERB	V	Aspect=Perf|VerbForm=Conv	14	compound:lvc	_	_
-14	yurgan	yur	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	15	acl	_	_
-15	qushlarning	qush	NOUN	N	Case=Gen|Number=Plur	17	nmod:poss	_	_
-16	sho'x	sho'x	ADJ	A	_	17	amod	_	_
-17	sayrashlari	sayrash	NOUN	N	_	20	obl	_	_
-18	bilan	bilan	ADP	R	_	17	case	_	_
-19	jonlanib	jonlan	VERB	V	_	20	xcomp	_	_
-20	ketadigan	ket	VERB	V	_	0	root	_	_
-21	bo'ldi	bo'l	AUX	V	_	19	cop	_	_
-22	.	bo'l	PUNCT	Y	_	20	punct	_	_
+2	har	har	DET	D	PronType=Ind	3	det	_	_
+3	kuni	kun	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	20	obl	_	_
+4	tongdan	tong	NOUN	N	Case=Nom	5	nsubj	_	_
+5	uchib	uch	VERB	V	_	9	advcl	_	_
+6	ufq	ufq	NOUN	V	Case=Nom	9	obl	_	_
+7	shafaq	shafaq	NOUN	N	Case=Nom	8	amod	_	_
+8	qiziliga	qizil	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+9	choʻmgangacha	choʻmgangach	VERB	V	_	21	advcl	_	_
+10	,	,	PUNCT	Y	_	9	punct	_	_
+11	shoxdan	shox	NOUN	N	_	13	compound	_	_
+12	–	-	PUNCT	N	_	11	punct	_	_
+13	shoxga	shox	NOUN	N	_	15	nmod	_	_
+14	qo'nib	qo'n	VERB	V	Aspect=Perf|VerbForm=Conv	15	compound:lvc	_	_
+15	yurgan	yur	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	16	acl	_	_
+16	qushlarning	qush	NOUN	N	Case=Gen|Number=Plur	18	nmod:poss	_	_
+17	sho'x	sho'x	ADJ	A	_	18	amod	_	_
+18	sayrashlari	sayrash	NOUN	N	_	21	obl	_	_
+19	bilan	bilan	ADP	R	_	18	case	_	_
+20	jonlanib	jonlan	VERB	V	_	21	xcomp	_	_
+21	ketadigan	ket	VERB	V	Tense=Fut|VerbForm=Part	22	acl	_	_
+22	bo'ldi	bo'l	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	.	.	PUNCT	Y	_	22	punct	_	_
 
 # sent_id = s1754
 # text = qushlar sayramoqda .
@@ -3318,9 +3350,9 @@
 6	makon	makon	NOUN	N	Case=Nom	7	compound	_	_
 7	etip	etip	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 8	doimo	doimo	VERB	V	_	9	advcl	_	_
-9	sayrab	sayra	VERB	V	_	0	root	_	_
-10	turibdi	tur	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-11	.	tur	PUNCT	Y	_	10	punct	_	_
+9	sayrab	sayramoq	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+10	turibdi	turmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1760
 # text = shuning bilan , u xalq bilan kengash oʻtkazib : « bizga bu tarixni aniqlashda qanday yanglishgan boʻlsak , kelajak avlodlarimizda shunday yanglishadi . shunga , bizga 12 oyga osmonning burjiga asoslinib , har bir yilga nom qo'yaylik , bundan keyin yil hisobi shu yillarning aylanishi bilan hisoblanadigan bo'lsin » debdi .
@@ -3339,8 +3371,8 @@
 13	tarixni	tarix	NOUN	N	Case=Acc	14	obj	_	_
 14	aniqlashda	aniqla	VERB	V	_	16	obl	_	_
 15	qanday	qand	ADV	P	PronType=Int	16	amod	_	_
-16	yanglishgan	yanglish	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	22	advcl	_	_
-17	boʻlsak	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	16	aux	_	_
+16	yanglishgan	yanglish	VERB	V	Case=Nom|Tense=Past	22	advcl	_	_
+17	boʻlsak	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=1	16	aux	_	_
 18	,	boʻl	PUNCT	Y	_	17	punct	_	_
 19	kelajak	kelaj	NOUN	V	Case=Nom	20	amod	_	_
 20	avlodlarimizda	avlodlari	NOUN	N	_	22	nsubj	_	_
@@ -3368,7 +3400,7 @@
 42	hisobi	hisob	NOUN	N	_	48	nsubj	_	_
 43	shu	hisob	PRON	P	Case=Nom|PronType=Dem	44	det	_	_
 44	yillarning	yil	NOUN	N	Case=Gen|Number=Plur	45	nmod:poss	_	_
-45	aylanishi	aylani	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	48	obl	_	_
+45	aylanishi	aylani	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	48	obl	_	_
 46	bilan	bilan	ADP	R	_	45	case	_	_
 47	hisoblanadigan	hisoblan	VERB	V	_	48	compound	_	_
 48	bo'lsin	bo'l	INTJ	V	_	50	ccomp	_	_
@@ -3379,10 +3411,10 @@
 # sent_id = s1761
 # text = uning aytganlarini xalq qo'llabdi .
 1	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
-2	aytganlarini	ayt	VERB	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	obj	_	_
+2	aytganlarini	aytmoq	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	obj	_	_
 3	xalq	xalq	NOUN	N	_	4	nsubj	_	_
-4	qo'llabdi	qo'lla	VERB	V	_	0	root	_	_
-5	.	qo'lla	PUNCT	Y	_	4	punct	_	_
+4	qo'llabdi	qo'llamoq	VERB	V	_	0	root	_	_
+5	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1762
 # text = suvdan eng avval sichqon oʻtibdi , shunga yil beshi « sichqon yili » deb atalibdi .
@@ -3513,9 +3545,9 @@
 13	kemasiga	kema	NOUN	N	_	16	obl	_	_
 14	o'tirib	o'ti	VERB	V	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
 15	yoʻlga	yoʻl	NOUN	N	Case=Dat	16	obl	_	_
-16	chiqmoqchi	chiq	AUX	V	_	0	root	_	_
-17	edi	chiq	VERB	V	_	16	xcomp	_	_
-18	.	chiq	PUNCT	Y	_	17	punct	_	_
+16	chiqmoqchi	chiqmoq	VERB	V	_	0	root	_	_
+17	edi	edi	VERB	V	_	16	xcomp	_	_
+18	.	.	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s1768
 # text = u oy shariga chiqip o'tirishgan yaqinlarini yo'qlab oʻtishni koʻngliga tukkandi .
@@ -3535,7 +3567,7 @@
 # text = olam kemasinng uchishiga yana yarim soat bor ekan , nima qilsam bo'ladi ?
 1	olam	ola	NOUN	N	Case=Nom	2	compound	_	_
 2	kemasinng	kemasin	NOUN	N	_	3	nmod:poss	_	_
-3	uchishiga	uchi	VERB	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	7	nmod	_	_
+3	uchishiga	uchi	VERB	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	7	nmod	_	_
 4	yana	yan	ADV	D	_	7	advmod	_	_
 5	yarim	yar	NUM	A	Case=Nom|NumType=Ord	6	amod	_	_
 6	soat	soat	NOUN	N	Case=Nom	7	nsubj	_	_
@@ -3551,9 +3583,9 @@
 # text = odiljon biroz o'ylanib qoldi ,
 1	odiljon	odiljon	NOUN	N	_	3	nsubj	_	_
 2	biroz	biroz	NOUN	D	Case=Nom	3	obl	_	_
-3	o'ylanib	o'ylan	VERB	V	_	0	root	_	_
-4	qoldi	qol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
-5	,	qol	PUNCT	Y	_	4	punct	_	_
+3	o'ylanib	o‘ylanmoq	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+4	qoldi	qolmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s1771
 # text = keyin ekranli telefonini olib keyin oy sharidagi buvisi bilan gaplashmoqchi boʻldi .
@@ -3588,7 +3620,7 @@
 5	buvi	buv	NOUN	N	Case=Nom	8	vocative	_	_
 6	,	buv	PUNCT	Y	_	5	punct	_	_
 7	yaxshi	yax	ADJ	A	_	8	advmod	_	_
-8	yuribsizmi	yur	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	0	root	_	_
+8	yuribsizmi	yur	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 9	?	yur	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s1774
@@ -3607,17 +3639,18 @@
 
 # sent_id = s1775
 # text = buvisi : voy - vuy , nega buncha tez ! deyapti .
-1	buvisi	buvi	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
-2	:	buvi	PUNCT	Y	_	1	punct	_	_
-3	voy	buvi	INTJ	E	_	5	compound	_	_
-4	-	buvi	PUNCT	Y	_	3	punct	_	_
-5	vuy	buvi	INTJ	E	_	8	discourse	_	_
-6	,	buvi	PUNCT	Y	_	5	punct	_	_
-7	nega buncha	nega bunch	PRON	P	_	8	obl	_	_
-8	tez	nega bunch	NOUN	A	Case=Nom	10	ccomp	_	_
-9	!	nega bunch	PUNCT	V	_	8	punct	_	_
-10	deyapti	deyap	VERB	V	_	0	root	_	_
-11	.	deyap	PUNCT	Y	_	10	punct	_	_
+1	buvisi	buvi	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
+2	:	:	PUNCT	Y	_	1	punct	_	_
+3	voy	voy	INTJ	E	_	5	compound	_	_
+4	-	-	PUNCT	Y	_	3	punct	_	_
+5	vuy	vuy	INTJ	E	_	8	discourse	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
+7	nega	nega	ADV	ADV	PronType=Int	8	advmod	_	_
+8	buncha	buncha	DET	D	PronType=Dem	11	det	_	_
+9	tez	tez	NOUN	A	Case=Nom	11	ccomp	_	_
+10	!	!	PUNCT	V	_	9	punct	_	_
+11	deyapti	demoq	VERB	V	_	0	root	_	_
+12	.	.	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1776
 # text = albatta , _ dedi odiljon , _ mening o'tirganim yangi tipdagi olam kemasi !
@@ -3686,17 +3719,17 @@
 # sent_id = s1780
 # text = xo'sh , buvi , sal turib koʻrishaylik ! - dedi odiljon ,
 1	xo'sh	xo'	ADJ	N	_	7	discourse	_	_
-2	,	xo'	PUNCT	Y	_	1	punct	_	_
+2	,	,	PUNCT	Y	_	1	punct	_	_
 3	buvi	buv	NOUN	N	Case=Nom	7	vocative	_	_
-4	,	buv	PUNCT	Y	_	3	punct	_	_
-5	sal	buv	NOUN	D	Case=Nom	7	obl	_	_
-6	turib	tur	VERB	V	Aspect=Perf|VerbForm=Conv	5	fixed	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
+5	sal	sal	NOUN	D	Case=Nom	7	obl	_	_
+6	turib	turmoq	VERB	V	Aspect=Perf|VerbForm=Conv	5	fixed	_	_
 7	koʻrishaylik	koʻri	VERB	V	_	10	ccomp	_	_
-8	!	koʻri	PUNCT	V	_	7	punct	_	_
-9	-	koʻri	PUNCT	Y	_	7	punct	_	_
-10	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	!	!	PUNCT	V	_	7	punct	_	_
+9	-	-	PUNCT	Y	_	7	punct	_	_
+10	dedi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	odiljon	odiljon	NOUN	N	_	10	nsubj	_	_
-12	,	odiljon	PUNCT	Y	_	10	punct	_	_
+12	,	,	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s1781
 # text = keyin oldidagi kompyuterini ochdi .
@@ -3722,13 +3755,14 @@
 
 # sent_id = s1783
 # text = men quyosh energiyasi manbayidan birini sotib olmoqchiydim ,
-1	men	kir	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-2	quyosh	quyo	NOUN	N	Case=Nom	3	compound	_	_
+1	men	men	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	quyosh	quyosh	NOUN	N	Case=Nom	3	compound	_	_
 3	energiyasi	energiya	NOUN	N	_	4	amod	_	_
 4	manbayidan	manbay	NOUN	N	_	6	obl	_	_
 5	birini	bir	NUM	M	Case=Acc|NumType=Ord	6	obj	_	_
-6	sotib olmoqchiydim	sotib olmoqch	VERB	V	_	0	root	_	_
-7	,	sotib olmoqch	PUNCT	Y	_	6	punct	_	_
+6	sotib	sotib	X	X	_	7	compound	_	_
+7	olmoqchiydim	olmoq	VERB	V	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1784
 # text = tushdan keyin soat ikkida olgani boraman . . .
@@ -3753,8 +3787,9 @@
 7	,	uchmaq	PUNCT	Y	_	6	punct	_	_
 8	xavfsizlik	xavfsiz	NOUN	N	Case=Nom	9	compound	_	_
 9	kamarini	kam	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
-10	taqib olinglar	taqib ol	VERB	V	_	0	root	_	_
-11	!	taqib ol	PUNCT	Y	_	10	punct	_	_
+10	taqib	taqib	NOUN	N	Case=Nom	11	compound	_	_
+11	olinglar	olmoq	VERB	V	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
+12	!	!	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s1786
 # text = olam kemisi ving - ng qilib boʻshliqqa koʻtarildi .
@@ -3781,19 +3816,20 @@
 9	,	bo'l	PUNCT	Y	_	8	punct	_	_
 10	shunga	shun	ADV	C	_	12	cc	_	_
 11	o'rnidan	o'rn	NOUN	N	_	12	obl	_	_
-12	tushib	tush	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-13	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
-14	.	ket	PUNCT	Y	_	13	punct	_	_
+12	tushib	tushmoq	VERB	V	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
+13	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s1788
-# text = vayjon ! - deb ovoz chiqardi odiljon .
+# text = vayjon ! - deb ovoz chiqardi Odiljon .
 1	vayjon	vayjon	NOUN	N	_	4	ccomp	_	_
-2	!	vayjon	PUNCT	V	_	1	punct	_	_
-3	-	vayjon	PUNCT	Y	_	1	punct	_	_
-4	deb	vayjon	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
-5	ovoz chiqardi	ovoz chiq	NOUN	N	_	0	root	_	_
-6	odiljon	odiljon	VERB	V	_	5	nsubj	_	_
-7	.	odiljon	PUNCT	Y	_	5	punct	_	_
+2	!	!	PUNCT	V	_	1	punct	_	_
+3	-	-	PUNCT	Y	_	1	punct	_	_
+4	deb	deb	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+5	ovoz	ovoz	NOUN	N	Case=Nom	6	obj	_	_
+6	chiqardi	chiqmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Odiljon	Odiljon	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	_
+8	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1789
 # text = u koʻzini ochib atrofga hayronlik bilan qaradi ,
@@ -3807,14 +3843,15 @@
 8	,	qar	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1790
-# text = keyin : tushum ekan - da dedi .
+# text = keyin : tushim ekan - da dedi .
 1	keyin	keyin	NOUN	C	Case=Abl	6	obl	_	_
-2	:	keyin	PUNCT	Y	_	1	punct	_	_
-3	tushum ekan	tushum e	VERB	V	_	6	ccomp	_	_
-4	-	tushum e	PUNCT	Y	_	5	punct	_	_
-5	da	tushum e	PART	T	_	3	mark	_	_
-6	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	.	ded	PUNCT	Y	_	6	punct	_	_
+2	:	:	PUNCT	Y	_	1	punct	_	_
+3	tushim	tush	NOUN	N	Case=Nom|Number=Sing|Poss=Yes	4	nsubj	_	_
+4	ekan	ekan	AUX	V	Mood=Ind|Tense=Pres	7	ccomp	_	_
+5	-	-	PUNCT	Y	_	6	punct	_	_
+6	da	da	PART	T	_	4	mark	_	_
+7	dedi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s1791
 # text = odamlar gʻalati tushlarni koʻradi ,
@@ -3859,11 +3896,11 @@
 1	oyga	oyg	NOUN	N	Case=Dat	4	obl	_	_
 2	va	oyg	CCONJ	C	_	3	cc	_	_
 3	marsga	mars	NOUN	N	_	1	conj	_	_
-4	chiqish	chiqi	VERB	V	Case=Nom|VerbForm=Ger	0	root	_	_
+4	chiqish	chiqmoq	VERB	V	Case=Nom	0	root	_	_
 5	kishilarnng	kishilarn	NOUN	N	_	6	nmod:poss	_	_
 6	xayoli	xayol	NOUN	N	_	4	conj	_	_
-7	edi	xayol	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
-8	,	xayol	PUNCT	Y	_	6	punct	_	_
+7	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+8	,	,	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s1796
 # text = mana hozir rost ishga aylandi .
@@ -3878,7 +3915,7 @@
 # text = masalalar ustida kuzatishni , o'lashni , izlanishni odatga aylantirsangiz , siz tush va xayollaringizni haqiqatga aylantirolasiz .
 1	masalalar	masal	NOUN	N	Case=Nom|Number=Plur	2	amod	_	_
 2	ustida	ust	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
-3	kuzatishni	kuzati	VERB	V	Case=Acc|VerbForm=Ger	9	obj	_	_
+3	kuzatishni	kuzati	VERB	V	Case=Acc	9	obj	_	_
 4	,	kuzati	PUNCT	Y	_	5	punct	_	_
 5	o'lashni	o'la	VERB	V	_	3	conj	_	_
 6	,	o'la	PUNCT	Y	_	5	punct	_	_
@@ -3886,7 +3923,7 @@
 8	odatga	odat	NOUN	V	Case=Dat	9	obl	_	_
 9	aylantirsangiz	aylant	VERB	V	_	16	advcl	_	_
 10	,	aylant	PUNCT	Y	_	9	punct	_	_
-11	siz	aylant	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	_
+11	siz	aylant	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
 12	tush	tush	NOUN	N	_	16	obj	_	_
 13	va	tush	CCONJ	C	_	14	cc	_	_
 14	xayollaringizni	xayol	NOUN	N	_	12	conj	_	_
@@ -3911,7 +3948,7 @@
 13	,	ogʻutla	PUNCT	Y	_	12	punct	_	_
 14	tezroq	tez	ADJ	A	_	16	advmod	_	_
 15	nok	tez	NOUN	N	_	16	obj	_	_
-16	yeyishni	yeyi	VERB	V	Case=Acc|VerbForm=Ger	17	obj	_	_
+16	yeyishni	yeyi	VERB	V	Case=Acc	17	obj	_	_
 17	kutibdi	kut	VERB	V	_	6	conj	_	_
 18	.	kut	PUNCT	Y	_	6	punct	_	_
 
@@ -3949,38 +3986,38 @@
 16	?	nima	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s1
-# text = osmonni koʻm ko'k , daryo , koʻl suvlarini tiniq turishga , dov - daraxtlarni yashil - baquvvat boʻlishiga , hayvonlarni erkin holatda yashashga ega qilish . . . bizning umumiy orzuyimiz .
+# text = osmonni koʻm-koʻk , daryo , koʻl suvlarini tiniq turishga , dov - daraxtlarni yashil - baquvvat boʻlishiga , hayvonlarni erkin holatda yashashga ega qilish . . . bizning umumiy orzuyimiz .
 1	osmonni	osmon	NOUN	N	Case=Acc	30	csubj	_	_
-2	koʻm ko'k	koʻm ko'	VERB	V	_	1	orphan	_	_
-3	,	koʻm ko'	PUNCT	Y	_	9	punct	_	_
+2	koʻm-koʻk	koʻm-koʻk	ADJ	Adj	_	1	xcomp	_	_
+3	,	,	PUNCT	Y	_	9	punct	_	_
 4	daryo	daryo	NOUN	N	Case=Nom	7	nmod:poss	_	_
 5	,	daryo	PUNCT	Y	_	6	punct	_	_
 6	koʻl	koʻl	NOUN	N	Case=Nom	4	conj	_	_
 7	suvlarini	suv	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	obj	_	_
 8	tiniq	tiniq	ADJ	A	_	9	advmod	_	_
-9	turishga	turi	VERB	V	Case=Dat|VerbForm=Ger	1	conj	_	_
-10	,	turi	PUNCT	Y	_	17	punct	_	_
-11	dov	turi	ADV	D	_	13	compound:redup	_	_
-12	-	turi	PUNCT	Y	_	11	punct	_	_
+9	turishga	turmoq	VERB	V	Case=Dat	1	conj	_	_
+10	,	,	PUNCT	Y	_	17	punct	_	_
+11	dov	dov	ADV	D	_	13	compound:redup	_	_
+12	-	-	PUNCT	Y	_	11	punct	_	_
 13	daraxtlarni	daraxt	NOUN	N	Case=Acc|Number=Plur	17	obj	_	_
 14	yashil	yashil	ADJ	A	_	16	compound	_	_
 15	-	yashil	PUNCT	Y	_	14	punct	_	_
 16	baquvvat	baquvvat	ADJ	A	_	17	advmod	_	_
-17	boʻlishiga	boʻli	VERB	V	Case=Dat|VerbForm=Ger	9	orphan	_	_
-18	,	boʻli	PUNCT	Y	_	17	punct	_	_
+17	boʻlishiga	boʻlmoq	VERB	V	Case=Dat	9	orphan	_	_
+18	,	,	PUNCT	Y	_	17	punct	_	_
 19	hayvonlarni	hayvon	NOUN	N	Case=Acc|Number=Plur	24	obj	_	_
 20	erkin	erkin	ADJ	A	_	21	compound:redup	_	_
 21	holatda	holat	ADJ	A	_	22	advmod	_	_
 22	yashashga	yasha	NOUN	N	_	24	advcl	_	_
 23	ega	yasha	NOUN	N	Case=Nom	24	compound	_	_
-24	qilish	qili	VERB	V	Case=Nom|VerbForm=Ger	1	conj	_	_
-25	.	qili	PUNCT	Y	_	1	punct	_	_
-26	.	qili	PUNCT	Y	_	1	punct	_	_
-27	.	qili	PUNCT	Y	_	1	punct	_	_
+24	qilish	qili	VERB	V	Case=Nom	1	conj	_	_
+25	.	.	PUNCT	Y	_	1	punct	_	_
+26	.	.	PUNCT	Y	_	1	punct	_	_
+27	.	.	PUNCT	Y	_	1	punct	_	_
 28	bizning	biz	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	30	nmod:poss	_	_
 29	umumiy	umumiy	ADJ	A	_	30	amod	_	_
-30	orzuyimiz	orzuy	NOUN	N	_	0	root	_	_
-31	.	orzuy	PUNCT	Y	_	30	punct	_	_
+30	orzuyimiz	orzu	NOUN	N	_	0	root	_	_
+31	.	.	PUNCT	Y	_	30	punct	_	_
 
 # sent_id = s2
 # text = bu boʻlimdagi matnlarni oʻqish orqali , kishilarning hayvonlar va oʻsimliklarga qanday muomala qilganligi , oqibatining qanday bo'lganligini koʻrib baqaylik ,
@@ -4007,32 +4044,33 @@
 
 # sent_id = s3
 # text = yana atrofimizdagi muhitni yaxshi asrab , muhitni himoya qilish uchun nimalarni qilolishimizni yaxshilab o'ylab qaraylik .
-1	yana	yan	ADV	D	_	13	cc	_	_
+1	yana	yan	ADV	D	_	3	cc	_	_
 2	atrofimizdagi	atrofimizdag	NOUN	N	_	3	amod	_	_
 3	muhitni	muhit	NOUN	N	Case=Acc	5	obj	_	_
-4	yaxshi	yax	ADJ	A	_	5	advmod	_	_
-5	asrab	asra	VERB	V	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
-6	,	asra	PUNCT	Y	_	5	punct	_	_
+4	yaxshi	yaxshi	ADJ	A	_	5	advmod	_	_
+5	asrab	asramoq	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
 7	muhitni	muhit	NOUN	N	Case=Acc	8	obj	_	_
-8	himoya qilish	himoya qili	VERB	V	_	11	advcl	_	_
-9	uchun	uchun	ADP	C	_	8	case	_	_
-10	nimalarni	nima	NOUN	P	Case=Acc|Number=Plur	11	obj	_	_
-11	qilolishimizni	qilolishi	VERB	V	_	13	obj	_	_
-12	yaxshilab	yaxshila	NOUN	R	Case=Nom	11	case	_	_
-13	o'ylab	o'yla	VERB	V	_	14	xcomp	_	_
-14	qaraylik	qar	VERB	V	_	0	root	_	_
-15	.	qar	PUNCT	Y	_	14	punct	_	_
+8	himoya	himoya	NOUN	N	_	9	obj	_	_
+9	qilish	qilmoq	VERB	V	VerbForm=Vnoun	12	advcl	_	_
+10	uchun	uchun	ADP	C	_	9	case	_	_
+11	nimalarni	nima	NOUN	P	Case=Acc|Number=Plur	12	obj	_	_
+12	qilolishimizni	qilolish	VERB	V	_	14	obj	_	_
+13	yaxshilab	yaxshilamoq	NOUN	R	Case=Nom	12	case	_	_
+14	o'ylab	o'ylamoq	VERB	V	_	15	xcomp	_	_
+15	qaraylik	qaramoq	VERB	V	_	0	root	_	_
+16	.	.	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s4
 # text = bir yili bahor kunlarining birida , shivetsariyaning bir vogzalida havo regulyator oʻrnatilgan chiroyli , bahaybat bir poyezd qozgʻalish arafasida turardi .
 1	bir	qar	NUM	M	_	2	nummod	_	_
-2	yili	yil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	nmod:tmod	_	_
+2	yili	yil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	nmod	_	_
 3	bahor	baho	NOUN	N	Case=Nom	4	nmod:poss	_	_
 4	kunlarining	kun	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:part	_	_
-5	birida	bir	NUM	M	_	20	nmod:tmod	_	_
+5	birida	bir	NUM	M	_	20	nmod	_	_
 6	,	bir	PUNCT	Y	_	5	punct	_	_
 7	shivetsariyaning	shivetsariya	NOUN	N	_	9	nmod:poss	_	_
-8	bir	shivetsariya	DET	M	Case=Nom|NumType=Ord	9	det	_	_
+8	bir	bir	DET	M	_	9	det	_	_
 9	vogzalida	vogzal	NOUN	N	_	20	obl	_	_
 10	havo	havo	NOUN	N	Case=Nom	11	compound	_	_
 11	regulyator	regulyato	NOUN	N	Case=Nom	12	nsubj	_	_
@@ -4040,7 +4078,7 @@
 13	chiroyli	chiroyl	ADJ	A	_	17	amod	_	_
 14	,	chiroyl	PUNCT	Y	_	15	punct	_	_
 15	bahaybat	bahaybat	ADJ	A	_	13	conj	_	_
-16	bir	bahaybat	DET	M	Case=Nom|NumType=Ord	17	det	_	_
+16	bir	bir	DET	M	_	17	det	_	_
 17	poyezd	poyezd	NOUN	N	Case=Nom	20	nsubj	_	_
 18	qozgʻalish	qozgʻali	VERB	V	_	19	nmod:poss	_	_
 19	arafasida	arafa	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	20	obl	_	_
@@ -4061,13 +4099,13 @@
 # text = ularning kuzatmoqchi boʻlishgani e'tiborli mehmon - qaldirg'ochlar edi .
 1	ularning	ular	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	kuzatmoqchi	kuzat	NOUN	N	_	5	acl	_	_
-3	boʻlishgani	boʻlish	AUX	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	2	cop	_	_
+3	boʻlishgani	boʻlmoq	VERB	V	Number[psor]=Plur|Person[psor]=3|Tense=Past|VerbForm=Vnoun	2	acl	_	_
 4	e'tiborli	e'tiborl	ADJ	A	_	5	amod	_	_
 5	mehmon	mehmon	NOUN	N	_	0	root	_	_
-6	-	mehmon	PUNCT	Y	_	5	punct	_	_
+6	-	-	PUNCT	Y	_	5	punct	_	_
 7	qaldirg'ochlar	qaldirg'och	NOUN	N	Case=Nom|Number=Plur	5	appos	_	_
-8	edi	qaldirg'och	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-9	.	qaldirg'och	PUNCT	Y	_	5	punct	_	_
+8	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+9	.	.	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s7
 # text = qiziq ish ,
@@ -4076,41 +4114,41 @@
 3	,	qiziq	PUNCT	Y	_	2	punct	_	_
 
 # sent_id = s8
-# text = qaldirg'och degan mavsum qushi , u uzoqlarga uchib baroladigan bo'lsa , nimaga bu qaldirgʻochlarni poyezd bilan oborib qo'ymoqchi bo'lishgandi ?
+# text = qaldirg'och degan mavsum qushi , u uzoqlarga uchib boroladigan bo'lsa , nimaga bu qaldirgʻochlarni poyezd bilan oborib qo'ymoqchi bo'lishgandi ?
 1	qaldirg'och	qaldirg'och	NOUN	N	Case=Nom	4	nsubj	_	_
-2	degan	degan	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	4	advcl	_	_
+2	degan	degan	VERB	V	Case=Nom|Tense=Past	4	advcl	_	_
 3	mavsum	mavsu	NOUN	N	Case=Nom	4	nmod:poss	_	_
 4	qushi	qush	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	18	parataxis	_	_
 5	,	qush	PUNCT	Y	_	4	punct	_	_
 6	u	qush	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	uzoqlarga	uzoq	NOUN	A	Case=Dat|Number=Plur	9	obl	_	_
 8	uchib	uch	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-9	baroladigan	barol	VERB	V	_	18	parataxis	_	_
-10	bo'lsa	bo'l	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	aux	_	_
-11	,	bo'l	PUNCT	Y	_	10	punct	_	_
+9	boroladigan	borol	VERB	V	_	18	parataxis	_	_
+10	bo'lsa	bo'l	AUX	V	Mood=Cnd|Number=Sing|Person=3	9	aux	_	_
+11	,	,	PUNCT	Y	_	10	punct	_	_
 12	nimaga	nima	PRON	P	_	18	obl	_	_
-13	bu	nima	PRON	P	Case=Nom|PronType=Dem	14	det	_	_
+13	bu	bu	PRON	P	Case=Nom|PronType=Dem	14	det	_	_
 14	qaldirgʻochlarni	qaldirgʻoch	NOUN	N	Case=Acc|Number=Plur	17	obj	_	_
 15	poyezd	poyezd	NOUN	N	Case=Nom	18	obl	_	_
 16	bilan	bilan	ADP	R	_	15	case	_	_
-17	oborib	obo	VERB	V	_	18	xcomp	_	_
-18	qo'ymoqchi	qo'y	VERB	V	_	0	root	_	_
-19	bo'lishgandi	bo'lish	AUX	V	_	18	cop	_	_
-20	?	bo'lish	PUNCT	Y	_	18	punct	_	_
+17	oborib	obo	VERB	V	_	19	xcomp	_	_
+18	qo'ymoqchi	qo'y	VERB	V	Mood=Des|VerbForm=Vnoun	19	xcomp	_	_
+19	bo'lishgandi	bo'lmoq	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	?	?	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s9
 # text = aslida ish bundoq edi :
 1	aslida	asl	NOUN	D	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
-2	ish	asl	NOUN	N	Case=Nom	3	nsubj	_	_
-3	bundoq	bund	ADV	P	_	0	root	_	_
-4	edi	bund	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-5	:	bund	PUNCT	Y	_	3	punct	_	_
+2	ish	ish	NOUN	N	Case=Nom	3	nsubj	_	_
+3	bundoq	bunday	ADV	P	_	0	root	_	_
+4	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+5	:	:	PUNCT	Y	_	3	punct	_	_
 
 # sent_id = s10
 # text = shu yili bahorda minglab - millionlab qaldirg'ochlar januptin shimolga qaytib kelayotganda , shivetsariya chegrasi ichida halokatga yo'liqdi .
 1	shu	bund	PRON	P	Case=Nom|PronType=Dem	2	det	_	_
-2	yili	yil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nmod:tmod	_	_
-3	bahorda	baho	NOUN	N	Case=Loc	10	nmod:tmod	_	_
+2	yili	yil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nmod	_	_
+3	bahorda	baho	NOUN	N	Case=Loc	10	nmod	_	_
 4	minglab	mingla	NUM	M	_	6	compound:redup	_	_
 5	-	mingla	PUNCT	Y	_	4	punct	_	_
 6	millionlab	millionla	NUM	M	_	7	nummod	_	_
@@ -4139,8 +4177,9 @@
 8	qor	sovu	NOUN	N	Case=Nom	10	compound	_	_
 9	-	sovu	PUNCT	Y	_	8	punct	_	_
 10	parchalariga	parcha	NOUN	N	Case=Nom	11	nsubj	_	_
-11	tusha boshladi	tusha boshl	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
-12	.	tusha boshl	PUNCT	Y	_	11	punct	_	_
+11	tusha	tushmoq	VERB	V	VerbForm=Conv	12	advcl	_	_
+12	boshladi	boshlamoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s12
 # text = shuning bilan hasharotlarning barcha turi muzlab oʻlib ketdi .
@@ -4149,16 +4188,16 @@
 3	hasharotlarning	hasharot	NOUN	N	Case=Gen|Number=Plur	4	nmod:part	_	_
 4	barcha	barch	PRON	P	_	7	nsubj	_	_
 5	turi	tur	NOUN	V	Case=Nom	7	obl	_	_
-6	muzlab	muzla	VERB	V	_	7	advcl	_	_
-7	oʻlib	oʻl	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-8	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-9	.	ket	PUNCT	Y	_	8	punct	_	_
+6	muzlab	muzla	VERB	V	_	8	advcl	_	_
+7	oʻlib	oʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
+8	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s13
 # text = uzoq yoʻl bosish jarayonida horib holidan ketgan qaldirg'ochlar bu yerda ozuqa tapolmadi .
 1	uzoq	uzoq	ADJ	A	_	2	amod	_	_
 2	yoʻl	yoʻl	NOUN	N	Case=Nom	3	obj	_	_
-3	bosish	bosi	VERB	V	Case=Nom|VerbForm=Ger	5	advcl	_	_
+3	bosish	bosmoq	VERB	V	Case=Nom	5	advcl	_	_
 4	jarayonida	jarayon	NOUN	N	_	3	case	_	_
 5	horib	hor	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
 6	holidan	hol	NOUN	N	_	7	compound	_	_
@@ -4196,12 +4235,13 @@
 9	poyezd	poyezd	NOUN	N	Case=Nom	14	obl	_	_
 10	bilan	bilan	ADP	R	_	9	case	_	_
 11	issiq	issiq	ADJ	A	_	12	amod	_	_
-12	maydonlarga	maydon	NOUN	N	Case=Dat|Number=Plur	14	obl	_	_
-13	olib borib	olib bo	VERB	V	_	14	xcomp	_	_
-14	qo'yishni	qo'yi	VERB	V	_	15	obj	_	_
-15	qaror	qaro	NOUN	N	Case=Nom	0	root	_	_
-16	qilgan	qil	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	compound	_	_
-17	.	qil	PUNCT	Y	_	16	punct	_	_
+12	maydonlarga	maydon	NOUN	N	Case=Dat|Number=Plur	15	obl	_	_
+13	olib	olmoq	VERB	V	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
+14	borib	bormoq	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
+15	qo'yishni	qo'ymoq	VERB	V	_	16	obj	_	_
+16	qaror	qaror	NOUN	N	Case=Nom	0	root	_	_
+17	qilgan	qil	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	compound	_	_
+18	.	.	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s16
 # text = shuning bilan , hukumat televizor va radio orqali kishilarni darhol harakatga kelib , qaldirgʻochlarni izlab topib vogzalga olib kelishga buyruq bergan .
@@ -4223,15 +4263,15 @@
 16	topib	top	VERB	V	Aspect=Perf|VerbForm=Inf	12	conj	_	_
 17	vogzalga	vogzal	NOUN	N	Case=Dat	18	obl	_	_
 18	olib	oli	VERB	V	Aspect=Perf|VerbForm=Inf	12	conj	_	_
-19	kelishga	keli	AUX	V	Case=Dat|VerbForm=Ger	18	aux	_	_
+19	kelishga	kelmoq	VERB	V	Case=Dat|VerbForm=Vnoun	21	acl	_	_
 20	buyruq	buyruq	NOUN	N	_	21	compound	_	_
 21	bergan	ber	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-22	.	ber	PUNCT	Y	_	21	punct	_	_
+22	.	.	PUNCT	Y	_	21	punct	_	_
 
 # sent_id = s17
 # text = buni anglagandan keyin , aholi lo'ppilab yog'ayotgan qor va achchiq sovuqqa qaramay , muzlab qotib qolay degan qaldirgʻochlarni turli - tarafdan izlashni boshladi .
 1	buni	bun	PRON	P	_	2	obj	_	_
-2	anglagandan	angla	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	23	advcl	_	_
+2	anglagandan	angla	VERB	V	Case=Abl|Tense=Past	23	advcl	_	_
 3	keyin	keyin	NOUN	D	Case=Nom	2	case	_	_
 4	,	keyin	PUNCT	Y	_	3	punct	_	_
 5	aholi	ahol	NOUN	N	_	23	nsubj	_	_
@@ -4277,9 +4317,9 @@
 3	qor	opp	NOUN	N	Case=Nom	4	nsubj	_	_
 4	qoplagan	qopla	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	9	acl	_	_
 5	togʻ	togʻ	NOUN	N	Case=Nom	9	nmod:poss	_	_
-6	va	togʻ	CCONJ	C	_	8	cc	_	_
+6	va	va	CCONJ	C	_	8	cc	_	_
 7	qiya	qiy	NOUN	D	Case=Nom	8	compound	_	_
-8	tosh	tosh	VERB	N	Case=Nom|VerbForm=Ger	5	conj	_	_
+8	tosh	tosh	NOUN	N	Case=Nom	5	conj	_	_
 9	oraliqlaridan	oraliq	NOUN	N	_	11	obl	_	_
 10	qaldirgʻochlarni	qaldirgʻoch	NOUN	N	Case=Acc|Number=Plur	11	obj	_	_
 11	izladi	izl	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4291,27 +4331,28 @@
 2	bir	faqat	NUM	M	_	3	nummod	_	_
 3	kun	faqat	NOUN	N	Case=Nom	4	nmod:poss	_	_
 4	ichida	ich	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
-5	oʻn	ich	NUM	M	_	6	nummod	_	_
-6	necha	nech	DET	P	_	7	det	_	_
+5	oʻn	oʻn	NUM	M	_	9	nummod	_	_
+6	necha	necha	DET	P	_	7	det	_	_
 7	qaldirg'ochni	qaldirg'och	NOUN	N	Case=Acc	8	obj	_	_
-8	qutqarib qoldi	qutqarib qol	VERB	V	_	0	root	_	_
-9	.	qutqarib qol	PUNCT	Y	_	8	punct	_	_
+8	qutqarib	qutqarmoq	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
+9	qoldi	qolmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s21
-# text = uning yuzi qotib qip qizil boʻlib ketgan , qoʻllari sovuqda qotib qolay degandi .
+# text = uning yuzi qotib qip-qizil boʻlib ketgan , qoʻllari sovuqda qotib qolay degandi .
 1	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 2	yuzi	yuz	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	_
 3	qotib	qot	VERB	V	_	5	advcl	_	_
-4	qip qizil	qip qizil	NOUN	A	Case=Nom	5	nsubj	_	_
-5	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-6	ketgan	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-7	,	ket	PUNCT	Y	_	6	punct	_	_
+4	qip-qizil	qip-qizil	ADJ	A	_	5	nsubj	_	_
+5	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+6	ketgan	ketmoq	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
 8	qoʻllari	qoʻl	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
 9	sovuqda	sovuq	ADJ	A	Case=Loc	11	advmod	_	_
 10	qotib	qot	VERB	V	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
-11	qolay	qol	VERB	V	_	0	root	_	_
-12	degandi	degan	AUX	V	_	11	cop	_	_
-13	.	degan	PUNCT	Y	_	11	punct	_	_
+11	qolay	qolmoq	VERB	V	Mood=Opt|VerbForm=Fin	12	ccomp	_	_
+12	degandi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s22
 # text = lekin , u bularga parvo qilmadi .
@@ -4338,9 +4379,9 @@
 5	doʻstligini	doʻstlig	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
 6	olib	oli	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
 7	uzoqlarga	uzoq	NOUN	V	Case=Dat|Number=Plur	8	obl	_	_
-8	yurib	yur	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-9	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
-10	.	ket	PUNCT	Y	_	9	punct	_	_
+8	yurib	yurmoq	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
+9	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s25
 # text = vagonlardagi qaldirg'ochlar insonlarga rahmat aytayotgandek tinmay vichirlashardi .
@@ -4356,15 +4397,16 @@
 # sent_id = s26
 # text = oldin bir togʻ jilgʻasida toleyi chiroyli bir shahar bo'lgan ekan .
 1	oldin	oldin	NOUN	D	Case=Nom	9	obl	_	_
-2	bir	oldin	DET	M	Case=Nom|NumType=Ord	4	det	_	_
+2	bir	bir	DET	M	_	4	det	_	_
 3	togʻ	togʻ	NOUN	N	Case=Nom	4	nmod:poss	_	_
 4	jilgʻasida	jilgʻa	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 5	toleyi	toley	ADV	D	_	6	advmod	_	_
-6	chiroyli	chiroyl	ADJ	A	_	8	amod	_	_
-7	bir	chiroyl	DET	M	Case=Nom|NumType=Ord	8	det	_	_
-8	shahar	shah	NOUN	N	Case=Nom	9	nsubj	_	_
-9	bo'lgan ekan	bo'lgan e	VERB	V	_	0	root	_	_
-10	.	bo'lgan e	PUNCT	Y	_	9	punct	_	_
+6	chiroyli	chiroy	ADJ	A	_	8	amod	_	_
+7	bir	bir	DET	M	_	8	det	_	_
+8	shahar	shahar	NOUN	N	Case=Nom	9	nsubj	_	_
+9	bo'lgan	bo'lmoq	VERB	V	_	0	root	_	_
+10	ekan	ekan	AUX	V	_	9	aux	_	_
+11	.	.	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s27
 # text = atrofi quyuq oʻrmon bilan qoplangan ekan ,
@@ -4372,8 +4414,9 @@
 2	quyuq	quyuq	ADJ	A	_	3	amod	_	_
 3	oʻrmon	oʻrmon	NOUN	N	Case=Nom	5	obl	_	_
 4	bilan	bilan	ADP	R	_	3	case	_	_
-5	qoplangan ekan	qoplangan e	VERB	V	_	0	root	_	_
-6	,	qoplangan e	PUNCT	Y	_	5	punct	_	_
+5	qoplangan	qoplamoq	VERB	V	Aspect=Perf|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+6	ekan	ekan	AUX	AUX	Tense=Past	0	root	_	_
+7	,	,	PUNCT	Punct	_	6	punct	_	_
 
 # sent_id = s28
 # text = shahar yonida suvining tiniqligidan tagi koʻrinib turadigan bir ko'l bor ekan .
@@ -4384,49 +4427,52 @@
 5	tagi	tag	NOUN	N	_	7	nsubj	_	_
 6	koʻrinib	koʻrin	VERB	V	Aspect=Perf|VerbForm=Conv	7	xcomp	_	_
 7	turadigan	tur	VERB	V	_	10	advcl	_	_
-8	bir	tur	DET	M	Case=Nom|NumType=Ord	9	det	_	_
+8	bir	tur	DET	M	_	9	det	_	_
 9	ko'l	ko'l	NOUN	N	Case=Nom	10	nsubj	_	_
 10	bor	ko'l	VERB	A	Mood=Imp|VerbForm=Fin	0	root	_	_
 11	ekan	ekan	AUX	V	_	10	cop	_	_
 12	.	ekan	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s29
-# text = shahar osmoni koʻm ko'k , havosi sof , yoqimli ekan .
-1	shahar	shah	NOUN	N	Case=Nom	2	nmod:poss	_	_
-2	osmoni	osmo	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	_
-3	koʻm ko'k	koʻm ko'	ADJ	A	_	6	parataxis	_	_
-4	,	koʻm ko'	PUNCT	Y	_	3	punct	_	_
+# text = shahar osmoni koʻm-koʻk , havosi sof , yoqimli ekan .
+1	shahar	shahar	NOUN	N	Case=Nom	2	nmod:poss	_	_
+2	osmoni	osmon	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	_
+3	koʻm-koʻk	koʻm-koʻk	ADJ	A	_	6	parataxis	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
 5	havosi	havo	NOUN	N	_	6	nsubj	_	_
-6	sof	havo	ADJ	A	_	0	root	_	_
-7	,	havo	PUNCT	Y	_	8	punct	_	_
-8	yoqimli	yoqiml	ADJ	A	_	6	conj	_	_
+6	sof	sof	ADJ	A	_	0	root	_	_
+7	,	,	PUNCT	Y	_	8	punct	_	_
+8	yoqimli	yoqimli	ADJ	A	_	6	conj	_	_
 9	ekan	ekan	AUX	V	_	8	cop	_	_
-10	.	ekan	PUNCT	Y	_	8	punct	_	_
+10	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s30
 # text = bu shaharda bir necha oʻn oilalar yashar ekan .
 1	bu	ekan	PRON	P	Case=Nom|PronType=Dem	2	det	_	_
 2	shaharda	shah	NOUN	N	Case=Loc	6	obl	_	_
-3	bir necha	bir nech	DET	P	_	4	amod	_	_
-4	oʻn	bir nech	NUM	M	_	5	nummod	_	_
-5	oilalar	oil	NOUN	N	Case=Nom	6	nsubj	_	_
-6	yashar ekan	yashar e	VERB	V	_	0	root	_	_
-7	.	yashar e	PUNCT	Y	_	6	punct	_	_
+3	bir	bir	DET	D	_	4	det	_	_
+4	necha	necha	DET	D	_	5	det	_	_
+5	oʻn	oʻn	NUM	M	_	6	nummod	_	_
+6	oilalar	oila	NOUN	N	Case=Nom	7	nsubj	_	_
+7	yashar	yashamoq	VERB	V	Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ekan	ekan	AUX	AUX	VerbForm=Fin	7	aux	_	_
+9	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s31
-# text = uzoq zamonlardan beri , har bir oilada oʻtkir boltalar foydo boʻlib qolibdi .
-1	uzoq zamonlardan	uzoq zamon	NOUN	N	_	2	nmod:tmod	_	_
-2	beri	ber	NOUN	R	Case=Nom	11	obl	_	_
-3	,	ber	PUNCT	Y	_	2	punct	_	_
-4	har	ber	DET	P	_	5	compound	_	_
-5	bir	ber	NUM	M	Case=Nom|NumType=Ord	6	amod	_	_
-6	oilada	oila	NOUN	N	_	11	obl	_	_
-7	oʻtkir	oʻtk	ADJ	A	_	8	amod	_	_
-8	boltalar	bolt	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	_
-9	foydo	foydo	ADJ	N	_	10	compound	_	_
-10	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
-11	qolibdi	qol	VERB	V	_	0	root	_	_
-12	.	qol	PUNCT	Y	_	11	punct	_	_
+# text = uzoq zamonlardan beri , har bir oilada oʻtkir boltalar paydo boʻlib qolibdi .
+1	uzoq	uzoq	ADJ	_	_	2	amod	_	_
+2	zamonlardan	zamon	NOUN	_	Case=Abl|Number=Plur	3	obl	_	_
+3	beri	beri	NOUN	R	Case=Nom	12	obl	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
+5	har	bir	DET	P	_	6	compound	_	_
+6	bir	bir	NUM	M	Case=Nom|NumType=Ord	7	amod	_	_
+7	oilada	oila	NOUN	N	_	12	obl	_	_
+8	oʻtkir	oʻtkir	ADJ	A	_	9	amod	_	_
+9	boltalar	bolt	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	_
+10	paydo	paydo	ADJ	N	_	11	compound	_	_
+11	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Inf	12	xcomp	_	_
+12	qolibdi	qolmoq	VERB	V	_	0	root	_	_
+13	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s32
 # text = qaysi oila uy qurmoqchi , qaysi oila supa yasamoqchi boʻlsa , shu oilalar bolta koʻtarib tag'ga chiqib daraxtlarni kesar ekan .
@@ -4438,18 +4484,19 @@
 6	qaysi	qay	DET	P	PronType=Int	7	nmod	_	_
 7	oila	oil	NOUN	N	Case=Nom	9	nsubj	_	_
 8	supa	sup	NOUN	N	Case=Nom	9	obj	_	_
-9	yasamoqchi	yasa	VERB	V	_	4	conj	_	_
-10	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	aux	_	_
-11	,	boʻl	PUNCT	Y	_	10	punct	_	_
+9	yasamoqchi	yasamoq	VERB	V	Mood=Des|VerbForm=Fin	4	conj	_	_
+10	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3	9	aux	_	_
+11	,	,	PUNCT	Y	_	10	punct	_	_
 12	shu	boʻl	PRON	P	Case=Nom|PronType=Dem	13	det	_	_
 13	oilalar	oil	NOUN	N	_	19	nsubj	_	_
 14	bolta	bolt	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	15	obj	_	_
 15	koʻtarib	koʻt	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
 16	tag'ga	tag'	NOUN	N	_	17	obl	_	_
-17	chiqib	chiq	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
+17	chiqib	chiqmoq	VERB	V	Aspect=Perf|VerbForm=Conv	19	advcl	_	_
 18	daraxtlarni	daraxt	NOUN	N	Case=Acc|Number=Plur	19	obj	_	_
-19	kesar ekan	kesar e	VERB	V	_	0	root	_	_
-20	.	kesar e	PUNCT	Y	_	19	punct	_	_
+19	kesar	kesmoq	VERB	_	Person=3|VerbForm=Fin	20	ccomp	_	Translit=kesar
+20	ekan	ekan	AUX	_	Tense=Past	0	root	_	Translit=ekan
+21	.	.	PUNCT	Y	_	20	punct	_	_
 
 # sent_id = s33
 # text = mana shunday qilib , togʻ bagʻrida taqir yerlar koʻpayishni boshlabdi .
@@ -4461,7 +4508,7 @@
 6	bagʻrida	bagʻ	NOUN	N	_	10	obl	_	_
 7	taqir	taq	ADJ	A	_	8	amod	_	_
 8	yerlar	yer	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	_
-9	koʻpayishni	koʻpayi	VERB	V	Case=Dat|VerbForm=Ger	10	advcl	_	_
+9	koʻpayishni	koʻpayi	VERB	V	Case=Dat	10	advcl	_	_
 10	boshlabdi	boshla	VERB	V	_	0	root	_	_
 11	.	boshla	PUNCT	Y	_	10	punct	_	_
 
@@ -4510,7 +4557,7 @@
 12	jihozlarga	jihoz	NOUN	N	Case=Dat|Number=Plur	7	orphan	_	_
 13	,	jihoz	PUNCT	Y	_	12	punct	_	_
 14	uy	jihoz	NOUN	N	Case=Nom	15	nmod:poss	_	_
-15	buyumlariga	buyum	NOUN	N	_	16	nmod:cau	_	_
+15	buyumlariga	buyum	NOUN	N	_	16	nmod	_	_
 16	aylibdi	ayl	VERB	V	_	7	conj	_	_
 17	.	ayl	PUNCT	Y	_	7	punct	_	_
 
@@ -4538,7 +4585,7 @@
 4	barcha	barch	DET	P	_	5	det	_	_
 5	oilalar	oil	NOUN	N	_	12	nsubj	_	_
 6	oʻtkir	oʻtk	ADJ	A	_	7	amod	_	_
-7	boltalariga	bolta	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod:cau	_	_
+7	boltalariga	bolta	NOUN	N	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod	_	_
 8	ishonib	ishon	VERB	V	_	12	advcl	_	_
 9	kunlarini	kun	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	_
 10	shu	kun	ADJ	A	_	11	compound	_	_
@@ -4561,9 +4608,9 @@
 # sent_id = s41
 # text = yomgʻirli bir avgust oyida qattiq yomgʻir besh - kecha kunduz yogʻib doimo , oltinchi kuni saharda to'xtabdi .
 1	yomgʻirli	yomgʻirl	ADJ	A	_	4	amod	_	_
-2	bir	yomgʻirl	DET	M	Case=Nom|NumType=Ord	4	det	_	_
+2	bir	bir	DET	M	_	4	det	_	_
 3	avgust	avgust	NOUN	N	Case=Nom	4	compound	_	_
-4	oyida	oyi	NOUN	N	_	17	nmod:tmod	_	_
+4	oyida	oyi	NOUN	N	_	17	nmod	_	_
 5	qattiq	qattiq	ADJ	A	_	6	amod	_	_
 6	yomgʻir	yomgʻ	NOUN	N	Case=Nom	11	nsubj	_	_
 7	besh	besh	NUM	M	_	10	nummod	_	_
@@ -4573,9 +4620,9 @@
 11	yogʻib	yogʻ	NOUN	N	_	12	advcl	_	_
 12	doimo	doimo	VERB	V	_	17	advcl	_	_
 13	,	doimo	PUNCT	Y	_	12	punct	_	_
-14	oltinchi	oltin	ADJ	M	NumType=Ord	15	amod	_	_
-15	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	17	nmod:tmod	_	_
-16	saharda	sah	NOUN	N	Case=Loc	17	nmod:tmod	_	_
+14	oltinchi	oltin	ADJ	M	_	15	amod	_	_
+15	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	17	nmod	_	_
+16	saharda	sah	NOUN	N	Case=Loc	17	nmod	_	_
 17	to'xtabdi	to'xta	VERB	V	_	0	root	_	_
 18	.	to'xta	PUNCT	Y	_	17	punct	_	_
 
@@ -4600,11 +4647,12 @@
 
 # sent_id = s43
 # text = mana endi hech narsa qolmabdi ,
-1	mana	man	PART	T	_	4	discourse	_	_
-2	endi	end	NOUN	D	Case=Nom	4	obl	_	_
-3	hech narsa	hech n	PRON	P	_	4	nsubj	_	_
-4	qolmabdi	qolma	VERB	V	_	0	root	_	_
-5	,	qolma	PUNCT	Y	_	4	punct	_	_
+1	mana	man	PART	T	_	5	discourse	_	_
+2	endi	end	NOUN	D	Case=Nom	5	obl	_	_
+3	hech	hech	DET	_	PronType=Ind	4	det	_	_
+4	narsa	narsa	NOUN	N	Case=Nom	5	nsubj	_	_
+5	qolmabdi	qolmoq	VERB	V	_	0	root	_	_
+6	,	.	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s44
 # text = bolta bilan barpo qilingan narsalar , hatto ana shu oʻtkir boltalarda gʻoyib bo'pti .
@@ -4615,12 +4663,13 @@
 5	narsalar	nars	NOUN	N	Case=Nom|Number=Plur	0	root	_	_
 6	,	nars	PUNCT	Y	_	12	punct	_	_
 7	hatto	hatto	CCONJ	C	_	12	nsubj	_	_
-8	ana shu	ana shu	PRON	P	Case=Nom|PronType=Dem	10	det	_	_
-9	oʻtkir	oʻtk	ADJ	A	_	10	amod	_	_
-10	boltalarda	bolta	NOUN	N	Case=Nom|Number=Plur	7	conj	_	_
-11	gʻoyib	gʻoy	NOUN	N	_	12	compound	_	_
-12	bo'pti	bo'p	VERB	V	_	5	conj	_	_
-13	.	bo'p	PUNCT	Y	_	12	punct	_	_
+8	ana	ana	PART	P	_	9	fixed	_	_
+9	shu	shu	PRON	P	Case=Nom|PronType=Dem	10	det	_	_
+10	oʻtkir	oʻtkir	ADJ	A	_	11	amod	_	_
+11	boltalarda	bolta	NOUN	N	Case=Nom|Number=Plur	7	conj	_	_
+12	gʻoyib	gʻoyib	NOUN	N	_	13	compound	_	_
+13	bo'pti	bo'pti	VERB	V	_	5	conj	_	_
+14	.	.	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s45
 # text = boyog'lining uyi daraxt kavagida ekan .
@@ -4666,7 +4715,7 @@
 7	orasidan	ora	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	_
 8	yam	ora	ADJ	A	_	9	amod	_	_
 9	yashil	yashil	ADJ	A	_	12	amod	_	_
-10	bir	yashil	DET	M	Case=Nom|NumType=Ord	12	det	_	_
+10	bir	yashil	DET	M	_	12	det	_	_
 11	kichik	kich	ADJ	A	_	12	amod	_	_
 12	qurtni	qurt	NOUN	N	_	13	obj	_	_
 13	tutib	tut	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
@@ -4675,13 +4724,13 @@
 16	.	kel	PUNCT	Y	_	15	punct	_	_
 
 # sent_id = s50
-# text = boyog'lining bolalari kichkina sap sariq og'zilarini ochgan holda churqirashibdi .
+# text = boyog'lining bolalari kichkina sap-sariq og'zilarini ochgan holda churqirashibdi .
 1	boyog'lining	boyog'l	NOUN	N	_	2	nmod:poss	_	_
 2	bolalari	bola	NOUN	N	_	8	nsubj	_	_
 3	kichkina	kichkin	ADJ	A	_	5	amod	_	_
-4	sap sariq	sap sariq	NOUN	N	_	5	amod	_	_
+4	sap-sariq	sap-sariq	ADJ	A	_	5	amod	_	_
 5	og'zilarini	og'zi	NOUN	N	_	6	obj	_	_
-6	ochgan	och	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	8	advcl	_	_
+6	ochgan	ochmoq	VERB	V	Case=Nom|Tense=Past	8	advcl	_	_
 7	holda	hol	NOUN	N	Case=Loc	6	case	_	_
 8	churqirashibdi	churqira	VERB	V	_	0	root	_	_
 9	.	churqira	PUNCT	Y	_	8	punct	_	_
@@ -4702,11 +4751,12 @@
 # text = boyog'li qurtni bir balasining og'ziga solib qo'yibdi .
 1	boyog'li	boyog'l	NOUN	N	_	6	nsubj	_	_
 2	qurtni	qurt	NOUN	N	_	5	obj	_	_
-3	bir	qurt	DET	M	Case=Nom|NumType=Ord	4	det	_	_
-4	balasining og'ziga	balasining og'z	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
-5	solib	sol	VERB	V	Aspect=Perf|VerbForm=Inf	6	xcomp	_	_
-6	qo'yibdi	qo'y	VERB	V	_	0	root	_	_
-7	.	qo'y	PUNCT	Y	_	6	punct	_	_
+3	bir	bir	DET	M	_	4	det	_	_
+4	balasining	bola	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	5	nmod:poss	_	_
+5	og'ziga	og'iz	NOUN	N	Number=Sing	7	obl	_	_
+6	solib	solmoq	VERB	V	Aspect=Perf|VerbForm=Inf	7	xcomp	_	_
+7	qo'yibdi	qo'ymoq	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s53
 # text = bu bolasi qurtni mazza qilib yebdi va so'rabdi' :
@@ -4722,18 +4772,19 @@
 
 # sent_id = s54
 # text = bu juda yaxshi ekan , ona , ayting , bu qanday narsa ?
-1	bu	so'rabdi'	PRON	P	Case=Nom|PronType=Dem	3	nsubj	_	_
-2	juda	jud	ADV	D	_	3	advmod	_	_
-3	yaxshi ekan	yaxshi e	ADJ	A	_	11	parataxis	_	_
-4	,	yaxshi e	PUNCT	Y	_	3	punct	_	_
-5	ona	yaxshi e	NOUN	N	Case=Nom	11	vocative	_	_
-6	,	yaxshi e	PUNCT	Y	_	5	punct	_	_
-7	ayting	ayt	VERB	V	_	11	discourse	_	_
-8	,	ayt	PUNCT	Y	_	7	punct	_	_
-9	bu	ayt	PRON	P	Case=Nom|PronType=Dem	11	nsubj	_	_
-10	qanday	qand	ADV	P	PronType=Int	11	amod	_	_
-11	narsa	nar	NOUN	N	Case=Nom	0	root	_	_
-12	?	nar	PUNCT	Y	_	11	punct	_	_
+1	bu	bu	PRON	P	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	juda	juda	ADV	D	_	3	advmod	_	_
+3	yaxshi	yaxshi	ADJ	A	_	4	xcomp	_	_
+4	ekan	ekan	AUX	V	VerbForm=Fin	12	parataxis	_	_
+5	,	,	PUNCT	Y	_	4	punct	_	_
+6	ona	ona	NOUN	N	Case=Nom	12	vocative	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
+8	ayting	aytmoq	VERB	V	_	12	discourse	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
+10	bu	ayt	PRON	P	Case=Nom|PronType=Dem	12	nsubj	_	_
+11	qanday	qand	ADV	P	PronType=Int	12	amod	_	_
+12	narsa	nar	NOUN	N	Case=Nom	0	root	_	_
+13	?	nar	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s55
 # text = - bu yaproq qurti ,
@@ -4764,35 +4815,36 @@
 4	chiqargan	chiqar	ADJ	A	_	5	amod	_	_
 5	yaproqlarni	yaproq	NOUN	N	_	6	obj	_	_
 6	o'raydi	o'ray	VERB	V	_	16	parataxis	_	_
-7	-	o'ray	PUNCT	Y	_	8	punct	_	_
-8	da	o'ray	PART	T	_	6	mark	_	_
-9	,	o'ray	PUNCT	Y	_	8	punct	_	_
-10	oʻzi	oʻz	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	12	nsubj	_	_
-11	ichiga	ich	ADP	N	_	12	nmod:cau	_	_
-12	yashirinib olib	yashirinib ol	VERB	V	_	16	advcl	_	_
-13	,	yashirinib ol	PUNCT	Y	_	12	punct	_	_
-14	barg	barg	VERB	N	_	15	nmod:poss	_	_
-15	o'tlarini	o't	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	16	obj	_	_
-16	yeydi	yey	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
-17	,	yey	PUNCT	Y	_	16	punct	_	_
-18	-	yey	PUNCT	Y	_	16	punct	_	_
-19	debdi	deb	VERB	V	_	0	root	_	_
-20	.	deb	PUNCT	Y	_	19	punct	_	_
+7	-	-	PUNCT	Y	_	8	punct	_	_
+8	da	da	PART	T	_	6	mark	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
+10	oʻzi	oʻz	PRON	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Reflex=Yes	13	nsubj	_	_
+11	ichiga	ich	ADP	N	_	13	nmod	_	_
+12	yashirinib	yashirinmoq	VERB	V	Aspect=Perf|VerbForm=Conv	13	advcl	_	_
+13	olib	olmoq	VERB	V	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
+14	,	,	PUNCT	Y	_	13	punct	_	_
+15	barg	barg	VERB	N	_	16	nmod:poss	_	_
+16	o'tlarini	o't	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	17	obj	_	_
+17	yeydi	yemoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+18	,	,	PUNCT	Y	_	17	punct	_	_
+19	-	-	PUNCT	Y	_	17	punct	_	_
+20	debdi	demoq	VERB	V	_	0	root	_	_
+21	.	.	PUNCT	Y	_	20	punct	_	_
 
 # sent_id = s59
 # text = bir togʻ qushi uchib kelib , uning yonidagi nok daraxtiga qo'nibdi ,
-1	bir	deb	DET	M	Case=Nom|NumType=Ord	3	det	_	_
+1	bir	bir	DET	M	_	3	det	_	_
 2	togʻ	togʻ	NOUN	N	Case=Nom	3	nmod:poss	_	_
 3	qushi	qush	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
-4	uchib	uch	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-5	kelib	kel	AUX	V	Aspect=Perf|VerbForm=Conv	4	aux	_	_
-6	,	kel	PUNCT	Y	_	5	punct	_	_
-7	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
-8	yonidagi	yonidag	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nmod	_	_
-9	nok	yonidag	NOUN	N	_	10	nmod:poss	_	_
+4	uchib	uchmoq	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+5	kelib	kelmoq	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
+7	uning	u	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+8	yonidagi	yon	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nmod	_	_
+9	nok	nok	NOUN	N	_	10	nmod:poss	_	_
 10	daraxtiga	daraxt	NOUN	N	_	11	obl	_	_
-11	qo'nibdi	qo'n	VERB	V	_	0	root	_	_
-12	,	qo'n	PUNCT	Y	_	11	punct	_	_
+11	qo'nibdi	qo'nmoq	VERB	V	_	0	root	_	_
+12	,	,	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s60
 # text = keyin daraxt po'stiga o'xshab_ ketadigan bir narsani tutib yebdi .
@@ -4818,23 +4870,23 @@
 
 # sent_id = s62
 # text = - togʻ qushi amaki , siz daraxt po'stini yeyapsizmi ?
-1	-	chirqiri	PUNCT	Y	_	9	punct	_	_
+1	-	-	PUNCT	Y	_	9	punct	_	_
 2	togʻ	togʻ	NOUN	N	Case=Nom	3	compound	_	_
 3	qushi	qush	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	vocative	_	_
-4	amaki	ama	NOUN	N	Case=Loc	3	appos	_	_
-5	,	ama	PUNCT	Y	_	3	punct	_	_
-6	siz	ama	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+4	amaki	amaki	NOUN	N	Case=Loc	3	appos	_	_
+5	,	,	PUNCT	Y	_	3	punct	_	_
+6	siz	siz	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 7	daraxt	daraxt	NOUN	N	Case=Nom	8	nmod:poss	_	_
 8	po'stini	po'st	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	9	obj	_	_
-9	yeyapsizmi	yeyap	VERB	V	_	0	root	_	_
-10	?	yeyap	PUNCT	Y	_	9	punct	_	_
+9	yeyapsizmi	yemoq	VERB	V	_	0	root	_	_
+10	?	?	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s63
 # text = - bolalar , sizlar bilmaysilar ,
 1	-	yeyap	PUNCT	Y	_	5	punct	_	_
 2	bolalar	bol	NOUN	N	Case=Nom|Number=Plur	5	vocative	_	_
 3	,	bol	PUNCT	Y	_	2	punct	_	_
-4	sizlar	siz	PRON	P	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+4	sizlar	siz	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
 5	bilmaysilar	bilmay	VERB	V	_	0	root	_	_
 6	,	bilmay	PUNCT	Y	_	5	punct	_	_
 
@@ -4895,15 +4947,15 @@
 5	.	oʻt	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s69
-# text = boyog'li va togʻ qushqichining bolalari katta bo'pdi' .
+# text = boyog'li va togʻ qushqichining bolalari katta bo'libdi .
 1	boyog'li	boyog'l	NOUN	N	_	5	nmod:poss	_	_
 2	va	boyog'l	CCONJ	C	_	4	cc	_	_
 3	togʻ	togʻ	NOUN	N	Case=Nom	4	compound	_	_
 4	qushqichining	qushqich	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	1	conj	_	_
-5	bolalari	bola	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
-6	katta	katt	ADJ	A	_	0	root	_	_
-7	bo'pdi'	bo'pdi'	AUX	V	_	6	cop	_	_
-8	.	bo'pdi'	PUNCT	Y	_	6	punct	_	_
+5	bolalari	bola	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
+6	katta	katta	ADJ	A	_	7	xcomp	_	_
+7	bo'libdi	bo'lmoq	VERB	V	Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s70
 # text = ular yam - yashil mevazorlikda uyoq - buyoqqa uchib , onasiga ergashib zararli qurtlarni tutib yeydigan bo'pti .
@@ -4914,7 +4966,7 @@
 5	mevazorlikda	mevazor	NOUN	N	_	9	obl	_	_
 6	uyoq	uyoq	NUM	M	_	8	compound:redup	_	_
 7	-	uyoq	PUNCT	Y	_	6	punct	_	_
-8	buyoqqa	buyoq	PRON	P	_	9	nmod:cau	_	_
+8	buyoqqa	buyoq	PRON	P	_	9	nmod	_	_
 9	uchib	uch	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
 10	,	uch	PUNCT	Y	_	9	punct	_	_
 11	onasiga	ona	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	_
@@ -4942,29 +4994,30 @@
 6	.	pish	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s73
-# text = mayin shamolda qip qizil tosholmalar , sap sariq noklar boshlarini sekin pasaytirib , boyog'li  va togʻ qushlariga qushqach tashakkur bildiribdi .
+# text = mayin shamolda qip-qizil tosholmalar , sap-sariq noklar boshlarini sekin pasaytirib , boyogʻli  va togʻ qushlariga qushqach tashakkur bildiribdi .
 1	mayin	mayin	ADJ	A	_	2	amod	_	_
 2	shamolda	shamol	NOUN	NOUN	Case=Loc	17	obl	_	_
-3	qip qizil	qip qizil	ADJ	A	_	4	amod	_	_
+3	qip-qizil	qip-qizil	ADJ	A	_	4	amod	_	_
 4	tosholmalar	tosholma	NOUN	NOUN	Case=Nom|Number=Plur	17	nsubj	_	_
 5	,	tosholma	PUNCT	Y	_	7	punct	_	_
-6	sap sariq	sap sariq	ADJ	A	_	7	amod	_	_
+6	sap-sariq	sap-sariq	ADJ	A	_	7	amod	_	_
 7	noklar	nok	NOUN	NOUN	Case=Nom|Number=Plur	4	conj	_	_
 8	boshlarini	bosh	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
 9	sekin	sekin	ADV	D	_	10	advmod	_	_
 10	pasaytirib	pasayti	VERB	V	Aspect=Perf|VerbForm=Conv	17	advcl	_	_
 11	,	pasayti	PUNCT	Y	_	10	punct	_	_
-12	boyog'li	boyog'l	NOUN	NOUN	Case=Nom	17	nmod:cau	_	_
-13	va	boyog'l	CCONJ	C	_	15	cc	_	_
+12	boyogʻli	boyogʻli	NOUN	NOUN	Case=Nom	17	nmod	_	_
+13	va	va	CCONJ	C	_	15	cc	_	_
 14	togʻ	togʻ	NOUN	NOUN	Case=Nom	15	compound	_	_
-15	qushlariga qushqach	qushlariga qush	NOUN	NOUN	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	12	conj	_	Translit=qushqachlirigha
-16	tashakkur	tashakku	NOUN	NOUN	_	17	compound	_	_
-17	bildiribdi	bildi	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-18	.	bildi	PUNCT	Y	_	17	punct	_	_
+15	qushlariga	qush	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	16	nmod:poss	_	_
+16	qushqach	qushqach	NOUN	_	_	12	conj	_	_
+17	tashakkur	tashakkur	NOUN	NOUN	_	18	compound	_	_
+18	bildiribdi	bildi	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	bildi	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s74
 # text = siz « yetti oʻlchab bir kes » , « yaxshi chora ishning yarmi » , « savob qilsang savatda suv to'xtaydi » degan maqollarni tushunib olganmisiz ?
-1	siz	bildi	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	25	nsubj	_	_
+1	siz	bildi	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
 2	«	bildi	PUNCT	Y	_	3	punct	_	_
 3	yetti	yet	NUM	M	Case=Nom|NumType=Ord	23	xcomp	_	_
 4	oʻlchab	oʻlcha	NOUN	N	_	3	fixed	_	_
@@ -4989,7 +5042,7 @@
 23	degan	degan	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	24	acl	_	_
 24	maqollarni	maqol	NOUN	N	Case=Acc|Number=Plur	25	obj	_	_
 25	tushunib	tushun	VERB	V	_	0	root	_	_
-26	olganmisiz	olgan	VERB	V	Case=Nom|Mood=Int|Tense=Past|VerbForm=Ger	25	compound	_	_
+26	olganmisiz	olgan	VERB	V	Case=Nom|Mood=Int|Tense=Past	25	compound	_	_
 27	?	olgan	PUNCT	Y	_	26	punct	_	_
 
 # sent_id = s75
@@ -5019,7 +5072,7 @@
 # text = muammollarga qanday qarash , masalalarni qanday o'ylash kerakligini aytib beradi .
 1	muammollarga	muammol	NOUN	N	Case=Dat|Number=Plur	3	obl	_	_
 2	qanday	qand	ADV	P	PronType=Int	3	advmod	_	_
-3	qarash	qara	VERB	V	Case=Nom|VerbForm=Ger	9	obj	_	_
+3	qarash	qara	VERB	V	Case=Nom	9	obj	_	_
 4	,	qara	PUNCT	Y	_	7	punct	_	_
 5	masalalarni	masala	NOUN	N	Case=Acc|Number=Plur	7	obj	_	_
 6	qanday	qand	ADV	P	PronType=Int	7	advmod	_	_
@@ -5035,41 +5088,44 @@
 2	o'qiganingizda	o'qi	VERB	V	_	8	advcl	_	_
 3	,	o'qi	PUNCT	Y	_	2	punct	_	_
 4	kerakli	kerakl	ADV	D	_	8	advmod	_	_
-5	ma'lum	ma'lu	DET	A	Case=Nom	6	det	_	_
+5	ma'lum	ma'lum	DET	A	_	6	det	_	_
 6	taassurotga	taassurot	NOUN	N	Case=Dat	8	obl	_	_
 7	ega	taassurot	NOUN	N	Case=Nom	8	compound	_	_
-8	bo'lasiz	bo'l	VERB	V	_	0	root	_	_
-9	.	bo'l	PUNCT	Y	_	8	punct	_	_
+8	bo'lasiz	bo'lmoq	VERB	V	_	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s79
 # text = bir duradgor bola bo'lgan ekan .
-1	bir	bo'l	DET	M	Case=Nom|NumType=Ord	3	det	_	_
+1	bir	bir	DET	M	_	3	det	_	_
 2	duradgor	duradgo	NOUN	N	Case=Nom	3	amod	_	_
-3	bola	bol	NOUN	N	Case=Nom	4	nsubj	_	_
-4	bo'lgan ekan	bo'lgan e	VERB	V	_	0	root	_	_
-5	.	bo'lgan e	PUNCT	Y	_	4	punct	_	_
+3	bola	bola	NOUN	N	Case=Nom	4	nsubj	_	_
+4	bo'lgan	bo'lmoq	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	ekan	ekan	AUX	AUX	VerbForm=Fin	4	aux	_	_
+6	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s80
 # text = u ish qilganda aqlini ishlatmas ekan ,
-1	u	bo'lgan e	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	ish	bo'lgan e	NOUN	N	Case=Nom	3	compound	_	_
-3	qilganda	qil	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	5	obl	_	_
-4	aqlini	aql	NOUN	N	Case=Nom	5	obj	_	_
-5	ishlatmas ekan	ishlatmas e	VERB	V	_	0	root	_	_
-6	,	ishlatmas e	PUNCT	Y	_	5	punct	_	_
+1	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	ish	ish	NOUN	N	Case=Nom	3	compound	_	_
+3	qilganda	qilmoq	VERB	V	Case=Loc|Tense=Past|VerbForm=Conv	5	obl	_	_
+4	aqlini	aql	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+5	ishlatmas	ishlatmoq	VERB	V	Mood=Pot|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
+6	ekan	ekan	AUX	AUX	VerbForm=Fin	5	aux	_	_
+7	,	,	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s81
 # text = boshqalarning maslahatlarini anglamas ekan .
 1	boshqalarning	boshqa	ADJ	A	Case=Gen|Number=Plur	2	nmod:poss	_	_
 2	maslahatlarini	maslahat	NOUN	N	_	3	obj	_	_
-3	anglamas ekan	anglamas e	VERB	V	_	0	root	_	_
-4	.	anglamas e	PUNCT	Y	_	3	punct	_	_
+3	anglamas	anglamoq	VERB	V	Aspect=Hab|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+4	ekan	ekan	AUX	V	VerbForm=Fin	0	root	_	_
+5	.	,	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s82
 # text = bir kuni u oʻrmonga borib , bir tup daraxtni kesip keldi va uni yangidan qurmoqchi boʻlgan uyiga ustun qilmoqchi bo'libdi .
-1	bir	anglamas e	NUM	M	_	2	nummod	_	_
+1	bir	bir	DET	D	PronType=Ind	2	det	_	_
 2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	19	obl	_	_
-3	u	kun	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+3	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 4	oʻrmonga	oʻrmon	NOUN	N	Case=Dat	5	obl	_	_
 5	borib	bor	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
 6	,	bor	PUNCT	Y	_	10	punct	_	_
@@ -5082,34 +5138,35 @@
 13	uni	kel	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 14	yangidan	yang	ADJ	A	Case=Abl	15	advmod	_	_
 15	qurmoqchi	qur	VERB	V	_	17	acl	_	_
-16	boʻlgan	boʻl	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	15	compound:lvc	_	_
+16	boʻlgan	boʻlmoq	VERB	V	Case=Nom|Tense=Past	15	compound:lvc	_	_
 17	uyiga	uyi	NOUN	N	Case=Dat	19	obl	_	_
 18	ustun	ustun	NOUN	N	Case=Nom	19	obl	_	_
 19	qilmoqchi	qil	VERB	V	_	0	root	_	_
-20	bo'libdi	bo'l	AUX	V	_	19	cop	_	_
-21	.	bo'l	PUNCT	Y	_	19	punct	_	_
+20	bo'libdi	bo'lmoq	VERB	V	Tense=Past|VerbForm=Fin	19	conj	_	_
+21	.	.	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s83
 # text = duradgor bola oldi tomoni bilan daraxtni kesibdi ,
-1	duradgor	duradgo	NOUN	N	Case=Nom	2	amod	_	_
-2	bola	bol	NOUN	N	Case=Nom	6	nsubj	_	_
-3	oldi tomoni	oldi tomo	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
-4	bilan	bilan	ADP	R	_	3	case	_	_
-5	daraxtni	daraxt	NOUN	N	Case=Acc	6	obj	_	_
-6	kesibdi	kes	VERB	V	_	0	root	_	_
-7	,	kes	PUNCT	Y	_	6	punct	_	_
+1	duradgor	duradgor	NOUN	N	Case=Nom	2	amod	_	_
+2	bola	bolz	NOUN	N	Case=Nom	6	nsubj	_	_
+3	oldi	old	NOUN	N	Case=Gen	4	nmod:poss	_	_
+4	tomoni	tomon	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+5	bilan	bilan	ADP	R	_	4	case	_	_
+6	daraxtni	daraxt	NOUN	N	Case=Acc	7	obj	_	_
+7	kesibdi	kesmoq	VERB	V	_	0	root	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s84
 # text = kesib boʻlib qarasa , yogʻoch qisqa boʻlib qolibdi .
-1	kesib	kes	NOUN	N	_	3	advcl	_	_
-2	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	1	aux	_	_
-3	qarasa	qar	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	8	advcl	_	_
-4	,	qar	PUNCT	Y	_	3	punct	_	_
+1	kesib	kesmoq	VERB	V	VerbForm=Conv	3	advcl	_	_
+2	boʻlib	boʻlmoq	VERB	V	VerbForm=Conv	1	advcl	_	_
+3	qarasa	qaramoq	VERB	V	Mood=Cnd|Person=3|VerbForm=Conv	8	advcl	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
 5	yogʻoch	yogʻoch	NOUN	N	Case=Nom	8	nsubj	_	_
-6	qisqa	qis	NOUN	A	Case=Nom	8	xcomp	_	_
-7	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	6	cop	_	_
-8	qolibdi	qol	VERB	V	_	0	root	_	_
-9	.	qol	PUNCT	Y	_	8	punct	_	_
+6	qisqa	qisqa	ADJ	A	_	8	xcomp	_	_
+7	boʻlib	boʻlmoq	VERB	V	VerbForm=Conv	8	advcl	_	_
+8	qolibdi	qolmoq	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s85
 # text = shuning bilan u eshik qilmoqchi bo'libdi - da , darhol chot bilan yo'nishni boshlabdi .
@@ -5117,27 +5174,27 @@
 2	bilan	bilan	ADP	R	_	1	fixed	_	_
 3	u	bilan	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	eshik	esh	NOUN	N	Case=Nom	5	obl	_	_
-5	qilmoqchi	qil	VERB	V	_	14	obl	_	_
-6	bo'libdi	bo'l	AUX	V	_	5	cop	_	_
-7	-	bo'l	PUNCT	Y	_	8	punct	_	_
-8	da	bo'l	PART	T	_	5	mark	_	_
-9	,	bo'l	PUNCT	Y	_	8	punct	_	_
+5	qilmoqchi	qilmoq	VERB	V	_	14	obl	_	_
+6	bo'libdi	bo'lmoq	VERB	V	VerbForm=Fin	5	advcl	_	_
+7	-	-	PUNCT	Y	_	8	punct	_	_
+8	da	da	PART	T	_	5	mark	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
 10	darhol	darhol	ADV	D	_	14	advmod	_	_
 11	chot	chot	NOUN	N	Case=Nom	13	obl	_	_
 12	bilan	bilan	ADP	R	_	11	case	_	_
 13	yo'nishni	yo'ni	VERB	V	_	14	advcl	_	_
 14	boshlabdi	boshla	VERB	V	_	1	conj	_	_
-15	.	boshla	PUNCT	Y	_	14	punct	_	_
+15	.	.	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s86
 # text = bir payt qarasa , yogʻoch kichik boʻlib qolibdi .
 1	bir	boshla	NUM	M	Case=Nom|NumType=Ord	2	compound	_	_
-2	payt	payt	NOUN	N	Case=Loc	3	nmod:tmod	_	_
+2	payt	payt	NOUN	N	Case=Loc	3	nmod	_	_
 3	qarasa	qar	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	8	advcl	_	_
 4	,	qar	PUNCT	Y	_	3	punct	_	_
 5	yogʻoch	yogʻoch	NOUN	N	Case=Nom	8	nsubj	_	_
 6	kichik	kich	ADJ	A	_	8	xcomp	_	_
-7	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	6	cop	_	_
+7	boʻlib	boʻl	AUX	V	_	6	cop	_	_
 8	qolibdi	qol	VERB	V	_	0	root	_	_
 9	.	qol	PUNCT	Y	_	8	punct	_	_
 
@@ -5148,9 +5205,9 @@
 3	uni	end	PRON	P	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 4	ketmonga	ketmon	NOUN	N	Case=Dat	6	obl	_	_
 5	dasta	dast	NOUN	N	Case=Nom	6	compound	_	_
-6	qilmoqchi	qil	VERB	V	_	0	root	_	_
-7	bo'libdi	bo'l	AUX	V	_	6	cop	_	_
-8	.	bo'l	PUNCT	Y	_	6	punct	_	_
+6	qilmoqchi	qilmoq	VERB	V	VerbForm=Conv	0	root	_	_
+7	bo'libdi	bo'lmoq	VERB	V	Tense=Past|VerbForm=Fin	6	xcomp	_	_
+8	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s88
 # text = bola yogʻochni darhol randalashni boshlabdi .
@@ -5164,13 +5221,13 @@
 # sent_id = s89
 # text = bir payt qarasa , yogʻoch juda ingichka boʻlib qolibdi .
 1	bir	boshla	NUM	M	Case=Nom|NumType=Ord	2	compound	_	_
-2	payt	payt	NOUN	N	Case=Loc	3	nmod:tmod	_	_
+2	payt	payt	NOUN	N	Case=Loc	3	nmod	_	_
 3	qarasa	qar	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Conv	9	advcl	_	_
 4	,	qar	PUNCT	Y	_	3	punct	_	_
 5	yogʻoch	yogʻoch	NOUN	N	Case=Nom	9	nsubj	_	_
 6	juda	jud	ADV	D	_	9	advmod	_	_
 7	ingichka	ingich	ADJ	A	_	9	xcomp	_	_
-8	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	7	cop	_	_
+8	boʻlib	boʻl	AUX	V	_	7	cop	_	_
 9	qolibdi	qol	VERB	V	_	0	root	_	_
 10	.	qol	PUNCT	Y	_	9	punct	_	_
 
@@ -5196,7 +5253,7 @@
 
 # sent_id = s91
 # text = shuning bilan yogʻoch shunday ingichkalab tish kovlagich boʻlib qoldi     .
-1	shuning	shu	CCONJ	C	_	8	cc	_	_
+1	shuning	shu	PRON	C	ExtPos=ADP	8	cc	_	_
 2	bilan	bilan	ADP	C	_	1	fixed	_	_
 3	yogʻoch	yogʻoch	NOUN	N	Case=Nom	9	nsubj	_	_
 4	shunday	shund	NOUN	D	Case=Nom	5	obl	_	_
@@ -5212,14 +5269,15 @@
 1	bola	bol	NOUN	N	Case=Nom	5	nsubj	_	_
 2	u	bol	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 3	bilan	bilan	ADP	R	_	2	case	_	_
-4	tishini	tish	VERB	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	5	obj	_	_
-5	kovlagan ekan	kovlagan e	VERB	V	_	10	advcl	_	_
-6	,	kovlagan e	PUNCT	Y	_	5	punct	_	_
-7	shu	kovlagan e	PRON	P	Case=Nom|PronType=Dem	8	compound	_	_
-8	hamon	hamon	ADV	D	_	10	advmod	_	_
-9	sinib	sin	VERB	V	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_
-10	ketibdi	ket	VERB	V	_	0	root	_	_
-11	.	ket	PUNCT	Y	_	10	punct	_	_
+4	tishini	tish	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+5	kovlagan	kovla	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+6	ekan	ekan	AUX	V	VerbForm=Fin	11	advcl	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
+8	shu	,	PRON	P	Case=Nom|PronType=Dem	9	compound	_	_
+9	hamon	hamon	ADV	D	_	11	advmod	_	_
+10	sinib	sin	VERB	V	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
+11	ketibdi	ket	VERB	V	_	0	root	_	_
+12	.	ket	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s93
 # text = aytishlariga qaraganda , « yetti oʻlchab bir kes » degan maqol shundan qolgan ekan .
@@ -5243,10 +5301,11 @@
 # text = burungi zamonda bir chol oʻtgan ekan ,
 1	burungi	burung	ADJ	A	_	5	obl	_	_
 2	zamonda	zamon	NOUN	N	Case=Loc	1	fixed	_	_
-3	bir	zamon	DET	M	Case=Nom|NumType=Ord	4	det	_	_
+3	bir	bir	DET	M	_	4	det	_	_
 4	chol	chol	NOUN	N	Case=Nom	5	nsubj	_	_
-5	oʻtgan ekan	oʻtgan e	VERB	V	_	0	root	_	_
-6	,	oʻtgan e	PUNCT	Y	_	5	punct	_	_
+5	oʻtgan	oʻtmoq	VERB	V	Tense=Past|VerbForm=Part	6	xcomp	_	_
+6	ekan	ekan	AUX	V	VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s95
 # text = uning ikki oʻgʻli bor ekan .
@@ -5262,15 +5321,15 @@
 1	kunlarning	kun	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	_
 2	birida	bir	NUM	NUM	Case=Loc|NumType=Card	11	obl	_	_
 3	chol	chol	NOUN	N	Case=Nom	11	nsubj	_	_
-4	ogʻir	ogʻ	ADJ	A	_	5	amod	_	_
+4	ogʻir	ogʻir	ADJ	A	_	5	amod	_	_
 5	kasal	kasal	NOUN	N	Case=Nom	11	obl	_	_
-6	boʻlib	boʻl	AUX	AUX	Aspect=Perf|VerbForm=Conv	5	cop	_	_
-7	,	boʻl	PUNCT	PUNCT	_	5	punct	_	_
+6	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
 8	to'shakka	to'shak	NOUN	N	Case=Dat	9	obl	_	_
-9	mixlanib	mixlan	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=tutup
-10	yotib	yot	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	xcomp	_	_
-11	qolibdi	qol	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	.	qol	PUNCT	PUNCT	_	11	punct	_	_
+9	mixlanib	mixlanmoq	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	advcl	_	Translit=tutup
+10	yotib	yotmoq	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	xcomp	_	_
+11	qolibdi	qolmoq	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = s97
 # text = u bolalarini yoniga chaqiribdi.
@@ -5350,61 +5409,61 @@
 1	u	bor	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	shahar	shah	NOUN	N	Case=Nom	3	nmod:poss	_	_
 3	tashqarisidagi	tashqarisidag	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	amod	_	_
-4	bir	tashqarisidag	DET	M	Case=Nom|NumType=Ord	6	det	_	_
+4	bir	tashqarisidag	DET	M	_	6	det	_	_
 5	ot	tashqarisidag	NOUN	N	Case=Nom	6	nmod:poss	_	_
 6	hovlisini	hovli	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
-7	koʻribdi	koʻ	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	.	koʻ	PUNCT	Y	_	7	punct	_	_
+7	koʻribdi	koʻrmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s104
-# text = hovlining yonida 70 yoshdan oshgan , ustiga uzun palto kiygan , soch - soqollari uchidan oqargan , koʻrinishidan bilimdon ekanligi bilinib turidigan bir mo'ysafit turardi .
+# text = hovlining yonida 70 yoshdan oshgan , ustiga uzun palto kiygan , soch - soqollari uchidan oqargan , koʻrinishidan bilimdon ekanligi bilinib turadigan bir mo'ysafit turardi .
 1	hovlining	hovl	NOUN	N	Case=Gen	2	nmod:poss	_	_
 2	yonida	yon	NOUN	N	_	25	obl	_	_
-3	70	yon	NUM	M	NumType=Ord	4	nummod	_	_
-4	yoshdan	yosh	VERB	N	Case=Abl|VerbForm=Ger	5	obl	_	_
-5	oshgan	osh	VERB	V	_	24	acl	_	_
-6	,	osh	PUNCT	Y	_	10	punct	_	_
+3	70	70	NUM	M	NumType=Ord	4	nummod	_	_
+4	yoshdan	yosh	NOUN	N	Case=Abl	5	obl	_	_
+5	oshgan	oshmoq	VERB	V	_	24	acl	_	_
+6	,	,	PUNCT	Y	_	10	punct	_	_
 7	ustiga	ust	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 8	uzun	uzun	ADJ	A	_	9	amod	_	_
 9	palto	palto	NOUN	N	Case=Nom	10	obj	_	_
 10	kiygan	kiy	VERB	V	_	5	conj	_	_
-11	,	kiy	PUNCT	Y	_	16	punct	_	_
+11	,	,	PUNCT	Y	_	16	punct	_	_
 12	soch	soch	NOUN	N	Case=Nom	14	compound:redup	_	_
 13	-	soch	PUNCT	Y	_	12	punct	_	_
 14	soqollari	soqol	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	16	nsubj	_	_
 15	uchidan	uch	NOUN	N	_	16	obl	_	_
-16	oqargan	oqar	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	5	conj	_	_
+16	oqargan	oqarmoq	VERB	V	Case=Nom|Tense=Past	5	conj	_	_
 17	,	oqar	PUNCT	Y	_	22	punct	_	_
-18	koʻrinishidan	koʻrini	VERB	V	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	22	advcl	_	_
+18	koʻrinishidan	koʻrinmoq	VERB	V	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	22	advcl	_	_
 19	bilimdon	bilimdon	NOUN	A	Case=Nom	22	obl	_	_
-20	ekanligi	ekanlig	AUX	V	_	19	cop	_	_
-21	bilinib	bilin	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	22	xcomp	_	_
-22	turidigan	turidi	VERB	V	_	5	conj	_	_
-23	bir	turidi	DET	M	Case=Nom|NumType=Ord	24	det	_	_
+20	ekanligi	ekan	NOUN	N	Case=Nom|Number=Sing	19	appos	_	_
+21	bilinib	bilinmoq	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	22	xcomp	_	_
+22	turadigan	turmoq	VERB	V	_	5	conj	_	_
+23	bir	bir	DET	M	_	24	det	_	_
 24	mo'ysafit	mo'ysafit	ADJ	A	_	25	nsubj	_	_
 25	turardi	tur	VERB	V	_	0	root	_	_
-26	.	tur	PUNCT	Y	_	25	punct	_	_
+26	.	.	PUNCT	Y	_	25	punct	_	_
 
 # sent_id = s105
-# text = yigit : « mening ustoz tutmoqchi bolganim aynan shu kishi bo'ladi ! » deb o'ylaydi - da ,
+# text = yigit : « mening ustoz tutmoqchi boʻlganim aynan shu kishi bo'ladi ! » deb o'ylaydi - da ,
 1	yigit	yigit	PROPN	N	Case=Nom	15	nsubj	_	_
 2	:	yigit	PUNCT	Y	_	1	punct	_	_
 3	«	yigit	PUNCT	Y	_	11	punct	_	_
 4	mening	men	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 5	ustoz	ustoz	NOUN	N	Case=Nom	6	nsubj	_	_
 6	tutmoqchi	tut	VERB	V	_	11	csubj	_	_
-7	bolganim	bol	AUX	V	_	6	cop	_	_
+7	boʻlganim	boʻlmoq	VERB	V	Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|Tense=Past|VerbForm=Part	6	acl	_	_
 8	aynan	aynan	ADV	D	_	9	advmod:emph	_	_
-9	shu	aynan	PRON	P	Case=Nom|PronType=Dem	10	det	_	_
-10	kishi	kish	NOUN	N	_	11	xcomp	_	_
+9	shu	shu	PRON	P	Case=Nom|PronType=Dem	10	det	_	_
+10	kishi	kishi	NOUN	N	_	11	xcomp	_	_
 11	bo'ladi	bo'l	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
-12	!	bo'l	PUNCT	V	_	11	punct	_	_
-13	»	bo'l	PUNCT	Y	_	11	punct	_	_
-14	deb	bo'l	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
-15	o'ylaydi	o'ylay	VERB	V	_	0	root	_	_
-16	-	o'ylay	PUNCT	Y	_	17	punct	_	_
-17	da	o'ylay	PART	T	_	15	mark	_	_
-18	,	o'ylay	PUNCT	Y	_	17	punct	_	_
+12	!	?	PUNCT	V	_	11	punct	_	_
+13	»	»	PUNCT	Y	_	11	punct	_	_
+14	deb	demoq	VERB	V	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
+15	o'ylaydi	o'ylamoq	VERB	V	_	0	root	_	_
+16	-	-	PUNCT	Y	_	17	punct	_	_
+17	da	da	PART	T	_	15	mark	_	_
+18	,	,	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s106
 # text = darrov tazim qilib : oqsaqol , siz lavzli hazratsiz deyman , - deb soʻradi .
@@ -5414,7 +5473,7 @@
 4	:	qil	PUNCT	Y	_	3	punct	_	_
 5	oqsaqol	oqsaqol	NOUN	A	Case=Nom	10	vocative	_	_
 6	,	oqsaqol	PUNCT	Y	_	5	punct	_	_
-7	siz	oqsaqol	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	_
+7	siz	oqsaqol	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 8	lavzli	lavzl	NOUN	N	_	10	obl	_	_
 9	hazratsiz	hazrat	VERB	V	_	10	xcomp	_	_
 10	deyman	dey	VERB	T	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
@@ -5426,19 +5485,19 @@
 
 # sent_id = s107
 # text = siz . . . ? - mo'ysafit yoʻl azobi yetarlicha tarqaganligi bilinib turgan bu yigitning bir qarashda oʻzini taniganligiga biroz ajablanibdi .
-1	siz	soʻr	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	21	discourse	_	_
-2	.	soʻr	PUNCT	V	_	1	punct	_	_
-3	.	soʻr	PUNCT	V	_	1	punct	_	_
-4	.	soʻr	PUNCT	Y	_	1	punct	_	_
-5	?	soʻr	PUNCT	Y	_	1	punct	_	_
-6	-	soʻr	PUNCT	Y	_	1	punct	_	_
+1	siz	soʻr	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	discourse	_	_
+2	.	.	PUNCT	V	_	1	punct	_	_
+3	.	.	PUNCT	V	_	1	punct	_	_
+4	.	.	PUNCT	Y	_	1	punct	_	_
+5	?	?	PUNCT	Y	_	1	punct	_	_
+6	-	-	PUNCT	Y	_	1	punct	_	_
 7	mo'ysafit	mo'ysafit	ADJ	A	_	21	nsubj	_	_
 8	yoʻl	yoʻl	NOUN	N	Case=Nom	9	nmod:poss	_	_
 9	azobi	azob	NOUN	N	_	11	obj	_	_
 10	yetarlicha	yetarlich	VERB	V	_	11	advcl	_	_
 11	tarqaganligi	tarqaganlig	VERB	V	_	12	csubj	_	_
-12	bilinib	bilin	VERB	V	Aspect=Perf|VerbForm=Inf|Voice=Pass	15	acl	_	_
-13	turgan	tur	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	bilinib	bilinmoq	VERB	V	Aspect=Perf|VerbForm=Conv|Voice=Pass	13	advcl	_	_
+13	turgan	turmoq	VERB	V	Tense=Past|VerbForm=Part	15	acl	_	_
 14	bu	tur	PRON	P	Case=Nom|PronType=Dem	15	det	_	_
 15	yigitning	yigit	NOUN	N	Case=Gen	19	nsubj	_	_
 16	bir	yigit	NUM	M	Case=Nom|NumType=Ord	17	compound	_	_
@@ -5447,7 +5506,7 @@
 19	taniganligiga	taniganlig	VERB	V	_	21	obl	_	_
 20	biroz	biroz	NOUN	D	Case=Nom	21	obl	_	_
 21	ajablanibdi	ajablan	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-22	.	ajablan	PUNCT	Y	_	21	punct	_	_
+22	.	.	PUNCT	Y	_	21	punct	_	_
 
 # sent_id = s108
 # text = - shogirdlari mo'tabar ustozni yo'qlagani keldi , - dedi yigit darhol ,
@@ -5487,43 +5546,45 @@
 
 # sent_id = s111
 # text = - sizni keladi deb o'ylab , shu yerda kutib turgan edim .
-1	-	donishmand	PUNCT	Y	_	10	punct	_	_
-2	sizni	siz	PRON	P	Case=Acc|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	dep	_	_
-3	keladi	kel	VERB	V	_	4	ccomp	_	_
-4	deb	kel	VERB	V	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
-5	o'ylab	o'yla	VERB	V	_	10	advcl	_	_
-6	,	o'yla	PUNCT	Y	_	5	punct	_	_
-7	shu	o'yla	PRON	P	Case=Nom|PronType=Dem	8	det	_	_
+1	-	-	PUNCT	Y	_	10	punct	_	_
+2	sizni	siz	PRON	P	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+3	keladi	kelmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+4	deb	deb	SCONJ	SCONJ	_	3	mark	_	_
+5	o'ylab	o'ylamoq	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+6	,	,	PUNCT	Y	_	5	punct	_	_
+7	shu	shu	DET	P	PronType=Dem	8	det	_	_
 8	yerda	yer	NOUN	N	Case=Loc	10	obl	_	_
-9	kutib	kut	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
-10	turgan edim	turgan e	VERB	V	_	0	root	_	_
-11	.	turgan e	PUNCT	Y	_	10	punct	_	_
+9	kutib	kutmoq	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
+10	turgan	turmoq	VERB	V	Tense=Past|VerbForm=Part	11	acl	_	_
+11	edim	edi	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s112
 # text = ilm tahsil qilishda , siz mendan qolishmas ekansiz .
-1	ilm	turgan e	NOUN	N	Case=Nom	3	nsubj	_	_
-2	tahsil	tahsil	NOUN	N	Case=Nom	3	compound	_	_
-3	qilishda	qili	VERB	V	Case=Loc|VerbForm=Ger	7	advcl	_	_
-4	,	qili	PUNCT	Y	_	3	punct	_	_
-5	siz	qili	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
-6	mendan	men	PRON	P	Case=Abl|Number=Sing|Person=1|PronType=Prs	7	nmod:comp	_	_
-7	qolishmas ekansiz	qolishmas e	VERB	V	_	0	root	_	_
-8	.	qolishmas e	PUNCT	Y	_	7	punct	_	_
+1	ilm	ilm	NOUN	N	Case=Nom	3	nsubj	_	_
+2	tahsil	tahsil	NOUN	N	Case=Nom	1	compound	_	_
+3	qilishda	qilmoq	VERB	V	Case=Loc|VerbForm=Conv	7	advcl	_	_
+4	,	,	PUNCT	Y	_	3	punct	_	_
+5	siz	siz	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	mendan	men	PRON	P	Case=Abl|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+7	qolishmas	qolmoq	VERB	V	Mood=Pot|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	8	ccomp	_	_
+8	ekansiz	ekan	AUX	AUX	Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s113
 # text = shunday aqlli , nima uchun yana meni ustoz tutmoqchi boʻlib qoldingiz ?
-1	shunday	shund	ADV	P	_	10	compound	_	_
-2	aqlli	aqll	ADP	R	_	1	mark	_	_
-3	,	aqll	PUNCT	Y	_	4	punct	_	_
-4	nima	nima	NOUN	P	Case=Nom	1	obl	_	_
+1	shunday	shunday	ADV	D	_	2	advmod	_	_
+2	aqlli	aqlli	ADJ	A	_	11	discourse	_	_
+3	,	,	PUNCT	Y	_	2	punct	_	_
+4	nima	nima	ADV	P	_	11	advmod	_	_
 5	uchun	uchun	ADP	R	_	4	fixed	_	_
-6	yana	yan	ADV	D	_	1	advmod	_	_
-7	meni	men	PRON	P	_	1	obj	_	_
-8	ustoz	ustoz	NOUN	N	Case=Nom	1	nsubj	_	_
-9	tutmoqchi	tut	VERB	V	_	1	fixed	_	_
-10	boʻlib	boʻl	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-11	qoldingiz	qold	AUX	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	10	aux	_	_
-12	?	qold	PUNCT	Y	_	11	punct	_	_
+6	yana	yana	ADV	D	_	11	advmod	_	_
+7	meni	men	PRON	P	Case=Acc|Person=1	9	obj	_	_
+8	ustoz	ustoz	NOUN	N	Case=Nom	9	xcomp	_	_
+9	tutmoqchi	tutmoq	VERB	V	Aspect=Imp|VerbForm=Conv	10	xcomp	_	_
+10	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
+11	qoldingiz	qolmoq	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
+12	?	?	PUNCT	Y	_	11	punct	_	_
 
 # sent_id = s114
 # text = bu soʻzni eshitgan yigit yana bir marotaba ta'zim qiladi .
@@ -5543,7 +5604,7 @@
 1	-	qil	PUNCT	Y	_	9	punct	_	_
 2	ustozining	ustoz	NOUN	N	Case=Gen	4	obl	_	_
 3	kutib	kut	VERB	V	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
-4	turganiga	tur	VERB	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	6	nmod	_	_
+4	turganiga	turmoq	VERB	V	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past	6	nmod	_	_
 5	koʻp	koʻp	ADJ	A	_	6	advmod	_	_
 6	tashakkur	tashakku	NOUN	N	_	9	ccomp	_	_
 7	,	tashakku	PUNCT	Y	_	6	punct	_	_
@@ -5562,7 +5623,7 @@
 
 # sent_id = s117
 # text = siz bilimda kamolotga yetkan kishi ,
-1	siz	bo'l	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+1	siz	bo'l	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 2	bilimda	bili	NOUN	N	_	4	obl	_	_
 3	kamolotga	kamolot	NOUN	N	Case=Dat	4	obl	_	_
 4	yetkan	yet	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	_
@@ -5571,8 +5632,8 @@
 
 # sent_id = s118
 # text = sizdan oʻgansam , mavjud bilimim mukammallashadi .
-1	sizdan	siz	PRON	P	Case=Abl|Number=Sing|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
-2	oʻgansam	oʻgan	VERB	V	_	6	advcl:cond	_	_
+1	sizdan	siz	PRON	P	Case=Abl|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+2	oʻgansam	oʻgan	VERB	V	_	6	advcl	_	_
 3	,	oʻgan	PUNCT	Y	_	2	punct	_	_
 4	mavjud	mavjud	ADV	D	_	6	advmod	_	_
 5	bilimim	bil	NOUN	N	_	6	nsubj	_	_
@@ -5581,8 +5642,8 @@
 
 # sent_id = s119
 # text = shudan  boshlab , yigit kun bo'yi ustozining qoshidan nari ketmay har vaqt ta'lim oladi .
-1	shudan	shu	PRON	P	_	14	obl	_	_
-2	boshlab	boshla	ADP	R	_	1	fixed	_	_
+1	shudan	shu	PRON	P	ExtPos=ADP	14	obl	_	_
+2	boshlab	boshlamoq	ADP	R	_	1	fixed	_	_
 3	,	boshla	PUNCT	Y	_	1	punct	_	_
 4	yigit	yigit	NOUN	N	_	14	nsubj	_	_
 5	kun	yigit	NOUN	N	Case=Nom	6	compound	_	_
@@ -5592,7 +5653,7 @@
 9	nari	nar	NOUN	D	Case=Nom	10	obl	_	_
 10	ketmay	ket	VERB	V	_	14	advcl	_	_
 11	har	ket	DET	P	_	12	compound	_	_
-12	vaqt	vaqt	NOUN	N	Case=Nom	14	nmod:tmod	_	_
+12	vaqt	vaqt	NOUN	N	Case=Nom	14	nmod	_	_
 13	ta'lim	ta'l	NOUN	N	Case=Nom	14	compound	_	_
 14	oladi	ola	VERB	V	_	0	root	_	_
 15	.	ola	PUNCT	Y	_	14	punct	_	_
@@ -5614,9 +5675,9 @@
 3	bilan	bilan	ADP	R	_	4	cc	_	_
 4	ustozning	ustoz	NOUN	N	Case=Gen	2	conj	_	_
 5	bilimiga	bilim	NOUN	N	_	6	nmod	_	_
-6	qoyil	qoyil	ADJ	A	_	0	root	_	_
-7	qoladi	qol	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-8	,	qol	PUNCT	Y	_	6	punct	_	_
+6	qoyil	qoyil	NOUN	N	_	7	compound:lvc	_	_
+7	qoladi	qolmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	,	qol	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s122
 # text = shuningdek ularning fazilatlarini qadrlaydi .
@@ -5627,12 +5688,12 @@
 5	.	qadrlay	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s123
-# text = omonniso besh yashga qadam qoʻydi .
+# text = omonniso besh yoshga qadam qoʻydi .
 1	omonniso	omonniso	NOUN	N	_	5	nsubj	_	_
 2	besh	besh	NUM	M	_	3	nummod	_	_
-3	yashga	yash	VERB	N	Case=Dat|VerbForm=Ger	5	obl	_	_
+3	yoshga	yosh	NOUN	N	Case=Dat	5	obl	_	_
 4	qadam	qad	NOUN	N	Case=Nom	5	compound	_	_
-5	qoʻydi	qoʻy	VERB	V	_	0	root	_	_
+5	qoʻydi	qoʻymoq	VERB	V	_	0	root	_	_
 6	.	qoʻy	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s124
@@ -5652,7 +5713,7 @@
 3	insholarini	insho	NOUN	N	_	4	obj	_	_
 4	koʻrgan	koʻr	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	5	acl	_	_
 5	dadasi	dada	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nmod:poss	_	_
-6	mirzo	mirzo	PROPN	N	Case=Nom|Gender=Masc	5	nmod	_	_
+6	mirzo	mirzo	PROPN	N	Case=Nom	5	nmod	_	_
 7	mahmudning	mahmud	NOUN	N	_	5	appos	_	_
 8	dili	dil	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
 9	soʻyunib	soʻyun	VERB	V	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_
@@ -5662,7 +5723,7 @@
 # sent_id = s126
 # text = omonnisa dadasiga she'rlarni tarjima qildirib tushunishdan va soz chaldirib anglashdan doimo xushnud edi .
 1	omonnisa	omon	NOUN	NOUN	_	12	nsubj	_	_
-2	dadasiga	dada	NOUN	NOUN	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:cau	_	_
+2	dadasiga	dada	NOUN	NOUN	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
 3	she'rlarni	she'	NOUN	NOUN	Case=Acc|Number=Plur	5	obj	_	_
 4	tarjima	tarjima	NOUN	NOUN	_	5	compound	_	_
 5	qildirib	qildi	VERB	VERB	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
@@ -5673,13 +5734,13 @@
 10	anglashdan	angla	VERB	VERB	Case=Abl|VerbForm=Vnoun	6	conj	_	Translit=anglashqa
 11	doimo	doimo	ADV	ADV	_	12	advmod	_	_
 12	xushnud	xushnud	ADJ	ADJ	_	0	root	_	_
-13	edi	xushnud	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
-14	.	xushnud	PUNCT	PUNCT	_	12	punct	_	_
+13	edi	edi	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+14	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = s127
 # text = gohi chogʻlarda , esida qalgan misralarni yarim - yorti holatta chuchuk tili bilan dadisiga kuyga solib aytardi.
 1	gohi	goh	ADV	ADV	_	2	advmod	_	_
-2	chogʻlarda	chogʻ	NOUN	NOUN	Case=Loc|Number=Plur	17	nmod:tmod	_	_
+2	chogʻlarda	chogʻ	NOUN	NOUN	Case=Loc|Number=Plur	17	nmod	_	_
 3	,	chogʻ	PUNCT	PUNCT	_	2	punct	_	_
 4	esida	esi	NOUN	NOUN	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	qalgan	qal	VERB	VERB	Tense=Past|VerbForm=Part	6	acl	_	_
@@ -5700,9 +5761,9 @@
 # sent_id = s128
 # text = gohi chogʻlarda , bo'yidan katta sozlarni qoʻliga olib , turib tarang torlarni tortar , turib bo'sh torlarni taranglashtirardi .
 1	gohi	goh	VERB	V	_	2	acl	_	_
-2	chogʻlarda	chogʻ	NOUN	N	Case=Loc|Number=Plur	18	nmod:tmod	_	_
+2	chogʻlarda	chogʻ	NOUN	N	Case=Loc|Number=Plur	18	nmod	_	_
 3	,	chogʻ	PUNCT	Y	_	2	punct	_	_
-4	bo'yidan	bo'y	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:comp	_	_
+4	bo'yidan	bo'y	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
 5	katta	katt	ADJ	A	_	6	amod	_	_
 6	sozlarni	soz	NOUN	N	Case=Acc|Number=Plur	8	obj	_	_
 7	qoʻliga	qoʻl	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
@@ -5721,14 +5782,14 @@
 
 # sent_id = s129
 # text = bunday vaqtlarda qizining borliq harakatlarini kuzatib oʻtirgan mirza mahmud sevinchi kelganidan kulib ketadi .
-1	bunday	bund	DET	P	Case=Nom	2	det	_	_
+1	bunday	bunday	DET	P	_	2	det	_	_
 2	vaqtlarda	vaqt	NOUN	N	Case=Loc|Number=Plur	13	obl	_	_
 3	qizining	qiz	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:poss	_	_
-4	borliq	borliq	DET	P	Case=Nom	5	det	_	_
+4	borliq	borliq	DET	P	_	5	det	_	_
 5	harakatlarini	harakat	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
 6	kuzatib	kuzat	VERB	V	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 7	oʻtirgan	oʻtir	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	9	acl	_	_
-8	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	9	nmod	_	_
+8	mirza	mirza	PROPN	N	Case=Nom	9	nmod	_	_
 9	mahmud	mahmud	NOUN	N	_	13	nsubj	_	_
 10	sevinchi	sevin	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
 11	kelganidan	kel	VERB	V	_	13	obl	_	_
@@ -5738,16 +5799,16 @@
 
 # sent_id = s130
 # text = bir kuni , u omonnisani quchogʻiga olib erkalatib turib dedi .
-1	bir	ket	DET	M	Case=Nom|NumType=Ord	2	det	_	_
+1	bir	bir	DET	M	_	2	det	_	_
 2	kuni	kun	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 3	,	kun	PUNCT	Y	_	2	punct	_	_
 4	u	kun	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 5	omonnisani	omonnisa	NOUN	N	_	7	obj	_	_
 6	quchogʻiga	quchogʻ	NOUN	N	_	7	obl	_	_
 7	olib	oli	VERB	V	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-8	erkalatib	erkalat	VERB	V	_	10	advcl	_	_
-9	turib	tur	AUX	V	Aspect=Perf|VerbForm=Conv	8	aux	_	_
-10	dedi	ded	VERB	V	_	0	root	_	_
+8	erkalatib	erkalatmoq	VERB	V	VerbForm=Conv	10	advcl	_	_
+9	turib	turmoq	VERB	V	VerbForm=Conv	8	conj	_	_
+10	dedi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	.	ded	PUNCT	Y	_	10	punct	_	_
 
 # sent_id = s131
@@ -5800,7 +5861,7 @@
 9	,	qiz	PUNCT	Y	_	6	punct	_	_
 10	-	qiz	PUNCT	Y	_	6	punct	_	_
 11	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	13	nmod	_	_
+12	mirza	mirz	PROPN	N	Case=Nom	13	nmod	_	_
 13	mahmud	mahmud	NOUN	N	_	11	nsubj	_	_
 14	.	mahmud	PUNCT	Y	_	11	punct	_	_
 
@@ -5821,7 +5882,7 @@
 
 # sent_id = s137
 # text = mirza mahmud bir oz o'ylangandan keyin , toʻrt misralik bir kuflet sheʼrni dona - dono qilib oʻqishni boshladi .
-1	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	2	nmod	_	_
+1	mirza	mirz	PROPN	N	Case=Nom	2	nmod	_	_
 2	mahmud	mahmud	NOUN	N	_	18	nsubj	_	_
 3	bir	mahmud	NUM	M	Case=Nom|NumType=Ord	4	compound	_	_
 4	oz	mahmud	ADJ	A	_	5	advmod	_	_
@@ -5830,7 +5891,7 @@
 7	,	keyin	PUNCT	Y	_	6	punct	_	_
 8	toʻrt	toʻrt	NUM	M	_	9	nummod	_	_
 9	misralik	misra	NOUN	N	_	12	amod	_	_
-10	bir	misra	DET	M	Case=Nom|NumType=Ord	11	det	_	_
+10	bir	bir	DET	M	_	11	det	_	_
 11	kuflet	kuflet	NOUN	N	_	12	amod	_	_
 12	sheʼrni	sheʼ	NOUN	N	Case=Acc	18	obj	_	_
 13	dona	don	NOUN	N	_	15	compound:redup	_	_
@@ -5872,7 +5933,7 @@
 12	,	qiz	PUNCT	Y	_	11	punct	_	_
 13	-	qiz	PUNCT	Y	_	9	punct	_	_
 14	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-15	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	16	nmod	_	_
+15	mirza	mirza	PROPN	N	Case=Nom	16	nmod	_	_
 16	mahmud	mahmud	NOUN	N	_	14	nsubj	_	_
 17	.	mahmud	PUNCT	Y	_	14	punct	_	_
 
@@ -5908,7 +5969,7 @@
 8	,	qiz	PUNCT	Y	_	5	punct	_	_
 9	-	qiz	PUNCT	Y	_	5	punct	_	_
 10	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	12	nmod	_	_
+11	mirza	mirza	PROPN	N	Case=Nom	12	nmod	_	_
 12	mahmud	mahmud	NOUN	N	_	10	nsubj	_	_
 13	suyunib	suyun	VERB	V	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 14	,	suyun	PUNCT	Y	_	10	punct	_	_
@@ -5936,7 +5997,7 @@
 1	dada	dad	NOUN	N	Case=Nom	4	nsubj	_	_
 2	bir	dad	NUM	M	_	3	nummod	_	_
 3	misrani	misra	NOUN	N	_	4	obj	_	_
-4	o'qisa	o'q	VERB	V	_	10	advcl:cond	_	_
+4	o'qisa	o'q	VERB	V	_	10	advcl	_	_
 5	,	o'q	PUNCT	Y	_	4	punct	_	_
 6	qizi	qiz	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
 7	bir	qiz	NUM	M	_	8	nummod	_	_
@@ -5951,7 +6012,7 @@
 2	qoniqish	qoniqi	ADJ	A	_	3	compound	_	_
 3	boʻlmagan	boʻl	VERB	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	4	acl	_	_
 4	misralarni	misra	NOUN	N	_	9	obj	_	_
-5	qiziga	qiz	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:cau	_	_
+5	qiziga	qiz	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod	_	_
 6	qayta	qayt	ADV	D	_	8	compound:redup	_	_
 7	-	qayt	PUNCT	Y	_	6	punct	_	_
 8	qayta	qayt	ADV	D	_	9	advmod	_	_
@@ -5959,16 +6020,16 @@
 10	.	o'qut	PUNCT	Y	_	9	punct	_	_
 
 # sent_id = s146
-# text = oxiri u bir oz qanoat hasil qilgandan keyin , she'r yozilgan qogʻozni qiziga qaytarib berdi .
+# text = oxiri u bir oz qanoat hosil qilgandan keyin , she'r yozilgan qogʻozni qiziga qaytarib berdi .
 1	oxiri	oxi	NOUN	D	Case=Nom	15	obl	_	_
 2	u	oxi	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 3	bir	oxi	NUM	M	Case=Nom|NumType=Ord	4	compound	_	_
 4	oz	oxi	ADJ	A	_	7	advmod	_	_
 5	qanoat	qanoat	NOUN	N	Case=Nom	7	obj	_	_
-6	hasil	hasil	NOUN	N	_	7	compound	_	_
-7	qilgandan	qil	VERB	V	Case=Abl|Tense=Past|VerbForm=Ger	15	advcl	_	_
-8	keyin	keyin	NOUN	D	Case=Nom	7	case	_	_
-9	,	keyin	PUNCT	Y	_	8	punct	_	_
+6	hosil	hosil	NOUN	N	_	7	compound	_	_
+7	qilgandan	qilmoq	VERB	V	Case=Abl|Tense=Past	15	advcl	_	_
+8	keyin	keyin	ADV	D	_	7	advmod	_	_
+9	,	,	PUNCT	Y	_	8	punct	_	_
 10	she'r	she'	NOUN	N	Case=Nom	11	nsubj	_	_
 11	yozilgan	yozil	VERB	V	_	12	acl	_	_
 12	qogʻozni	qogʻoz	NOUN	N	Case=Acc	14	obj	_	_
@@ -5991,12 +6052,12 @@
 10	.	kel	PUNCT	Y	_	2	punct	_	_
 
 # sent_id = s148
-# text = omonnisa chiqib katgandan keyin mirza mahmud oʻz ishiga tutundi .
+# text = omonnisa chiqib ketgandan keyin mirza mahmud oʻz ishiga tutundi .
 1	omonnisa	omon	NOUN	N	_	2	nsubj	_	_
 2	chiqib	chiq	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
-3	katgandan	kat	AUX	V	Case=Abl|Tense=Past|VerbForm=Ger	2	aux	_	_
-4	keyin	keyin	ADV	D	_	2	mark	_	_
-5	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	6	nmod	_	_
+3	ketgandan	ketmoq	VERB	V	Case=Abl|Tense=Past	2	advcl	_	_
+4	keyin	keyin	ADV	D	_	2	advmod	_	_
+5	mirza	mirz	PROPN	N	Case=Nom	6	nmod	_	_
 6	mahmud	mahmud	NOUN	N	_	9	nsubj	_	_
 7	oʻz	mahmud	PRON	P	Case=Nom|Reflex=Yes	8	det	_	_
 8	ishiga	ish	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
@@ -6006,23 +6067,23 @@
 # sent_id = s149
 # text = lekin , oradan bir qumg'on choy qaynami vaqt oʻtar - oʻtmasdan , omonnisa chuldirab gapirgancha kirib keldi :
 1	lekin	lekin	CCONJ	C	_	16	cc	_	_
-2	,	lekin	PUNCT	Y	_	1	punct	_	_
+2	,	,	PUNCT	Y	_	1	punct	_	_
 3	oradan	ora	NOUN	N	Case=Abl	11	obl	_	_
-4	bir	ora	NUM	M	Case=Nom|NumType=Ord	8	amod	_	_
-5	qumg'on	qumg'on	DET	Q	_	4	fixed	_	_
+4	bir	bir	NUM	M	Case=Nom|NumType=Ord	8	amod	_	_
+5	qumg'on	qumg'on	NOUN	N	Case=Nom	4	fixed	_	_
 6	choy	choy	NOUN	N	Case=Nom	4	fixed	_	_
-7	qaynami	qayn	VERB	V	_	4	fixed	_	_
+7	qaynami	qayn	VERB	V	Mood=Ind|Tense=Pres	4	fixed	_	_
 8	vaqt	vaqt	NOUN	N	Case=Nom	11	nsubj	_	_
 9	oʻtar	oʻt	ADV	V	_	11	compound:redup	_	_
-10	-	oʻt	PUNCT	Y	_	9	punct	_	_
+10	-	-	PUNCT	Y	_	9	punct	_	_
 11	oʻtmasdan	oʻt	VERB	V	_	16	advcl	_	_
-12	,	oʻt	PUNCT	Y	_	11	punct	_	_
+12	,	,	PUNCT	Y	_	11	punct	_	_
 13	omonnisa	omon	NOUN	N	_	16	nsubj	_	_
 14	chuldirab	chuldira	NOUN	N	_	15	advcl	_	_
 15	gapirgancha	gapir	NOUN	N	_	16	advcl	_	_
 16	kirib	kir	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
 17	keldi	kel	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
-18	:	kel	PUNCT	Y	_	17	punct	_	_
+18	:	:	PUNCT	Y	_	17	punct	_	_
 
 # sent_id = s150
 # text = - dada , dada , yodlab boʻldim !
@@ -6040,13 +6101,13 @@
 1	-	boʻl	PUNCT	Y	_	9	punct	_	_
 2	rostdan	rost	ADJ	A	_	3	advmod	_	_
 3	yadlab	yadla	NOUN	N	_	9	ccomp	_	_
-4	boʻldingizmi	boʻld	VERB	V	Mood=Int|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	3	compound	_	_
+4	boʻldingizmi	boʻld	VERB	V	Mood=Int|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	compound	_	_
 5	,	boʻld	PUNCT	Y	_	6	punct	_	_
 6	qizim	qiz	NOUN	N	_	3	vocative	_	_
 7	?	qiz	PUNCT	Y	_	3	punct	_	_
 8	-	qiz	PUNCT	Y	_	3	punct	_	_
 9	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-10	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	11	nmod	_	_
+10	mirza	mirz	PROPN	N	Case=Nom	11	nmod	_	_
 11	mahmud	mahmud	NOUN	N	_	9	nsubj	_	_
 12	qiziga	qiz	NOUN	N	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 13	qarab	qara	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
@@ -6075,26 +6136,26 @@
 
 # sent_id = s154
 # text = ajoyib , shunday aqlli bo'ling , qizim , - dedi mirza mahmud ich kuyarlik bilan qizining peshonasidan oʻpib qoʻyib ,
-1	ajoyib	ajoy	NOUN	N	_	4	discourse	_	_
-2	,	ajoy	PUNCT	Y	_	1	punct	_	_
-3	shunday	shund	NOUN	D	Case=Nom	4	obl	_	_
-4	aqlli	aqll	ADJ	A	_	10	ccomp	_	_
-5	bo'ling	bo'l	AUX	V	_	4	cop	_	_
-6	,	bo'l	PUNCT	Y	_	7	punct	_	_
-7	qizim	qiz	NOUN	N	_	4	vocative	_	_
-8	,	qiz	PUNCT	Y	_	7	punct	_	_
-9	-	qiz	PUNCT	Y	_	4	punct	_	_
-10	dedi	ded	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	mirza	mirz	PROPN	N	Case=Nom|Gender=Masc	12	nmod	_	_
+1	ajoyib	ajoyib	NOUN	N	_	5	discourse	_	_
+2	,	,	PUNCT	Y	_	1	punct	_	_
+3	shunday	shunday	NOUN	D	Case=Nom	5	obl	_	_
+4	aqlli	aqlli	ADJ	A	_	10	ccomp	_	_
+5	bo'ling	bo'lmoq	VERB	V	Mood=Imp|Person=2|VerbForm=Fin	10	ccomp	_	_
+6	,	,	PUNCT	Y	_	7	punct	_	_
+7	qizim	qiz	NOUN	N	_	10	vocative	_	_
+8	,	,	PUNCT	Y	_	7	punct	_	_
+9	-	-	PUNCT	Y	_	10	punct	_	_
+10	dedi	demoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	mirza	mirza	PROPN	N	Case=Nom	12	nmod	_	_
 12	mahmud	mahmud	NOUN	N	_	10	nsubj	_	_
-13	ich	mahmud	NOUN	N	Case=Nom	14	compound	_	_
+13	ich	ich	NOUN	N	Case=Nom	14	compound	_	_
 14	kuyarlik	kuyar	NOUN	N	_	19	advcl	_	_
 15	bilan	bilan	ADP	R	_	14	case	_	_
 16	qizining	qiz	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	17	nmod:poss	_	_
 17	peshonasidan	peshona	NOUN	N	_	19	obl	_	_
 18	oʻpib	oʻp	VERB	V	_	19	xcomp	_	_
 19	qoʻyib	qoʻy	VERB	V	_	10	advcl	_	_
-20	,	qoʻy	PUNCT	Y	_	19	punct	_	_
+20	,	,	PUNCT	Y	_	19	punct	_	_
 
 # sent_id = s155
 # text = - endi chiqib onangizga oʻqib bering .
@@ -6115,26 +6176,26 @@
 5	.	qil	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s157
-# text = dadisining maqtashidan qattiq xushxol boʻlgan omonnisa : - xo'p , dada , - deganicha o'ynoqlab yugurib chiqib ketdi .
-1	dadisining	dadi	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	2	nmod:poss	_	_
-2	maqtashidan	maqta	VERB	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	5	obl	_	_
+# text = dadasining maqtashidan qattiq xushxol boʻlgan omonnisa : - xo'p , dada , - deganicha o'ynoqlab yugurib chiqib ketdi .
+1	dadasining	dada	NOUN	N	Case=Gen|Number[psor]=Sing|Person[psor]=3	2	nmod:poss	_	_
+2	maqtashidan	maqtamoq	VERB	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	_
 3	qattiq	qattiq	ADJ	A	_	5	advmod	_	_
 4	xushxol	xushxol	ADJ	A	_	5	compound	_	_
-5	boʻlgan	boʻl	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	6	acl	_	_
+5	boʻlgan	boʻlmoq	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	6	acl	_	_
 6	omonnisa	omon	NOUN	N	_	17	nsubj	_	_
-7	:	omon	PUNCT	Y	_	6	punct	_	_
-8	-	omon	PUNCT	Y	_	6	punct	_	_
+7	:	:	PUNCT	Y	_	6	punct	_	_
+8	-	-	PUNCT	Y	_	6	punct	_	_
 9	xo'p	xo'p	ADJ	E	_	14	ccomp	_	_
-10	,	xo'p	PUNCT	Y	_	9	punct	_	_
+10	,	,	PUNCT	Y	_	9	punct	_	_
 11	dada	dad	NOUN	N	Case=Nom	14	discourse	_	_
-12	,	dad	PUNCT	Y	_	11	punct	_	_
-13	-	dad	PUNCT	Y	_	11	punct	_	_
+12	,	,	PUNCT	Y	_	11	punct	_	_
+13	-	-	PUNCT	Y	_	11	punct	_	_
 14	deganicha	deganich	NOUN	N	_	17	advcl	_	_
 15	o'ynoqlab	o'ynoqla	VERB	V	_	17	advcl	_	_
 16	yugurib	yugu	VERB	V	_	15	conj	_	_
-17	chiqib	chiq	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-18	ketdi	ket	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
-19	.	ket	PUNCT	Y	_	18	punct	_	_
+17	chiqib	chiqmoq	VERB	V	Aspect=Perf|VerbForm=Conv	18	advcl	_	_
+18	ketdi	ketmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s158
 # text = bahor shamolining shamal tafti bilan bolasagʻun shahri yangi bahorni kutib oldi.
@@ -6152,14 +6213,14 @@
 12	.	old	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = s159
-# text = butun tabiat qishlik choponlarini yechib , yam yashil to'n kiydi .
-1	butun	butun	DET	A	Case=Nom	2	det	_	_
+# text = butun tabiat qishlik choponlarini yechib , yam-yashil to'n kiydi .
+1	butun	butun	ADJ	A	_	2	amod	_	_
 2	tabiat	tabiat	NOUN	N	Case=Nom	9	nsubj	_	_
 3	qishlik	qish	ADJ	A	_	4	amod	_	_
 4	choponlarini	chopon	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	_
 5	yechib	yech	VERB	V	Aspect=Perf|VerbForm=Conv	9	advcl	_	_
 6	,	yech	PUNCT	Y	_	5	punct	_	_
-7	yam yashil	yam yashil	ADJ	A	_	8	amod	_	_
+7	yam-yashil	yashil	ADJ	A	_	8	amod	_	_
 8	to'n	to'n	NOUN	N	Case=Nom	9	obj	_	_
 9	kiydi	kiy	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	.	kiy	PUNCT	Y	_	9	punct	_	_
@@ -6179,15 +6240,15 @@
 
 # sent_id = s161
 # text = bu milodiy 1025 - yilning yoz kunlari edi .
-1	bu	qoʻ	PRON	P	Case=Nom|PronType=Dem	7	nsubj	_	_
-2	milodiy	milodiy	NOUN	N	Case=Nom	5	nmod:poss	_	_
+1	bu	bu	PRON	P	Case=Nom|PronType=Dem	8	nsubj	_	_
+2	milodiy	milodiy	ADJ	A	_	5	amod	_	_
 3	1025	1025	NUM	M	NumType=Ord	5	nummod	_	_
-4	-	1025	PUNCT	Y	_	3	punct	_	_
-5	yilning	yil	NOUN	N	Case=Gen	7	nmod:part	_	_
-6	yoz	yil	NOUN	N	Case=Nom	7	compound	_	_
-7	kunlari	kun	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-8	edi	kun	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
-9	.	kun	PUNCT	Y	_	7	punct	_	_
+4	-	-	PUNCT	Y	_	3	punct	_	_
+5	yilning	yil	NOUN	N	Case=Gen	7	nmod:poss	_	_
+6	yoz	yoz	NOUN	N	_	7	compound	_	_
+7	kunlari	kun	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	xcomp	_	_
+8	edi	bo'lmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s162
 # text = oʻz davridagi qoraxoniylarning madaniyat markazlaridan biri boʻlgan bolasagʻun shahrining atrofidagi bir daryo sohilida , olti - yetti yoshlar chamasidagi bir toʻp bola merganlik oʻyinini o'ynayapti .
@@ -6200,8 +6261,8 @@
 7	boʻlgan	boʻl	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 8	bolasagʻun	bolasagʻun	NOUN	N	_	6	appos	_	_
 9	shahrining	shah	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	10	nmod:poss	_	_
-10	atrofidagi	atrofidag	NOUN	N	_	13	amod	_	_
-11	bir	atrofidag	DET	M	Case=Nom|NumType=Ord	12	det	_	_
+10	atrofidagi	atrof	NOUN	N	_	13	amod	_	_
+11	bir	bir	DET	M	_	12	det	_	_
 12	daryo	daryo	NOUN	N	Case=Nom	13	nmod:poss	_	_
 13	sohilida	sohil	NOUN	N	_	25	obl	_	_
 14	,	sohil	PUNCT	Y	_	13	punct	_	_
@@ -6219,7 +6280,7 @@
 26	.	o'yn	PUNCT	Y	_	25	punct	_	_
 
 # sent_id = s163
-# text = bolalar merganlik oʻyinidan zerikkan bo'ldi , barchasi oyoqlarini qumga koʻmib , gʻujanak boʻlib o'tirishti .
+# text = bolalar merganlik oʻyinidan zerikkan bo'ldi , barchasi oyoqlarini qumga koʻmib , gʻujanak boʻlib o'tirishdi .
 1	bolalar	bol	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
 2	merganlik	mer	NOUN	N	_	3	nmod	_	_
 3	oʻyinidan	oʻyin	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod	_	_
@@ -6232,14 +6293,14 @@
 10	koʻmib	koʻ	VERB	V	_	14	advcl	_	_
 11	,	koʻ	PUNCT	Y	_	10	punct	_	_
 12	gʻujanak	gʻujan	NOUN	N	_	14	advcl	_	_
-13	boʻlib	boʻl	AUX	V	Aspect=Perf|VerbForm=Conv	12	cop	_	_
-14	o'tirishti	o'tiri	VERB	V	_	0	root	_	_
-15	.	o'tiri	PUNCT	Y	_	14	punct	_	_
+13	boʻlib	boʻlmoq	VERB	V	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
+14	o'tirishdi	o'tirmoq	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	.	.	PUNCT	Y	_	14	punct	_	_
 
 # sent_id = s164
 # text = bu payt , koʻzlaridan nur yogʻib turgan , kipriklari toʻkilib turgan bir bola shoxli hayvonlarning nomini aytib turdi .
 1	bu	o'tiri	PRON	P	Case=Nom|PronType=Dem	2	det	_	_
-2	payt	payt	NOUN	N	Case=Loc	17	nmod:tmod	_	_
+2	payt	payt	NOUN	N	Case=Loc	17	nmod	_	_
 3	,	payt	PUNCT	Y	_	2	punct	_	_
 4	koʻzlaridan	koʻz	NOUN	N	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
 5	nur	koʻz	NOUN	N	Case=Nom	6	nsubj	_	_
@@ -6247,15 +6308,15 @@
 7	turgan	tur	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	13	acl	_	_
 8	,	tur	PUNCT	Y	_	11	punct	_	_
 9	kipriklari	kiprik	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
-10	toʻkilib	toʻkil	VERB	V	_	11	advcl	_	_
-11	turgan	tur	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	7	conj	_	_
-12	bir	tur	DET	M	Case=Nom|NumType=Ord	13	det	_	_
-13	bola	bol	NOUN	N	Case=Nom	17	nsubj	_	_
-14	shoxli	shoxl	ADJ	A	_	15	amod	_	_
+10	toʻkilib	toʻkilmoq	VERB	V	_	11	advcl	_	_
+11	turgan	turmoq	VERB	V	Case=Nom|Tense=Past	7	conj	_	_
+12	bir	bir	DET	M	_	13	det	_	_
+13	bola	bola	NOUN	N	Case=Nom	17	nsubj	_	_
+14	shoxli	shox	ADJ	A	_	15	amod	_	_
 15	hayvonlarning	hayvon	NOUN	N	Case=Gen|Number=Plur	16	nmod:poss	_	_
 16	nomini	nom	NOUN	N	Case=Acc	17	obj	_	_
-17	aytib	ayt	VERB	V	_	0	root	_	_
-18	turdi	tur	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	aytib	aytmoq	VERB	V	VerbForm=Conv	18	advcl	_	_
+18	turdi	turmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 19	.	tur	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s165
@@ -6299,8 +6360,8 @@
 14	qoidasi	qoida	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	obl	_	_
 15	boʻyicha	boʻyich	ADP	R	_	14	case	_	_
 16	jazolashga	jazola	VERB	V	_	18	obl	_	_
-17	harakat	harakat	VERB	V	Case=Nom|VerbForm=Ger	18	xcomp	_	_
-18	qilishdi	qili	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	harakat	harakat	NOUN	N	Case=Acc	18	obj	_	_
+18	qilishdi	qilmoq	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 19	.	qili	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s169
@@ -6321,14 +6382,14 @@
 
 # sent_id = s171
 # text = - bugun suv ko'p va loyqa turibdi .
-1	-	kel	PUNCT	Y	_	2	punct	_	_
-2	bugun	bugun	ADV	N	_	6	advmod	_	_
-3	suv	bugun	NOUN	N	Case=Nom	6	nsubj	_	_
-4	ko'p	ko'p	ADJ	A	_	0	root	_	_
-5	va	ko'p	CCONJ	C	_	6	cc	_	_
-6	loyqa	loy	NOUN	N	Case=Nom	4	conj	_	_
-7	turibdi	tur	AUX	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-8	.	tur	PUNCT	Y	_	7	punct	_	_
+1	-	-	PUNCT	Y	_	2	punct	_	_
+2	bugun	bugun	ADV	N	_	7	advmod	_	_
+3	suv	suv	NOUN	N	Case=Nom	7	nsubj	_	_
+4	ko'p	ko'p	ADJ	A	_	7	xcomp	_	_
+5	va	va	CCONJ	C	_	6	cc	_	_
+6	loyqa	loyqa	ADJ	A	_	4	conj	_	_
+7	turibdi	turmoq	VERB	V	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	Y	_	7	punct	_	_
 
 # sent_id = s172
 # text = shunga , bobur qoʻlini qoʻyniga tutib , bu chechakni tishlab oladi ,
@@ -6347,18 +6408,19 @@
 
 # sent_id = s173
 # text = va daraxtdan bir dona chechakni qo'li bilan sindirib olib qumga botirib qoʻydi .
-1	va	ola	CCONJ	C	_	10	cc	_	_
-2	daraxtdan	daraxt	NOUN	N	Case=Abl	8	nmod	_	_
+1	va	ola	CCONJ	C	_	11	cc	_	_
+2	daraxtdan	daraxt	NOUN	N	Case=Abl	9	nmod	_	_
 3	bir	daraxt	NUM	M	_	4	nummod	_	_
 4	dona	don	NOUN	Q	Case=Nom	5	amod	_	_
-5	chechakni	chechak	NOUN	N	Case=Acc	8	obj	_	_
-6	qo'li	qo'l	ADJ	N	Number[psor]=Plur,Sing|Person[psor]=3	8	advmod	_	_
+5	chechakni	chechak	NOUN	N	Case=Acc	9	obj	_	_
+6	qo'li	qo'l	ADJ	N	Number[psor]=Plur,Sing|Person[psor]=3	9	advmod	_	_
 7	bilan	bilan	ADP	C	_	6	case	_	_
-8	sindirib olib	sindirib ol	NOUN	N	_	11	advcl	_	_
-9	qumga	qum	NOUN	N	Case=Dat	11	obl	_	_
-10	botirib	boti	VERB	V	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
-11	qoʻydi	qoʻy	VERB	V	_	0	root	_	_
-12	.	qoʻy	PUNCT	Y	_	11	punct	_	_
+8	sindirib	sindirmoq	VERB	V	VerbForm=Conv	9	advcl	_	_
+9	olib	olmoq	VERB	V	VerbForm=Conv	12	advcl	_	_
+10	qumga	qum	NOUN	N	Case=Dat	12	obl	_	_
+11	botirib	botirmoq	VERB	V	Aspect=Perf|VerbForm=Inf	12	xcomp	_	_
+12	qoʻydi	qoʻymoq	VERB	V	_	0	root	_	_
+13	.	qoʻy	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s174
 # text = bobur bir qancha marotaba qum kovlab , oxiri nihoyatda chiroyli chechakni tishlab oldi .
@@ -6387,15 +6449,15 @@
 6	olgan	olgan	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	8	acl	_	_
 7	bolalar	bol	NOUN	N	Case=Nom|Number=Plur	8	nmod:poss	_	_
 8	oʻyini	oʻy	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-9	-	oʻy	PUNCT	Y	_	15	punct	_	_
-10	«	oʻy	PUNCT	Y	_	13	punct	_	_
+9	-	-	PUNCT	Y	_	15	punct	_	_
+10	«	«	PUNCT	Y	_	13	punct	_	_
 11	shoxi	shox	NOUN	M	Case=Nom	13	nmod	_	_
-12	-	shox	PUNCT	Y	_	11	punct	_	_
+12	-	-	PUNCT	Y	_	11	punct	_	_
 13	shoxi	shox	NOUN	N	Case=Nom	15	nmod:poss	_	_
-14	»	shox	PUNCT	Y	_	13	punct	_	_
+14	»	»	PUNCT	Y	_	13	punct	_	_
 15	oʻyini	oʻy	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	appos	_	_
-16	edi	oʻy	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
-17	.	oʻy	PUNCT	Y	_	8	punct	_	_
+16	edi	edi	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+17	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s176
 # text = bu oʻyin bolalarning zehnini ochib , tasavvurini kuchaytirib , hayvonlar haqidagi fikrlashini , tabiat dunyosiga boʻlgan fikrlashini oshiradi .
@@ -6409,38 +6471,39 @@
 8	kuchaytirib	kuchayti	VERB	V	_	5	conj	_	_
 9	,	kuchayti	PUNCT	Y	_	5	punct	_	_
 10	hayvonlar	hayvon	NOUN	N	Case=Nom|Number=Plur	12	obl	_	_
-11	haqidagi	haqidag	ADP	R	_	10	case	_	_
-12	fikrlashini	fikrla	VERB	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	18	obj	_	_
-13	,	fikrla	PUNCT	Y	_	17	punct	_	_
+11	haqidagi	haqida	ADP	R	_	10	case	_	_
+12	fikrlashini	fikrlamoq	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	18	obj	_	_
+13	,	,	PUNCT	Y	_	17	punct	_	_
 14	tabiat	tabiat	NOUN	N	Case=Nom	15	nmod:poss	_	_
 15	dunyosiga	dunyo	NOUN	N	_	17	obl	_	_
-16	boʻlgan	boʻl	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	15	case	_	_
-17	fikrlashini	fikrla	VERB	V	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	12	conj	_	_
+16	boʻlgan	boʻlmoq	VERB	V	Tense=Past|VerbForm=Part	17	acl	_	_
+17	fikrlashini	fikrlamoq	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3	12	conj	_	_
 18	oshiradi	oshir	VERB	V	_	0	root	_	_
-19	.	oshir	PUNCT	Y	_	18	punct	_	_
+19	.	.	PUNCT	Y	_	18	punct	_	_
 
 # sent_id = s177
 # text = oʻyinning jazosi boʻlsa , bolalarga chidamli , ziyrak , hoshyor boʻlishini oʻrgatadi .
 1	oʻyinning	oʻyin	NOUN	N	Case=Gen	2	nmod:poss	_	_
 2	jazosi	jazo	NOUN	N	_	12	nsubj	_	_
-3	boʻlsa	boʻl	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	cop	_	_
-4	,	boʻl	PUNCT	Y	_	2	punct	_	_
+3	boʻlsa	boʻlmoq	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	advcl	_	_
+4	,	,	PUNCT	Y	_	2	punct	_	_
 5	bolalarga	bola	NOUN	N	Case=Dat|Number=Plur	12	obl	_	_
 6	chidamli	chidaml	ADJ	A	_	11	compound	_	_
 7	,	chidaml	PUNCT	Y	_	8	punct	_	_
 8	ziyrak	ziyr	ADJ	A	_	6	conj	_	_
 9	,	ziyr	PUNCT	Y	_	10	punct	_	_
 10	hoshyor	hoshyo	NOUN	A	Case=Nom	6	conj	_	_
-11	boʻlishini	boʻli	VERB	V	Case=Acc|VerbForm=Ger	12	obj	_	_
+11	boʻlishini	boʻlmoq	VERB	V	Case=Acc	12	obj	_	_
 12	oʻrgatadi	oʻrgat	VERB	V	_	0	root	_	_
 13	.	oʻrgat	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s178
 # text = bolalar oʻyinni davom etdi .
-1	bolalar	bol	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
-2	oʻyinni	oʻyin	NOUN	N	Case=Acc	3	obj	_	_
-3	davom etdi	davom et	VERB	V	_	0	root	_	_
-4	.	davom et	PUNCT	Y	_	3	punct	_	_
+1	bolalar	bola	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
+2	oʻyinni	oʻyin	NOUN	N	Case=Acc	4	obj	_	_
+3	davom	davom	NOUN	N	_	4	compound:lvc	_	_
+4	etdi	etmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s179
 # text = boshlovchi bola oʻzini shuncha erkin va xushxol his qiladi .
@@ -6457,13 +6520,13 @@
 
 # sent_id = s180
 # text = bolalar bu bolaga juda mushtoq edi .
-1	bolalar	bol	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
-2	bu	bol	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
-3	bolaga	bola	NOUN	N	Case=Dat	5	nmod	_	_
-4	juda	jud	ADV	D	_	5	advmod	_	_
-5	mushtoq	musht	ADJ	A	_	0	root	_	_
-6	edi	musht	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-7	.	musht	PUNCT	Y	_	5	punct	_	_
+1	bolalar	bola	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	_
+2	bu	bu	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
+3	bolaga	bola	NOUN	N	Case=Dat	6	obl	_	_
+4	juda	juda	ADV	D	_	5	advmod	_	_
+5	mushtoq	mushtoq	ADJ	A	_	6	xcomp	_	_
+6	edi	bo‘lmoq	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s181
 # text = bu chechan bola keyingi vaqtlardagi buyuk mutafakkir , mashhur mamlakat arbobi yusup xos hojib edi .
@@ -6480,9 +6543,9 @@
 11	arbobi	arbob	NOUN	N	_	7	conj	_	_
 12	yusup	yusup	NOUN	N	_	11	appos	_	_
 13	xos	yusup	NOUN	N	Case=Nom	12	flat	_	_
-14	hojib	hoj	NOUN	N	Case=Nom	12	flat	_	_
-15	edi	hoj	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
-16	.	hoj	PUNCT	Y	_	12	punct	_	_
+14	hojib	hojib	NOUN	N	Case=Nom	12	flat	_	_
+15	edi	edi	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+16	.	.	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s182
 # text = turkiy millatlarining anʼanaviy madaniyati katta xazina , jumladin uygʻur anʼanaviy madaniyati bebaho boylik .
@@ -6516,12 +6579,13 @@
 
 # sent_id = s184
 # text = biz qadimgi mutafakkirlar bilan tanishib olamiz ,
-1	biz	ber	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-2	qadimgi	qadimg	ADJ	A	_	3	amod	_	_
-3	mutafakkirlar	mutafakk	NOUN	N	Case=Nom|Number=Plur	5	obl	_	_
+1	biz	biz	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	qadimgi	qadim	ADJ	A	_	3	amod	_	_
+3	mutafakkirlar	mutafakkir	NOUN	N	Case=Nom|Number=Plur	5	obl	_	_
 4	bilan	bilan	ADP	R	_	3	case	_	_
-5	tanishib olamiz	tanishib ol	VERB	V	_	0	root	_	_
-6	,	tanishib ol	PUNCT	Y	_	5	punct	_	_
+5	tanishib	tanishmoq	VERB	V	VerbForm=Conv	6	advcl	_	_
+6	olamiz	olmoq	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s185
 # text = ularning asl fazilatlari bizga inson boʻlish yoʻllarini koʻrsatib beradi ,
@@ -6540,15 +6604,15 @@
 # text = asarlaridagi hikmatlar bilim olishga qiziqishimizni oshiradi .
 1	asarlaridagi	asarlaridag	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	2	amod	_	_
 2	hikmatlar	hikmat	NOUN	N	_	6	nsubj	_	_
-3	bilim	bil	NOUN	N	Case=Nom	4	obj	_	_
-4	olishga	oli	VERB	V	Case=Nom|VerbForm=Ger	5	acl	_	_
+3	bilim	bilim	NOUN	N	Case=Nom	4	obj	_	_
+4	olishga	olmoq	VERB	V	Case=Dat|VerbForm=Inf	5	acl	_	_
 5	qiziqishimizni	qiziqishi	NOUN	N	_	6	obj	_	_
 6	oshiradi	oshir	VERB	V	_	0	root	_	_
 7	.	oshir	PUNCT	Y	_	6	punct	_	_
 
 # sent_id = s187
 # text = iftixorlanish hissiyoti bilan bu matnlarni oʻqib , anʼanaviy madaniyitimizning porloqligini his qilaylik .
-1	iftixorlanish	iftixorlani	VERB	N	Case=Nom|VerbForm=Ger	2	nmod	_	_
+1	iftixorlanish	iftixorlanish	NOUN	N	Case=Nom	2	nmod	_	_
 2	hissiyoti	hissiyo	NOUN	N	_	6	obl	_	_
 3	bilan	bilan	ADP	R	_	2	case	_	_
 4	bu	bilan	PRON	P	Case=Nom|PronType=Dem	5	det	_	_
@@ -6566,11 +6630,11 @@
 # text = avvalida , bir savdogar sayohat vaqtida bir tuyasini yo'qotib qo'yibdi .
 1	avvalida	avval	NOUN	N	Case=Nom	10	obl	_	_
 2	,	avval	PUNCT	Y	_	1	punct	_	_
-3	bir	avval	DET	M	Case=Nom|NumType=Ord	4	det	_	_
+3	bir	avval	DET	M	_	4	det	_	_
 4	savdogar	savdog	NOUN	N	Case=Nom	10	nsubj	_	_
 5	sayohat	sayohat	NOUN	N	Case=Nom	10	obl	_	_
 6	vaqtida	vaqt	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	case	_	_
-7	bir	vaqt	DET	M	Case=Nom|NumType=Ord	8	det	_	_
+7	bir	vaqt	DET	M	_	8	det	_	_
 8	tuyasini	tuya	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	9	obj	_	_
 9	yo'qotib	yo'qot	VERB	V	Aspect=Perf|VerbForm=Inf	10	xcomp	_	_
 10	qo'yibdi	qo'y	VERB	V	_	0	root	_	_
@@ -6602,14 +6666,14 @@
 
 # sent_id = s191
 # text = bir payt , u old qatorda ketayotgan bir cholni koʻrib qoldi - da , unga yetishib so'rabdi .
-1	bir	ket	NUM	M	Case=Nom|NumType=Ord	2	compound	_	_
-2	payt	payt	NOUN	N	Case=Loc	17	nmod:tmod	_	_
-3	,	payt	PUNCT	Y	_	2	punct	_	_
-4	u	payt	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-5	old	payt	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
-6	qatorda	qato	NOUN	N	Case=Loc	7	obl	_	_
-7	ketayotgan	ket	VERB	V	_	9	acl	_	_
-8	bir	ket	DET	M	Case=Nom|NumType=Ord	9	det	_	_
+1	bir	bir	NUM	M	Case=Nom|NumType=Ord	2	compound	_	_
+2	payt	payt	NOUN	N	Case=Loc	17	nmod	_	_
+3	,	,	PUNCT	Y	_	2	punct	_	_
+4	u	u	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+5	old	old	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=3	6	nmod:poss	_	_
+6	qatorda	qator	NOUN	N	Case=Loc	7	obl	_	_
+7	ketayotgan	ketmoq	VERB	V	_	9	acl	_	_
+8	bir	bir	NUM	M	NumType=Card	9	nummod	_	_
 9	cholni	chol	NOUN	N	Case=Acc	10	obj	_	_
 10	koʻrib	koʻ	VERB	V	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
 11	qoldi	qol	VERB	V	_	0	root	_	_
@@ -6627,25 +6691,26 @@
 2	otaxon	otaxon	NOUN	N	Case=Nom	5	vocative	_	_
 3	,	otaxon	PUNCT	Y	_	2	punct	_	_
 4	tuya	tuy	NOUN	N	Case=Nom	5	obj	_	_
-5	koʻrdingizmi	koʻrd	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	0	root	_	_
+5	koʻrdingizmi	koʻrd	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 6	?	koʻrd	PUNCT	Y	_	5	punct	_	_
 
 # sent_id = s193
 # text = - siz so'ragan tuyaning chap oyog'i sal oqsoq edi ? - deb so'rabdi chol .
-1	-	koʻrd	PUNCT	Y	_	12	punct	_	_
-2	siz	koʻrd	PRON	P	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
-3	so'ragan	so'ra	VERB	V	_	4	acl	_	_
+1	-	-	PUNCT	Y	_	9	punct	_	_
+2	siz	siz	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	so'ragan	so'ramoq	VERB	V	_	4	acl	_	_
 4	tuyaning	tuya	NOUN	N	Case=Gen	6	nmod:poss	_	_
 5	chap	chap	ADJ	N	_	6	amod	_	_
 6	oyog'i	oyog'	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 7	sal	oyog'	NOUN	D	Case=Nom	8	obl	_	_
-8	oqsoq edi	oqsoq e	VERB	V	_	11	ccomp	_	_
-9	?	oqsoq e	PUNCT	Y	_	8	punct	_	_
-10	-	oqsoq e	PUNCT	Y	_	8	punct	_	_
-11	deb	oqsoq e	VERB	V	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
-12	so'rabdi	so'ra	NOUN	N	_	0	root	_	_
-13	chol	chol	NOUN	N	Case=Nom	12	nsubj	_	_
-14	.	chol	PUNCT	Y	_	12	punct	_	_
+8	oqsoq	oqsoq	ADJ	ADJ	_	9	xcomp	_	_
+9	edi	edi	VERB	V	Tense=Past|VerbForm=Fin	13	ccomp	_	_
+10	?	?	PUNCT	Y	_	9	punct	_	_
+11	-	-	PUNCT	Y	_	9	punct	_	_
+12	deb	deb	SCONJ	SCONJ	_	13	mark	_	_
+13	so'rabdi	so'ramoq	VERB	V	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	chol	chol	NOUN	N	Case=Nom	13	nsubj	_	_
+15	.	chol	PUNCT	Y	_	13	punct	_	_
 
 # sent_id = s194
 # text = chap tarafiga asal , oʻng tarafiga guruch artilganmi ?
@@ -6679,7 +6744,7 @@
 1	uning	uning	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 2	qayoqqa	qayoq	PRON	P	_	3	obl	_	_
 3	ketganligini	ketganlig	VERB	V	_	4	obj	_	_
-4	koʻrdingizmi	koʻrd	VERB	V	Mood=Ind|Number=Sing|Person=2|Polite=Form|Tense=Past|VerbForm=Fin	0	root	_	_
+4	koʻrdingizmi	koʻrd	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 5	?	koʻrd	PUNCT	Y	_	4	punct	_	_
 
 # sent_id = s198
@@ -6739,8 +6804,8 @@
 1	ehtimol	ehtimol	PART	T	_	5	mark	_	_
 2	u	ehtimol	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	osmondan	osmon	NOUN	N	Case=Abl	5	obl	_	_
-4	tushkan	tush	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	5	compound	_	_
-5	boʻlishi	boʻli	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	6	csubj	_	_
+4	tushkan	tushmoq	VERB	V	Case=Nom|Tense=Past	5	compound	_	_
+5	boʻlishi	boʻlmoq	VERB	V	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	csubj	_	_
 6	mumkin	mumkin	NOUN	A	Case=Nom	0	root	_	_
 7	!	mumkin	PUNCT	Y	_	6	punct	_	_
 
@@ -6798,13 +6863,14 @@
 3	dadasidan	dada	NOUN	N	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	_
 4	so'radi	so'r	VERB	V	_	10	advcl	_	_
 5	,	so'r	PUNCT	Y	_	4	punct	_	_
-6	u ham	u h	PRON	P	_	10	nsubj	_	_
-7	aniq	aniq	ADJ	A	_	10	amod	_	_
-8	bir	aniq	NUM	M	Case=Nom|NumType=Ord	9	compound	_	_
-9	nima	nima	NOUN	P	Case=Nom	10	obj	_	_
-10	deb	nima	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
-11	aytolmadi	aytolma	VERB	V	_	10	compound	_	_
-12	.	aytolma	PUNCT	Y	_	11	punct	_	_
+6	u	u	PRON	PRON	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+7	ham	ham	PART	PART	_	6	discourse	_	_
+8	aniq	aniq	ADJ	A	_	11	amod	_	_
+9	bir	aniq	NUM	M	Case=Nom|NumType=Ord	10	compound	_	_
+10	nima	nima	NOUN	P	Case=Nom	11	obj	_	_
+11	deb	nima	VERB	V	Aspect=Perf|VerbForm=Inf	0	root	_	_
+12	aytolmadi	aytolma	VERB	V	_	11	compound	_	_
+13	.	aytolma	PUNCT	Y	_	12	punct	_	_
 
 # sent_id = s209
 # text = chaqchayib turgan bu katta tosh bu yerga aslida qanday kelib qolgandi ?
@@ -6817,7 +6883,7 @@
 7	yerga	yer	NOUN	NOUN	Case=Dat	10	obl	_	_
 8	aslida	asl	ADV	ADV	_	9	advmod	_	_
 9	qanday	qand	ADV	ADV	PronType=Int	11	advmod	_	_
-10	kelib	kel	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	xcomp	_	_
-11	qolgandi	qol	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	?	qol	PUNCT	PUNCT	_	11	punct	_	_
+10	kelib	kelmoq	VERB	VERB	Aspect=Perf|VerbForm=Conv	11	xcomp	_	_
+11	qolgandi	qolmoq	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	?	?	PUNCT	PUNCT	_	11	punct	_	_
 
