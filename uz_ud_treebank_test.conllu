@@ -12,14 +12,14 @@
 # sent_id = s13
 # text = « aziz agʻina , senga yozadigan gaplarim koʻp edi ,
 1	«	«	PUNCT	Y	_	8	punct	_	_
-2	aziz	aziz	ADJ	A	Case=Nom	3	amod	_	_
-3	agʻina	agʻina	NOUN	N	Case=Nom	8	discourse	_	_
+2	aziz	aziz	ADJ	A	_	3	amod	_	_
+3	agʻina	agʻina	NOUN	N	Case=Nom	8	vocative	_	_
 4	,	,	PUNCT	Y	_	3	punct	_	_
 5	senga	senga	PRON	P	Case=Dat|Number=Sing|Person=2|PronType=Prs	6	obl	_	_
 6	yozadigan	yozadigan	VERB	V	Tense=Pres|VerbForm=Part	7	acl	_	_
-7	gaplarim	gaplarim	NOUN	N	Number[psor]=Sing|Person[psor]=1	8	nsubj	_	_
+7	gaplarim	gaplarim	NOUN	N	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes	8	nsubj	_	_
 8	koʻp	koʻp	ADJ	A	_	0	root	_	_
-9	edi	edi	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+9	edi	edi	AUX	V	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
 10	,	,	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s14
