@@ -1340,19 +1340,19 @@
 
 # sent_id = s100
 # text = biz bu boʻlimdagi matnlarni oʻqish orqali , hayotning go'zal va rangdorligini shunday his qila olamiz .
-1	biz	biz	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
-2	bu	bu	PRON	P	Case=Nom|PronType=Dem	3	det	_	_
-3	boʻlimdagi	boʻlimdagi	NOUN	N	Case=Nom	4	dep	_	_
-4	matnlarni	matnlarni	NOUN	N	Case=Acc|Number=Plur	14	obj	_	_
-5	oʻqish	oʻqish	NOUN	V	Case=Nom	14	obl	_	_
+1	biz	biz	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+2	bu	bu	DET	P	PronType=Dem	4	det	_	_
+3	boʻlimdagi	boʻlim	ADJ	A	_	4	amod	_	_
+4	matnlarni	matn	NOUN	N	Case=Acc|Number=Plur	5	obj	_	_
+5	oʻqish	oʻqimoq	VERB	V	Case=Nom|VerbForm=Vnoun	15	obl	_	_
 6	orqali	orqali	ADP	R	_	5	case	_	_
-7	,	,	PUNCT	Y	_	6	punct	_	_
-8	hayotning	hayotning	NOUN	N	Case=Gen	11	dep	_	_
-9	go'zal	go'zal	ADJ	A	_	14	obj	_	_
-10	va	va	CCONJ	C	_	11	cc	_	_
-11	rangdorligini	rangdorligini	NOUN	N	_	9	conj	_	_
-12	shunday	shunday	NOUN	D	Case=Nom	14	obl	_	_
-13	his	his	NOUN	N	Case=Nom	14	compound	_	_
+7	,	,	PUNCT	Y	_	15	punct	_	_
+8	hayotning	hayot	NOUN	N	Case=Gen	11	nmod:poss	_	_
+9	go'zal	go'zal	ADJ	A	_	11	amod	_	_
+10	va	va	CCONJ	C	_	11	discourse	_	_
+11	rangdorligini	rangdorlik	NOUN	N	Case=Acc|Number[psor]=Sing|Person[psor]=3|Poss=Yes	14	obj	_	_
+12	shunday	shunday	ADV	D	_	14	advmod	_	_
+13	his	his	NOUN	N	Case=Nom	14	compound:lvc	_	_
 14	qila	qilmoq	VERB	V	VerbForm=Conv	15	advcl	_	_
 15	olamiz	olmoq	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	.	.	PUNCT	Y	_	15	punct	_	_

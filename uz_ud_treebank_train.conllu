@@ -411,15 +411,15 @@
 
 # sent_id = s228
 # text = seni shuhratparaslikning qalami  qilishni xayol qiganlarga hargiz ochilmaysan .
-1	seni	sen	NOUN	P	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
-2	shuhratparaslikning	shuhratparas	NOUN	V	Case=Gen	3	nmod:poss	_	_
-3	qalami	qal	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
-4	qilishni	qili	VERB	V	Case=Acc	6	obj	_	_
-5	xayol	xayol	NOUN	N	Case=Nom	6	compound	_	_
-6	qiganlarga	qigan	NOUN	N	_	8	obl	_	_
+1	seni	sen	PRON	P	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+2	shuhratparaslikning	shuhratparaslik	NOUN	N	Case=Gen	3	nmod:poss	_	_
+3	qalami	qalam	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=3	4	xcomp	_	_
+4	qilishni	qilmoq	VERB	V	Case=Acc|VerbForm=Vnoun	6	ccomp	_	_
+5	xayol	xayol	NOUN	N	Case=Nom	6	compound:lvc	_	_
+6	qiganlarga	qilmoq	VERB	V	Case=Dat|Tense=Past|VerbForm=Part	8	obl	_	_
 7	hargiz	hargiz	ADV	D	_	8	advmod	_	_
-8	ochilmaysan	ochil	VERB	V	_	0	root	_	_
-9	.	ochil	PUNCT	Y	_	8	punct	_	_
+8	ochilmaysan	ochilmoq	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	Y	_	8	punct	_	_
 
 # sent_id = s229
 # text = bir - biriga mingashib , irmash - chirmash boʻlib ketgan togʻlar orasida ketyapmiz .
@@ -4248,7 +4248,7 @@
 # text = shuning bilan , hukumat televizor va radio orqali kishilarni darhol harakatga kelib , qaldirgʻochlarni izlab topib vogzalga olib kelishga buyruq bergan .
 1	shuning	shu	PRON	P	Case=Gen|ExtPos=ADP|PronType=Dem	21	obl	_	_
 2	bilan	bilan	ADP	R	_	1	fixed	_	_
-3	,	,	PUNCT	Y	_	1	punct	_	_
+3	,	,	PUNCT	Y	_	21	punct	_	_
 4	hukumat	hukumat	NOUN	N	Case=Nom	21	nsubj	_	_
 5	televizor	televizor	NOUN	N	Case=Nom	21	obl	_	_
 6	va	va	CCONJ	C	_	7	cc	_	_
@@ -4258,14 +4258,14 @@
 10	darhol	darhol	ADV	R	_	12	advmod	_	_
 11	harakatga	harakat	NOUN	N	Case=Dat	12	obl	_	_
 12	kelib	kel	VERB	V	VerbForm=Conv	21	advcl	_	_
-13	,	,	PUNCT	Y	_	12	punct	_	_
+13	,	,	PUNCT	Y	_	21	punct	_	_
 14	qaldirgʻochlarni	qaldirgʻoch	NOUN	N	Case=Acc|Number=Plur	16	obj	_	_
 15	izlab	izla	VERB	V	VerbForm=Conv	16	advcl	_	_
 16	topib	top	VERB	V	VerbForm=Conv	21	advcl	_	_
 17	vogzalga	vogzal	NOUN	N	Case=Dat	18	obl	_	_
 18	olib	ol	VERB	V	VerbForm=Conv	21	advcl	_	_
 19	kelishga	kel	VERB	V	Case=Dat|VerbForm=Vnoun	21	xcomp	_	_
-20	buyruq	buyruq	NOUN	N	Case=Nom	21	obj	_	_
+20	buyruq	buyruq	NOUN	N	Case=Nom	21	compound:lvc	_	_
 21	bergan	ber	VERB	V	Tense=Past|VerbForm=Fin	0	root	_	_
 22	.	.	PUNCT	Y	_	21	punct	_	_
 
