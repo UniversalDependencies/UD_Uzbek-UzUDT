@@ -24,7 +24,6 @@ Many thanks to Master students of Computational lingustics department students, 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
