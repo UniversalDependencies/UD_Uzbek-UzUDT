@@ -22,7 +22,6 @@ Many thanks to Master students of Computational lingustics department students, 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since:
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
