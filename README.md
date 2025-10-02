@@ -4,8 +4,7 @@ UD Treebank for uzbek language
 
 # Introduction
 
-This is the Uzbek UDT treebank. Our new treebank contains 686 sentences with a total of 7,950 tokens (approximately 11.6 tokens per sentence.
-
+UD_Uzbek-UzUDT is a manually annotated Universal Dependencies treebank for Uzbek. The initial release will include news and Wikipedia text with tokenization, UPOS, morphological features, lemmas, and basic dependency trees following the UD v2 guidelines. Annotation is performed by native-speaker linguists with expert review and validation using the UD tools. The goal is to provide a reliable resource for research on Uzbek NLP (tagging, parsing, morphology) and cross-lingual studies in low-resource settings. Future releases will expand coverage, refine guidelines, and include enhanced dependencies.
 # Acknowledgments
 The soon will be acknowledged
 
@@ -22,7 +21,7 @@ The soon will be acknowledged
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.13
+Data available since: n/a
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
