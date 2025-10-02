@@ -6,7 +6,8 @@ UD Treebank for uzbek language
 
 UD_Uzbek-UzUDT is a manually annotated Universal Dependencies treebank for Uzbek. The initial release will include news and Wikipedia text with tokenization, UPOS, morphological features, lemmas, and basic dependency trees following the UD v2 guidelines. Annotation is performed by native-speaker linguists with expert review and validation using the UD tools. The goal is to provide a reliable resource for research on Uzbek NLP (tagging, parsing, morphology) and cross-lingual studies in low-resource settings. Future releases will expand coverage, refine guidelines, and include enhanced dependencies.
 # Acknowledgments
-The soon will be acknowledged
+Many thanks to Master students of Computational lingustics department students, UrSU. Last review is done by the Uzbek language experts.
+
 
 ## References
 
@@ -15,13 +16,13 @@ The soon will be acknowledged
 
 # Changelog
 
-* 2023-04-01 v0.11
+* 2025-10-01 v2.16
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: n/a
+Data available since: v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
