@@ -1,0 +1,65 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Uzbek-UzUDT:
+commit e98650d312c8de2b7a111b1f89dacd99466d0535
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:41:38 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'uz_uzudt'
+Language code (from CoNLL-U file name) = 'uz'
+Found the following data files: uz_uzudt-ud-test.conllu, uz_uzudt-ud-train.conllu
+Size: counted 7542 of 7542 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.04097479767233.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 3408 out of 7542 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang uz --max-err=10 UD_Uzbek-UzUDT/uz_uzudt-ud-test.conllu
+[Line 22 Sent s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'edi' lacks the 'Mood' feature
+[Line 101 Sent s8]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 133 Sent s9]: [L3 Warning verbform-fin-without-mood] Finite verb 'olibdi' lacks the 'Mood' feature
+[Line 256 Sent s19]: [L3 Warning verbform-fin-without-mood] Finite verb 'ekan' lacks the 'Mood' feature
+[Line 339 Sent s25]: [L3 Warning verbform-fin-without-mood] Finite verb 'qoldiribdi' lacks the 'Mood' feature
+[Line 442 Sent s32]: [L3 Warning pron-det-without-prontype] The word 'hammasini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 490 Sent s36]: [L3 Warning verbform-fin-without-mood] Finite verb 'ekan' lacks the 'Mood' feature
+[Line 509 Sent s37]: [L3 Warning pron-det-without-prontype] The word 'hammasini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 517 Sent s38]: [L3 Warning pron-det-without-prontype] The word 'sizga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 530 Sent s39]: [L3 Warning pron-det-without-prontype] The word 'bizga' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 59
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang uz --max-err=10 UD_Uzbek-UzUDT/uz_uzudt-ud-train.conllu
+[Line 20 Sent s200]: [L3 Warning pron-det-without-prontype] The word 'oʻz' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent s201]: [L3 Warning pron-det-without-prontype] The word 'necha' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 189 Sent s210]: [L3 Warning pron-det-without-prontype] The word 'sening' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 269 Sent s215]: [L3 Warning pron-det-without-prontype] The word 'eng' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 325 Sent s220]: [L3 Warning pron-det-without-prontype] The word 'oʻzingni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 340 Sent s221]: [L3 Warning pron-det-without-prontype] The word 'eng' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 357 Sent s223]: [L3 Warning pron-det-without-prontype] The word 'kimki' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 407 Sent s227]: [L3 Warning pron-det-without-prontype] The word 'qaysisini' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 447 Sent s230]: [L3 Warning pron-det-without-prontype] The word 'ona' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 451 Sent s230]: [L3 Warning pron-det-without-prontype] The word 'oʻz' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 181
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.292495509356534) = 0.10833167013205
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.482583176540419) * (availability=1) * (validity=1) = 0.482583176540419
+STARS = 2.5
+UD_Uzbek-UzUDT	0.482583176540419	2.5
