@@ -1,6 +1,6 @@
 # Summary
 
-UD_Uzbek-UzUDT is a manually annotated Universal Dependencies treebank for Uzbek language. 
+UD_Uzbek-UzUDT is a manually annotated Universal Dependencies treebank for Uzbek language.
 
 # Introduction
 new Universal Dependencies (UD) treebank for Uzbek language developed as a gold-standard resource with full manual annotations. The treebank includes 686 sentences (approximately 7,800 tokens) from Uzbek literature and educational writing – larger and domain-differentially richer than the current Uzbek UD treebank. The data were annotated using the INCEpCTION platform by six annotators (four linguists and two NLP engineers) with extensive cross-verification and adjudication to maintain high quality. Inter-annotator agreement exceeds 95\% for lemmatising, ~95\% for part-of-speech tagging, and ~90\% for morphological features (Cohen’s Kappa, Krippendorff’s Alpha).
@@ -26,7 +26,7 @@ Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: grammar-examples
+Genre: fiction academic
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
